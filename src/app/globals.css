@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
+body {
+  background: var(--color-bg);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #6878d6;
+  --color-secondary: #4d61d6;
+  --color-tertiary: #274faea1;
+  --color-quaternary: #393a56;
+  --color-bg: #eff2ff;
+  --color-background-soft: #FBFCFF;
+  --color-white: #FFFFFF;
+  --color-footer: #7790cc;
+  --color-black: #000000;
+  --color-gray: #e5e7eb;
+
+  --bg-input: #EEF1F6;
+  --border-input: #D6DAE3;
+  --text-muted: #475569;
+
+  /* Status */
+  --danger: #EF4444;
+  --success: #22C55E;
+  --warning-soft: #f1bc36;
+  --danger-soft: #EF44441F;
+
+  /* Brand */
+  --whatsapp: #25D366;
+  --whatsapp-hover: #1ebe5d;
+
+  --color-tooltip-bg: #0f172a; /* dark slate, readable */
+  --color-tooltip-text: #ffffff;
+  /* font-family: 'Inter', system-ui, -apple-system, sans-serif; */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+.container-custom {
+  @apply max-w-7xl mx-auto px-6;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+@keyframes zoomInSlow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.06); /* gentle zoom */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.animate-zoom {
+  animation: zoomInSlow 5s ease-in-out forwards;
 }
