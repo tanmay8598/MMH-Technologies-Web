@@ -1,5 +1,6 @@
+import PageHero from "@/components/UI/PageHero";
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 
 export default function CompliancePage() {
     const features = [
@@ -14,12 +15,10 @@ export default function CompliancePage() {
     ];
 
     return (
-        <DetailPage
+        <PageHero
             title="Compliance (GDPR, ISO)"
             subtitle="Adhering to Global Regulations"
             description="We navigate the complex landscape of data privacy laws for you."
-            features={features}
-            benefits={benefits}
         />
     );
 }

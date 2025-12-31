@@ -1,5 +1,4 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
 import Card from "@/components/Cards/Card";
 import { FaLaptopCode, FaServer, FaLayerGroup, FaBolt } from "react-icons/fa";
 import PageHero from "@/components/UI/PageHero";

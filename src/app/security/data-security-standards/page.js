@@ -1,5 +1,6 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
+
+import PageHero from "@/components/UI/PageHero";
 
 export default function DataSecurityStandardsPage() {
     const features = [
@@ -14,9 +15,9 @@ export default function DataSecurityStandardsPage() {
     ];
 
     return (
-        <DetailPage
-            title="Data Security Standards"
-            subtitle="Fortified Data Protection"
+        <PageHero
+            heading="Data Security Standards"
+            subHeading="Fortified Data Protection"
             description="We implement rigorous security standards to keep your data safe."
             features={features}
             benefits={benefits}

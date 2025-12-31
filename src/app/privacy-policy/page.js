@@ -1,7 +1,7 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
 import Card from "@/components/Cards/Card";
 import { FaFileContract, FaCookieBite } from "react-icons/fa";
+import PageHero from "@/components/UI/PageHero";
 
 export default function PrivacyPolicyPage() {
     const policies = [
@@ -21,9 +21,9 @@ export default function PrivacyPolicyPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            <DetailPage
-                title="Privacy Policy"
-                subtitle="Transparency First"
+            <PageHero
+                heading="Privacy Policy"
+                subHeading="Transparency First"
                 description="We are committed to protecting your privacy and being transparent about our practices."
             />
             <div className="container-custom pb-20">

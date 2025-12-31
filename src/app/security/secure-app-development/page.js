@@ -1,5 +1,6 @@
+import PageHero from "@/components/UI/PageHero";
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 
 export default function SecureAppDevelopmentPage() {
     const features = [
@@ -14,12 +15,10 @@ export default function SecureAppDevelopmentPage() {
     ];
 
     return (
-        <DetailPage
-            title="Secure App Development"
-            subtitle="Security by Design"
+        <PageHero
+            heading="Secure App Development"
+            subHeading="Security by Design"
             description="We build security into the DNA of your application."
-            features={features}
-            benefits={benefits}
         />
     );
 }

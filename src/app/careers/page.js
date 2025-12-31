@@ -1,6 +1,3 @@
-
-
-
 export default function CareersPage() {
     const features = [
         { title: "Remote Work", description: "Work from anywhere in the world." },
@@ -14,12 +11,6 @@ export default function CareersPage() {
     ];
 
     return (
-        <DetailPage
-            title="Careers"
-            subtitle="Join Our Team"
-            description="We are always looking for talented individuals to join our growing team."
-            features={features}
-            benefits={benefits}
-        />
+        <></>
     );
 }

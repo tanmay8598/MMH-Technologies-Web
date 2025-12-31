@@ -1,6 +1,7 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 import Card from "@/components/Cards/Card";
+import PageHero from "@/components/UI/PageHero";
 import { FaShieldAlt, FaFileContract, FaLock } from "react-icons/fa";
 
 export default function SecurityPage() {
@@ -27,9 +28,9 @@ export default function SecurityPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            <DetailPage
-                title="Security"
-                subtitle="Protecting What Matters"
+            <PageHero
+                heading="Security"
+                subHeading="Protecting What Matters"
                 description="We prioritize security at every stage of the development lifecycle."
             />
             <div className="container-custom pb-20">

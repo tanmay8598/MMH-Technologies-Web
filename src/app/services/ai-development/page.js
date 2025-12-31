@@ -1,8 +1,9 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 import Card from "@/components/Cards/Card";
 import { FaBrain, FaRobot, FaChartLine, FaMobile } from "react-icons/fa";
 import SectionHeading from "@/components/UI/SectionHeading";
+import PageHero from "@/components/UI/PageHero";
 
 export default function AIDevelopmentPage() {
     const subServices = [
@@ -34,9 +35,9 @@ export default function AIDevelopmentPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            <DetailPage
-                title="AI Development Services"
-                subtitle="Intelligence at Scale"
+            <PageHero
+                heading="AI Development Services"
+                subHeading="Intelligence at Scale"
                 description="Harness the power of Artificial Intelligence to innovate and automate your business."
             />
             <div className="py-6">

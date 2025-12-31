@@ -33,11 +33,7 @@ export default function BlogPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            {/* <DetailPage
-                title="Blog"
-                subtitle="Insights & News"
-                description="Stay updated with the latest trends, tips, and news from MMH Technologies."
-            /> */}
+            
             <div className="container-custom pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {categories.map(cat => (
