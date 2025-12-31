@@ -1,5 +1,5 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 import Card from "@/components/Cards/Card";
 import { FaBook, FaFileAlt, FaQuestionCircle } from "react-icons/fa";
 
@@ -27,11 +27,7 @@ export default function ResourcesPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            <DetailPage
-                title="Resources"
-                subtitle="Knowledge Base"
-                description="Everything you need to know to succeed in the digital landscape."
-            />
+            
             <div className="container-custom pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {categories.map(cat => (

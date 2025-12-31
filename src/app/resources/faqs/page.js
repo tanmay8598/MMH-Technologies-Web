@@ -1,5 +1,5 @@
 
-import DetailPage from "@/components/UI/DetailsPage";
+
 
 export default function FAQsPage() {
     const features = [
@@ -9,11 +9,6 @@ export default function FAQsPage() {
     ];
 
     return (
-        <DetailPage
-            title="Frequently Asked Questions"
-            subtitle="Here to Help"
-            description="Find answers to the most common questions about our services."
-            features={features}
-        />
+        <></>
     );
 }

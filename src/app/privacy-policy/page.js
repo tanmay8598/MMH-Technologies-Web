@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
     return (
         <div className="flex flex-col gap-6">
             <DetailPage
-                title="Privacy & Legal"
+                title="Privacy Policy"
                 subtitle="Transparency First"
                 description="We are committed to protecting your privacy and being transparent about our practices."
             />

@@ -1,5 +1,5 @@
 
-import DetailPage from "@/components/Templates/DetailPage";
+
 
 export default function CareersPage() {
     const features = [
