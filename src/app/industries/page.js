@@ -49,7 +49,7 @@ export default function IndustriesPage() {
                 subHeading={"We bring domain expertise to every project."}
                 description={"Tailored digital solutions designed to meet the unique challenges of your sector."}
             />
-            <section className="container-custom w-full py-20 text-center">
+            <section className="container-custom w-full text-center">
                 <SectionHeading heading="Our Expertise Across Industries" subHeading="We understand that every industry operates with its own unique set of challenges and regulatory requirements. Our team combines deep domain expertise with technical excellence to tailor digital solutions that align perfectly with your sector’s specific needs, ensuring compliance, efficiency, and scalable growth." />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15">
                     {industries.map(industry => <Card key={industry.name} icon={industry.icon} heading={industry.name} description={industry.description} />)}

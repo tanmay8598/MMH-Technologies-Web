@@ -6,7 +6,6 @@ import {
     SiReact,
     SiNodedotjs,
     SiFlutter,
-    // SiAzuredevops,
     SiOpenai
 } from "react-icons/si";
 import { IoCloudyOutline } from "react-icons/io5";
@@ -18,31 +17,37 @@ export default function TechnologyPage() {
         {
             name: "Next.js",
             icon: SiNextdotjs,
+            href: "/technologies/nextjs",
             description: "High-performance, SEO-friendly web applications using modern React frameworks."
         },
         {
             name: "React",
             icon: SiReact,
+            href: "/technologies/react",
             description: "Interactive and scalable user interfaces built with reusable components."
         },
         {
             name: "Node.js",
             icon: SiNodedotjs,
+            href: "/technologies/nodejs",
             description: "Fast, scalable backend APIs and real-time applications."
         },
         {
             name: "Flutter",
             icon: SiFlutter,
+            href: "/technologies/flutter",
             description: "Cross-platform mobile apps with native performance."
         },
         {
             name: "Cloud (AWS, Azure, GCP)",
             icon: IoCloudyOutline,
+            href: "/technologies/aws-azure-gcp",
             description: "Secure, scalable, and cost-efficient cloud infrastructure."
         },
         {
             name: "AI & ML Tools",
             icon: SiOpenai,
+            href: "/technologies/ai-ml-tools",
             description: "Intelligent automation, predictive analytics, and AI-powered solutions."
         }
     ];
@@ -54,10 +59,10 @@ export default function TechnologyPage() {
                 subHeading="Modern tech. Proven frameworks."
                 description="We leverage cutting-edge technologies to build fast, secure, and scalable digital products."
             />
-            <section className="container-custom w-full py-20 text-center">
+            <section className="container-custom w-full text-center">
                 <SectionHeading heading="Our Technology Stack" subHeading="From frontend frameworks to cloud platforms and AI tools, we choose the right technology for performance, scalability, and long-term success." />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15">
-                    {technologies.map(tech => <Card key={tech.name} icon={tech.icon} heading={tech.name} description={tech.description} />)}
+                    {technologies.map(tech => <Card key={tech.name} icon={tech.icon} href={tech.href} heading={tech.name} description={tech.description} />)}
                 </div>
             </section>
         </div>

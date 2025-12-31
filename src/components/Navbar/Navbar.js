@@ -15,12 +15,12 @@ export default function Navbar() {
 
     const navItems = [
         { name: "Home", href: "/" },
-        { name: "Products", href: "/products" },
         { name: "Services", href: "/services" },
         { name: "Projects", href: "/projects" },
+        { name: "Technologies", href: "/technologies" },
+        { name: "Industries", href: "/industries" },
         { name: "About", href: "/about" },
         { name: "Contact", href: "/contact" },
-        { name: "Our Partners", href: "/partners" },
     ]
 
     return (
