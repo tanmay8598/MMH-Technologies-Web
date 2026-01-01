@@ -1,95 +1,145 @@
 import React from "react";
 import Image from "next/image";
-import { MdCopyright } from "react-icons/md";
-import { FaFacebook, FaTwitter, FaGoogle, FaInstagram, FaLinkedin, } from "react-icons/fa";
-
 import Link from "next/link";
+import { MdCopyright } from "react-icons/md";
+import {
+    FaFacebookF,
+    FaTwitter,
+    FaGoogle,
+    FaInstagram,
+    FaLinkedinIn,
+} from "react-icons/fa";
 
 export default function Footer() {
-
-    const navLinks = [
-        { label: "Home", href: "/" },
-        { label: "Products", href: "/products" },
-        { label: "Services", href: "/services" },
-        { label: "Projects", href: "/projects" },
-        { label: "About", href: "/about" },
-        { label: "Contact", href: "/contact" },
-        { label: "Our Partners", href: "/partners" },
+    const socialLinks = [
+        { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=100083367429110#" },
+        { icon: FaTwitter, href: "https://mmhtechnologies.com/" },
+        { icon: FaGoogle, href: "https://www.google.com/search?client=ms-android-xiaomi-rev1&sca_esv=589119146&hl=en-GB&cs=0&sxsrf=AM9HkKlANfYvk2y3i6aPVrhDqJfc-0MU5Q:1702061672148&q=MMH+Technologies&ludocid=14463773696791692015&lsig=AB86z5X2UL7_JzI9vCmS_I_aPKrd&kgs=ce0ff8ede1c6aff1&shndl=-1&shem=lcspc,lsp&source=sh/x/loc/act/m1/4" },
+        { icon: FaInstagram, href: "https://mmhtechnologies.com/" },
+        { icon: FaLinkedinIn, href: "https://www.linkedin.com/company/mmh-technologies/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B4l%2BSTvaKQgyzMmGGmj8npA%3D%3D" },
     ];
 
-    const socialLinks = [
-        { icon: FaFacebook, href: "#" },
-        { icon: FaTwitter, href: "#" },
-        { icon: FaGoogle, href: "#" },
-        { icon: FaInstagram, href: "#" },
-        { icon: FaLinkedin, href: "#" },
+    const footerLinks = [
+        {
+            title: "Company",
+            links: [
+                { label: "About Us", href: "/about" },
+                { label: "Case Studies", href: "/case-studies" },
+                { label: "Careers", href: "/careers" },
+                { label: "Contact", href: "/contact" },
+            ],
+        },
+        {
+            title: "Services",
+            links: [
+                { label: "Mobile App Development", href: "/services/mobile-app-development" },
+                { label: "Web Development", href: "/services/web-development" },
+                { label: "AI Development", href: "/services/ai-development" },
+                { label: "UI/UX Design", href: "/services/ui-ux-design" },
+                { label: "Cloud & DevOps", href: "/services/cloud-devops" },
+                { label: "QA & Testing", href: "/services/qa-testing" },
+            ],
+        },
+        {
+            title: "Resources",
+            links: [
+                { label: "Blog", href: "/blog" },
+                { label: "Whitepapers", href: "/resources/whitepapers" },
+                { label: "Guides", href: "/resources/guides" },
+                { label: "FAQs", href: "/resources/faqs" },
+            ],
+        },
+        {
+            title: "Legal",
+            links: [
+                { label: "Terms & Conditions", href: "privacy-policy/terms-conditions" },
+                { label: "Cookie Policy", href: "privacy-policy/cookie-policy" },
+            ],
+        },
     ];
 
     return (
         <footer className="bg-(--color-footer) text-(--color-white)">
-            {/* Top Section */}
-            <div className="container-custom mx-auto px-6 py-20">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 items-start">
+            {/* Top */}
+            <div className="container-custom px-6 py-20">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16">
 
-                    {/* Logo + Social */}
+                    {/* Brand */}
                     <div className="flex flex-col gap-6">
-                        <Image
-                            src="/images/logo.webp" 
-                            alt="MMH Technologies"
-                            width={83}
-                            height={83}
-                        />
+                        <Link
+                            href={"/"}
+                        >
+                            <Image
+                                src="/images/logo.webp"
+                                alt="MMH Technologies"
+                                width={90}
+                                height={90}
+                            />
 
-                        <div className="flex gap-5 text-lg">
+                        </Link>
+
+                        <p className="text-sm text-(--color-white)/70 leading-relaxed max-w-sm">
+                            Building secure, scalable, and future-ready digital solutions for
+                            startups and enterprises worldwide.
+                        </p>
+
+                        <div className="flex gap-4 mt-2">
                             {socialLinks.map(({ icon: Icon, href }, index) => (
                                 <Link
                                     key={index}
                                     href={href}
-                                    aria-label="Social link"
-                                    className="hover:opacity-80 transition"
+                                    target="_blank"
+                                    className="w-9 h-9 flex items-center justify-center rounded-full
+                  bg-(--color-white)/10 hover:bg-(--color-white) hover:text-(--color-primary) transition"
                                 >
-                                    <Icon />
+                                    <Icon className="text-sm" />
                                 </Link>
                             ))}
                         </div>
                     </div>
 
-                    {/* Navigation */}
-                    <div className="flex md:justify-center">
-                        <ul className="flex flex-col gap-0.5 md:text-center text-md">
-                            {navLinks.map(({ label, href }, index) => (
-                                <li key={index}>
-                                    <Link
-                                        href={href}
-                                        className="hover:underline cursor-pointer"
-                                    >
-                                        {label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
+                    {/* Links */}
+                    <div className="md:col-span-2 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-10 gap-y-12">
+                        {footerLinks.map((section, index) => (
+                            <div key={index}>
+                                <h4 className="text-sm font-semibold mb-4">
+                                    {section.title}
+                                </h4>
+                                <ul className="space-y-2 text-sm text-(--color-white)/70">
+                                    {section.links.map((link, i) => (
+                                        <li key={i}>
+                                            <Link href={link.href} className="hover:text-(--color-white) transition">
+                                                {link.label}
+                                            </Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
                     </div>
 
                     {/* Address */}
-                    <div className="md:text-center md:text-right">
-                        <h4 className="text-2xl font-bold mb-4">Head Office</h4>
-                        <p className="text-md leading-relaxed">
-                            MMH Technologies, 62-62 Miltrose Crescent
-                            <br />
-                            Stouffville, Ontario Canada L4A 0P8
+                    <div className="lg:pl-8 lg:border-l lg:border-(--color-white)/10">
+                        <h4 className="text-sm font-semibold mb-4">Head Office</h4>
+                        <p className="text-sm text-(--color-white)/70 leading-relaxed">
+                            MMH Technologies<br />
+                            62-62 Miltrose Crescent<br />
+                            Stouffville, Ontario<br />
+                            Canada L4A 0P8
                         </p>
                     </div>
                 </div>
             </div>
 
-            {/* Bottom Bar */}
-            <div className="border-t border-(--color-quaternary)/20">
-                <div className="container-custom mx-auto px-6 py-6">
-                    <p className="flex items-center justify-center gap-1 text-md font-semibold">
-                        Copyright <span><MdCopyright /></span> 2025 MMH Technologies
+            {/* Bottom */}
+            <div className="border-t border-(--color-white)/10">
+                <div className="container-custom px-6 py-6 flex items-center justify-center text-xs text-(--color-white)">
+                    <p className="flex items-center gap-1">
+                        Copyright <MdCopyright />
+                        {new Date().getFullYear()} MMH Technologies. All rights reserved.
                     </p>
                 </div>
             </div>
         </footer>
-    )
+    );
 }

@@ -40,15 +40,12 @@ export default function MobileAppDevelopmentPage() {
                 description="Scalable mobile applications built to drive growth across iOS and Android platforms."
             />
 
-            <div className="py-6">
+
+            <div className="container-custom pb-20">
                 <SectionHeading
                     heading="Building Mobile Apps That Users Love"
                     subHeading="From intuitive UI/UX to robust backend integration, our mobile app solutions are designed to perform flawlessly, scale effortlessly, and deliver real business value."
                 />
-
-            </div>
-
-            <div className="container-custom pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {subServices.map(service => (
                         <Card key={service.name} {...service} heading={service.name} />

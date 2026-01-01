@@ -2,7 +2,7 @@ import BenefitCard from "@/components/Cards/BenefitCard";
 import Card from "@/components/Cards/Card";
 import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
-import { FaAdobe, FaFigma, FaPalette, FaUsers, FaLightbulb, FaRocket, FaLayerGroup, FaShieldAlt } from "react-icons/fa";
+import { FaFigma, FaPalette, FaUsers, FaLightbulb, FaRocket, FaLayerGroup, FaShieldAlt } from "react-icons/fa";
 import { SiAdobe, SiSketch } from "react-icons/si";
 
 export default function UIDesignPage() {
@@ -52,7 +52,7 @@ export default function UIDesignPage() {
         {/* Tools Section */}
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {tools.map((tool, index) => (
-            <Card key={index} icon={tool.icon} heading={tool.name} description={tool.description} />
+            <Card key={index} icon={tool.icon} heading={tool.name} description={tool.description} isSmallHeading />
           ))}
         </div>
       </div>

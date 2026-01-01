@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
+import Button from "@/components/UI/Button";
 
 export default function NodeJsPage() {
 
@@ -76,7 +77,7 @@ export default function NodeJsPage() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <FaNodeJs className="text-6xl mx-auto mb-6 text-[var(--color-primary)]" />
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
               Node.js for{" "}
               <span className="text-[var(--color-primary)]">Scalable</span>{" "}
               Backend Systems
@@ -93,7 +94,7 @@ export default function NodeJsPage() {
         <div className="container-custom grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((s, i) => (
             <div key={i} className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-[var(--color-primary)] mb-2">
+              <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-primary)] mb-2">
                 {s.number}
               </div>
               <div className="text-[var(--text-muted)] font-medium">
@@ -105,8 +106,8 @@ export default function NodeJsPage() {
       </section>
 
       {/* Intro */}
-      <section className="py-20">
-        <div className="container-custom max-w-4xl mx-auto">
+      <section className="py-20 px-2">
+        <div className="max-w-4xl mx-auto">
           <SectionHeading heading="What Makes Node.js Powerful?" isLine />
           <div className="bg-[var(--color-white)] rounded-2xl shadow-lg p-8 md:p-12 border border-[var(--color-gray)]">
             <p className="text-lg md:text-xl text-[var(--text-muted)] leading-relaxed">
@@ -132,6 +133,7 @@ export default function NodeJsPage() {
                 icon={f.icon}
                 heading={f.title}
                 description={f.description}
+                isSmallHeading
               />
             ))}
           </div>
@@ -152,6 +154,7 @@ export default function NodeJsPage() {
                 icon={b.icon}
                 heading={b.title}
                 description={b.description}
+                isSmallHeading
               />
             ))}
           </div>
@@ -169,12 +172,14 @@ export default function NodeJsPage() {
             speed and reliability it needs.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <button className="px-8 py-4 bg-[var(--color-primary)] text-[var(--color-white)] rounded-lg font-semibold transition-all hover:scale-105 hover:shadow-lg">
-              Start Your Node Project
-            </button>
-            <button className="px-8 py-4 border-2 border-[var(--color-primary)] text-[var(--color-primary)] rounded-lg transition-all hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-              Talk to Experts
-            </button>
+            <Button
+              label={"Start Your Node Project"}
+
+            />
+            <Button
+              label={"Talk to Experts"}
+              isPrimary={false}
+            />
           </div>
         </div>
       </section>

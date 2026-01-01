@@ -50,7 +50,7 @@ export default function AndroidDevelopmentPage() {
         {/* Technologies Section */}
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {technologies.map((tech, index) => (
-            <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} />
+            <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} isSmallHeading />
           ))}
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function AndroidDevelopmentPage() {
       </div>
 
       {/* Benefits Section */}
-      <div className="container-custom pb-20">
+      <div className="container-custom w-full pb-20">
         <SectionHeading
           heading="Benefits of Professional Android App Development"
           subHeading="Invest in Android apps that engage users and drive growth"

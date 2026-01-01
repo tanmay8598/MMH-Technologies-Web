@@ -113,7 +113,7 @@ export default function CloudPlatformsPage() {
                             <FaGoogle className="text-4xl text-[var(--color-primary)]" />
                         </div>
 
-                        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                             Cloud Platforms That{" "}
                             <span className="text-[var(--color-primary)]">Scale Your Business</span>
                         </h1>
@@ -124,12 +124,12 @@ export default function CloudPlatformsPage() {
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center">
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold bg-[var(--color-primary)] text-[var(--color-white)] transition-all hover:scale-105 hover:shadow-lg">
+                            {/* <button className="px-8 py-4 rounded-lg text-lg font-semibold bg-[var(--color-primary)] text-[var(--color-white)] transition-all hover:scale-105 hover:shadow-lg">
                                 Start Cloud Migration
                             </button>
                             <button className="px-8 py-4 rounded-lg text-lg font-semibold border-2 border-[var(--color-primary)] text-[var(--color-primary)] transition-all hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
                                 Talk to Cloud Experts
-                            </button>
+                            </button> */}
                         </div>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ export default function CloudPlatformsPage() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         {stats.map((stat, index) => (
                             <div key={index} className="text-center">
-                                <div className="text-4xl md:text-5xl font-bold text-[var(--color-primary)] mb-2">
+                                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-primary)] mb-2">
                                     {stat.number}
                                 </div>
                                 <div className="text-[var(--text-muted)] font-medium">
@@ -154,7 +154,7 @@ export default function CloudPlatformsPage() {
             </section>
 
             {/* Intro */}
-            <section className="py-20">
+            <section className="py-20 px-2">
                 <div className="container-custom">
                     <div className="max-w-4xl mx-auto">
                         <SectionHeading heading="Why Cloud Platforms Matter?" isLine />
@@ -210,6 +210,7 @@ export default function CloudPlatformsPage() {
                                 icon={feature.icon}
                                 heading={feature.title}
                                 description={feature.description}
+                                isSmallHeading
                             />
                         ))}
                     </div>
@@ -231,6 +232,7 @@ export default function CloudPlatformsPage() {
                                 icon={benefit.icon}
                                 heading={benefit.title}
                                 description={benefit.description}
+                                isSmallHeading
                             />
                         ))}
                     </div>

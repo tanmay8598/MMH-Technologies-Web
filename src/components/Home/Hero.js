@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import { useEffect, useState } from "react"
-import Button from "../UI/Button"
+import Button from "./Button"
 
 
 export default function HeroSection() {
@@ -58,16 +58,14 @@ export default function HeroSection() {
       {images.map((src, i) => (
         <div
           key={src}
-          className={`absolute inset-0 transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
-            }`}
+          className={`absolute inset-0 transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0" }`}
         >
           <Image
             src={src}
             alt="Hero background"
             fill
             priority={i === 0}
-            className={`object-cover transition-transform duration-[5000ms] ease-linear ${i === index ? "scale-[1.08]" : "scale-100"
-              }`}
+            className={`object-cover transition-transform duration-[5000ms] ease-linear ${i === index ? "scale-[1.08]" : "scale-100" }`}
           />
         </div>
       ))}
@@ -84,7 +82,7 @@ export default function HeroSection() {
             </span>
           </h1>
           
-          <Button label={"GET STARTED"} /> 
+          <Button label={"GET STARTED"} href={"#services"} /> 
         </div>
       </div>
     </section>

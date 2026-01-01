@@ -84,7 +84,7 @@ export default function FlutterPage() {
             <div className="flex justify-center mb-6">
               <SiFlutter className="text-5xl text-[var(--color-primary)]" />
             </div>
-            <h1 className="text-5xl md:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
               Why Flutter is the{" "}
               <span className="text-[var(--color-primary)]">Future</span> of
               Cross-Platform Apps
@@ -94,12 +94,12 @@ export default function FlutterPage() {
               from a single codebase
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-lg bg-[var(--color-primary)] text-[var(--color-white)]">
+              {/* <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-lg bg-[var(--color-primary)] text-[var(--color-white)]">
                 Get Started
               </button>
               <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
                 View Case Studies
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function FlutterPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold text-[var(--color-primary)] mb-2">
+                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-primary)] mb-2">
                   {stat.number}
                 </div>
                 <div className="text-[var(--text-muted)] font-medium">
@@ -124,7 +124,7 @@ export default function FlutterPage() {
       </section>
 
       {/* Introduction */}
-      <section className="py-20">
+      <section className="py-20 px-2">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <SectionHeading heading="What Makes Flutter Special?" isLine />
@@ -182,6 +182,7 @@ export default function FlutterPage() {
                 icon={benefit.icon}
                 heading={benefit.title}
                 description={benefit.description}
+                isSmallHeading
               />
             ))}
           </div>

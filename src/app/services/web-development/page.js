@@ -40,15 +40,11 @@ export default function WebDevelopmentPage() {
                 description="Custom web solutions that drive growth, engagement, and operational efficiency."
             />
 
-            <div className="py-6">
+            <div className="container-custom pb-20">
                 <SectionHeading
                     heading="Building Websites That Engage, Perform, and Scale"
                     subHeading="From interactive UIs to secure backend systems, our solutions provide seamless digital experiences that grow with your business."
                 />
-
-            </div>
-
-            <div className="container-custom pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {subServices.map(service => (
                         <Card key={service.name} {...service} heading={service.name} />

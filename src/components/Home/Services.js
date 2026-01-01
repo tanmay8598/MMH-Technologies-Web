@@ -23,7 +23,7 @@ export default function Services({
     ]
 
     return (
-        <section className="container-custom w-full text-center">
+        <section id="services" className="container-custom w-full text-center">
             <SectionHeading heading={heading} subHeading={subHeading} />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15">
                 {services.map(service => <Card key={service.name} href={service.href} icon={service.icon} heading={service.name} description={service.description} />)}

@@ -2,6 +2,7 @@ import { FaReact, FaBolt, FaDollarSign, FaMobileAlt, FaTools, FaCode, FaRocket, 
 import { BiCodeAlt } from 'react-icons/bi';
 import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
+import Button from '@/components/UI/Button';
 
 export default function ReactPage() {
     const benefits = [
@@ -72,20 +73,22 @@ export default function ReactPage() {
                             <FaReact className="text-5xl text-[var(--color-primary)] animate-spin" style={{ animationDuration: '3s' }} />
                             {/* <HiSparkles className="text-3xl text-[var(--color-secondary)]" /> */}
                         </div>
-                        <h1 className="text-5xl md:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
+                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
                             Why React is the <span className="text-[var(--color-primary)]">Future</span> of Web Development
                         </h1>
                         <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-8 leading-relaxed">
                             Build lightning-fast, scalable, and interactive web applications with the world's most popular JavaScript library
                         </p>
-                        <div className="flex flex-wrap gap-4 justify-center">
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-lg bg-[var(--color-secondary)] text-[var(--color-white)]">
-                                Get Started Today
-                            </button>
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 border-2 border-[var(--color-primary)] text-[var(--color-primary)] bg-transparent hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-                                View Case Studies
-                            </button>
-                        </div>
+                        {/* <div className="flex flex-wrap gap-4 justify-center">
+                            <Button
+                                label={"Get Started Today"}
+
+                            />
+                            <Button
+                                label={"View Case Studies"}
+                                isPrimary={false}
+                            />
+                        </div> */}
                     </div>
                 </div>
             </section>
@@ -96,7 +99,7 @@ export default function ReactPage() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
                         {stats.map((stat, index) => (
                             <div key={index} className="text-center">
-                                <div className="text-4xl md:text-5xl font-bold text-[var(--color-primary)] mb-2">
+                                <div className="text-3xl md:text-4xl lg:text-5xl font-bold text-[var(--color-primary)] mb-2">
                                     {stat.number}
                                 </div>
                                 <div className="text-[var(--text-muted)] font-medium">
@@ -109,31 +112,31 @@ export default function ReactPage() {
             </section>
 
             {/* Introduction */}
-            <section className="py-20">
-                <div className="container-custom">
-                    <div className="max-w-4xl mx-auto">
-                        <SectionHeading heading={"What Makes React Special?"} isLine />
- 
+            <section className="py-20 px-2">
 
-                        <div className="bg-[var(--color-white)] rounded-2xl shadow-lg p-8 md:p-12 border border-[var(--color-gray)]">
-                            <p className="text-lg md:text-xl leading-relaxed mb-6 text-[var(--text-muted)]">
-                                React is a powerful JavaScript library developed by Facebook (now Meta) for building user interfaces. Since its release in 2013, it has become the most popular choice for front-end development, powering millions of websites and applications worldwide.
-                            </p>
-                            <p className="text-lg md:text-xl leading-relaxed text-[var(--text-muted)]">
-                                Unlike traditional frameworks, React focuses on one thing and does it exceptionally well: creating interactive, dynamic user interfaces through reusable components. This laser-focused approach has made it the go-to choice for developers and businesses alike.
-                            </p>
-                        </div>
+                <div className="max-w-4xl mx-auto">
+                    <SectionHeading heading={"What Makes React Special?"} isLine />
+
+
+                    <div className="bg-[var(--color-white)] rounded-2xl shadow-lg p-8 md:p-12 border border-[var(--color-gray)]">
+                        <p className="text-lg md:text-xl leading-relaxed mb-6 text-[var(--text-muted)]">
+                            React is a powerful JavaScript library developed by Facebook (now Meta) for building user interfaces. Since its release in 2013, it has become the most popular choice for front-end development, powering millions of websites and applications worldwide.
+                        </p>
+                        <p className="text-lg md:text-xl leading-relaxed text-[var(--text-muted)]">
+                            Unlike traditional frameworks, React focuses on one thing and does it exceptionally well: creating interactive, dynamic user interfaces through reusable components. This laser-focused approach has made it the go-to choice for developers and businesses alike.
+                        </p>
                     </div>
                 </div>
+
             </section>
 
             {/* Key Features */}
             <section className="py-20 bg-[var(--color-background-soft)]">
                 <div className="container-custom">
-                    
-                    <SectionHeading 
+
+                    <SectionHeading
                         heading={"Powerful Features That Set React Apart"}
-                        subHeading={"React comes packed with features designed to make development faster, easier, and more enjoyable"}    
+                        subHeading={"React comes packed with features designed to make development faster, easier, and more enjoyable"}
                     />
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -147,15 +150,15 @@ export default function ReactPage() {
             {/* Business Benefits */}
             <section className="py-20">
                 <div className="container-custom">
-                    
-                    <SectionHeading 
+
+                    <SectionHeading
                         heading={"Why Your Business Should Choose React"}
-                        subHeading={"Investing in React means investing in your business's future success"}    
+                        subHeading={"Investing in React means investing in your business's future success"}
                     />
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {benefits.map((benefit, index) => (
-                            <Card key={index} icon={benefit.icon} heading={benefit.title} description={benefit.description} />
+                            <Card key={index} icon={benefit.icon} heading={benefit.title} description={benefit.description} isSmallHeading />
                         ))}
                     </div>
                 </div>
@@ -163,22 +166,24 @@ export default function ReactPage() {
 
 
             {/* CTA Section */}
-            <section className="py-20 bg-(--color-white) text-[var(--color-primary)]">
+            <section className="py-20 bg-(--color-white)">
                 <div className="container-custom">
                     <div className="max-w-4xl mx-auto text-center">
                         <h2 className="text-4xl md:text-5xl font-bold mb-6">
                             Ready to Build Something Amazing?
                         </h2>
-                        <p className="text-xl md:text-2xl text-(--color-black) mb-8 opacity-90 leading-relaxed">
+                        <p className="text-xl md:text-2xl  mb-8 opacity-90 leading-relaxed">
                             React isn't just a trend—it's a proven, battle-tested solution that has stood the test of time. Whether you're building a simple landing page or a complex web application, React provides the tools, performance, and flexibility you need to succeed.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-lg bg-[var(--color-secondary)] text-[var(--color-white)]">
-                                Start Your React Project
-                            </button>
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 border-2 border-[var(--color-primary)] text-[var(--color-primary)] bg-transparent hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-                                Schedule a Consultation
-                            </button>
+                            <Button
+                                label={"Start Your React Project"}
+
+                            />
+                            <Button
+                                label={"Schedule a Consultation"}
+                                isPrimary={false}
+                            />
                         </div>
                     </div>
                 </div>

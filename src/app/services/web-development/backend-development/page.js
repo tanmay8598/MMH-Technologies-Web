@@ -91,7 +91,7 @@ export default function BackendDevelopmentPage() {
         <div className="py-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {technologies.map((tech, index) => (
-              <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} />
+              <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} isSmallHeading />
             ))}
           </div>
         </div>
@@ -114,21 +114,19 @@ export default function BackendDevelopmentPage() {
       </div>
 
       {/* Benefits Section */}
-      <div className="container-custom pb-20">
-        <div>
-          
-            <SectionHeading
-              heading="Benefits of Professional Backend Development"
-              subHeading="Invest in a strong backend and empower your applications for growth and reliability"
-            />
+      <div className="container-custom w-full pb-20">
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
-              {benefits.map((benefit, index) => (
-                <BenefitCard key={index} text={benefit} />
-              ))}
-            </div>
-          
+        <SectionHeading
+          heading="Benefits of Professional Backend Development"
+          subHeading="Invest in a strong backend and empower your applications for growth and reliability"
+        />
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+          {benefits.map((benefit, index) => (
+            <BenefitCard key={index} text={benefit} />
+          ))}
         </div>
+
       </div>
     </div>
   );

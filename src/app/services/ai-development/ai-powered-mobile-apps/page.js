@@ -46,7 +46,7 @@ export default function AIMobileAppsPage() {
 
         <div className="py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {technologies.map((tech, index) => (
-            <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} />
+            <Card key={index} icon={tech.icon} heading={tech.name} description={tech.description} isSmallHeading />
           ))}
         </div>
       </div>
@@ -62,7 +62,7 @@ export default function AIMobileAppsPage() {
         </div>
       </div>
 
-      <div className="container-custom pb-20">
+      <div className="container-custom w-full pb-20">
         <SectionHeading heading="Benefits of AI-Powered Mobile Apps" subHeading="Deliver intelligent, personalized, and high-performing applications" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {benefits.map((benefit, index) => (

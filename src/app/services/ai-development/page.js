@@ -40,13 +40,11 @@ export default function AIDevelopmentPage() {
                 subHeading="Intelligence at Scale"
                 description="Harness the power of Artificial Intelligence to innovate and automate your business."
             />
-            <div className="py-6">
+            <div className="container-custom pb-20">
                 <SectionHeading
                     heading="Building Intelligent AI Solutions That Scale"
                     subHeading="From machine learning models to intelligent automation and predictive analytics, our AI solutions are designed to deliver real insights, efficiency, and business impact."
                 />
-            </div>
-            <div className="container-custom pb-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {subServices.map(service => (
                         <Card key={service.name} {...service} heading={service.name} />
