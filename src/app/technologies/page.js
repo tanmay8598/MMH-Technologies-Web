@@ -85,6 +85,12 @@ export default function TechnologyPage() {
             description: "Cross-platform mobile apps with native performance."
         },
         {
+            name: "React Native",
+            icon: SiReact,
+            href: "/technologies/react-native",
+            description: "Cross-platform mobile apps with native performance using React Native."
+        },
+        {
             name: "Cloud (AWS, Azure, GCP)",
             icon: IoCloudyOutline,
             href: "/technologies/aws-azure-gcp",
