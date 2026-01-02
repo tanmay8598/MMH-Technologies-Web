@@ -31,14 +31,14 @@ export default function WhyChooseUs() {
     };
 
     return (
-        <section className="w-full py-8 md:py-12 lg:py-16">
+        <section className="w-full py-8 md:py-12 lg:py-16 bg-[var(--color-bg)]">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
 
                     {/* Left Image */}
                     <div className="relative w-full h-[300px] sm:h-[400px] md:h-[450px] lg:h-[600px] overflow-hidden rounded-lg shadow-lg order-2 lg:order-1">
                         <Image
-                            src="/images/why-choose-us.webp" 
+                            src="/images/why-choose-us.webp"
                             alt="Why Choose Us"
                             fill
                             className="object-cover"
@@ -53,47 +53,48 @@ export default function WhyChooseUs() {
                             Why Choose Us?
                         </h2>
 
-                        <p className="text-gray-600 text-sm sm:text-base leading-relaxed text-center lg:text-left">
+                        <p className="text-sm sm:text-base leading-relaxed text-[var(--text-muted)] text-center lg:text-left">
                             Here we make sure that you have made the best decision for your
                             project to start with and shape the product as you imagine.
                             <br />
-                            <span className="font-semibold text-gray-800 block mt-2">
+                            <span className="font-semibold text-[var(--color-quaternary)] block mt-2">
                                 Because we make it simple.
                             </span>
                         </p>
 
                         {/* Accordion */}
-                        <div className="mt-4 md:mt-6 bg-white rounded-lg shadow-md overflow-hidden border border-gray-100">
+                        <div className="mt-4 md:mt-6 bg-[var(--color-white)] rounded-lg shadow-md overflow-hidden border border-[var(--color-gray)]">
                             {accordionData.map((item, index) => {
                                 const isActive = activeIndex === index;
 
                                 return (
                                     <div
                                         key={index}
-                                        className="border-b last:border-b-0 border-gray-100"
+                                        className="border-b last:border-b-0 border-[var(--color-gray)]"
                                     >
                                         {/* Accordion Header */}
                                         <button
                                             onClick={() => toggle(index)}
-                                            className={`w-full flex items-center justify-between px-4 sm:px-5 md:px-6 py-4 md:py-5 text-left transition-all duration-200 ${
-                                                isActive 
-                                                    ? "bg-blue-50" 
-                                                    : "bg-white hover:bg-gray-50"
-                                            }`}
+                                            className={`w-full flex items-center justify-between hover:cursor-pointer px-4 sm:px-5 md:px-6 py-4 md:py-5 text-left transition-all duration-200 ${isActive
+                                                    ? "bg-[var(--color-background-soft)]"
+                                                    : "bg-[var(--color-white)] hover:bg-[var(--color-background-soft)]"
+                                                }`}
                                         >
-                                            <span className={`text-sm sm:text-base font-semibold transition-colors ${
-                                                isActive 
-                                                    ? "text-blue-700" 
-                                                    : "text-gray-700"
-                                            }`}>
+                                            <span
+                                                className={`text-sm sm:text-base font-semibold transition-colors ${isActive
+                                                        ? "text-[var(--color-secondary)]"
+                                                        : "text-[var(--color-quaternary)]"
+                                                    }`}
+                                            >
                                                 {item.title}
                                             </span>
 
-                                            <span className={`flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full transition-all duration-200 flex-shrink-0 ml-4 ${
-                                                isActive
-                                                    ? "bg-blue-600 text-white rotate-0"
-                                                    : "bg-blue-100 text-blue-600 hover:bg-blue-200"
-                                            }`}>
+                                            <span
+                                                className={`flex items-center justify-center w-7 h-7 sm:w-8 sm:h-8 rounded-full transition-all duration-200 flex-shrink-0 ml-4 ${isActive
+                                                        ? "bg-[var(--color-secondary)] text-white"
+                                                        : "bg-[var(--color-tertiary)] text-[var(--color-white)] hover:opacity-80"
+                                                    }`}
+                                            >
                                                 {isActive ? (
                                                     <FaMinus className="text-xs sm:text-sm" />
                                                 ) : (
@@ -104,15 +105,14 @@ export default function WhyChooseUs() {
 
                                         {/* Accordion Content */}
                                         <div
-                                            className={`grid transition-all duration-300 ease-in-out ${
-                                                isActive
+                                            className={`grid transition-all duration-300 ease-in-out ${isActive
                                                     ? "grid-rows-[1fr] opacity-100"
                                                     : "grid-rows-[0fr] opacity-0"
-                                            }`}
+                                                }`}
                                         >
                                             <div className="overflow-hidden">
                                                 <div className="px-4 sm:px-5 md:px-6 pb-4 md:pb-5 pt-2">
-                                                    <p className="text-xs sm:text-sm text-gray-600 leading-relaxed">
+                                                    <p className="text-xs sm:text-sm text-[var(--text-muted)] leading-relaxed">
                                                         {item.content}
                                                     </p>
                                                 </div>
@@ -127,5 +127,6 @@ export default function WhyChooseUs() {
                 </div>
             </div>
         </section>
+
     );
 }

@@ -15,6 +15,7 @@ export default function Navbar() {
         "/projects",
         "/case-studies",
         "/technologies/",
+        "/blog/",
         "/resources",
         "/security",
         "/privacy-policy",
