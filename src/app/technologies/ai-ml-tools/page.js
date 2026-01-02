@@ -17,6 +17,7 @@ import {
 } from "react-icons/si";
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
+import Button from "@/components/UI/Button";
 
 export const metadata = {
   title: "AI & ML Tools | MMH Technologies",
@@ -323,12 +324,15 @@ export default function AiMlToolsPage() {
             </p>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <button className="px-8 py-4 rounded-lg text-lg font-semibold bg-[var(--color-primary)] text-[var(--color-white)] transition-all hover:scale-105 hover:shadow-lg">
-                Start AI Project
-              </button>
-              <button className="px-8 py-4 rounded-lg text-lg font-semibold border-2 border-[var(--color-primary)] text-[var(--color-primary)] transition-all hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-                Book Strategy Call
-              </button>
+              <Button
+                href={"/contact"}
+                label={"Start Your AI/ML Project"}
+              />
+              {/* <Button
+                  label={"Schedule a Consultation"}
+                  isPrimary={false}
+              /> */}
+
             </div>
           </div>
         </div>

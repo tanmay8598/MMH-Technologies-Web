@@ -20,7 +20,7 @@ export default function ScrollReveal({ children, direction = "left" }) {
       whileInView={{ x: 0, opacity: 1 }}
       viewport={{ once: true, amount }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="w-full h-full"
+      className="h-full"
     >
       {children}
     </motion.div>

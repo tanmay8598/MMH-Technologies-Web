@@ -230,13 +230,13 @@ export default function ReactPage() {
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Button
+                                href={"/contact"}
                                 label={"Start Your React Project"}
-
                             />
-                            <Button
+                            {/* <Button
                                 label={"Schedule a Consultation"}
                                 isPrimary={false}
-                            />
+                            /> */}
                         </div>
                     </div>
                 </div>

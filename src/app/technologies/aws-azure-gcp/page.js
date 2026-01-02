@@ -14,57 +14,58 @@ import {
 // import { SiAmazonaws, SiMicrosoftazure, SiGooglecloud } from "react-icons/si";
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
+import Button from "@/components/UI/Button";
 
 export const metadata = {
-  title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
-  description:
-    "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
-  keywords: [
-    "Cloud Platforms",
-    "AWS",
-    "Amazon Web Services",
-    "Microsoft Azure",
-    "Google Cloud Platform",
-    "Cloud Migration",
-    "Cloud Solutions",
-    "Cloud Security",
-    "Scalable Infrastructure",
-    "MMH Technologies"
-  ],
-  openGraph: {
     title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
     description:
-      "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
-    url: "https://www.mmhtechnologies.com/technologies/cloud-platforms",
-    siteName: "MMH Technologies",
-    type: "website",
-    // images: [
-    //   {
-    //     url: "/images/og-cloud-platforms.webp",
-    //     width: 1200,
-    //     height: 630,
-    //   },
-    // ],
-  },
-//   twitter: {
-//     card: "summary_large_image",
-//     title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
-//     description:
-//       "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
-//     images: ["/images/og-cloud-platforms.webp"],
-//     creator: "@MMHTech",
-//   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
+        "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+    keywords: [
+        "Cloud Platforms",
+        "AWS",
+        "Amazon Web Services",
+        "Microsoft Azure",
+        "Google Cloud Platform",
+        "Cloud Migration",
+        "Cloud Solutions",
+        "Cloud Security",
+        "Scalable Infrastructure",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+        description:
+            "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+        url: "https://www.mmhtechnologies.com/technologies/cloud-platforms",
+        siteName: "MMH Technologies",
+        type: "website",
+        // images: [
+        //   {
+        //     url: "/images/og-cloud-platforms.webp",
+        //     width: 1200,
+        //     height: 630,
+        //   },
+        // ],
     },
-  },
+    //   twitter: {
+    //     card: "summary_large_image",
+    //     title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+    //     description:
+    //       "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+    //     images: ["/images/og-cloud-platforms.webp"],
+    //     creator: "@MMHTech",
+    //   },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
 };
 
 
@@ -305,12 +306,14 @@ export default function CloudPlatformsPage() {
                         </p>
 
                         <div className="flex flex-wrap gap-4 justify-center">
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold bg-[var(--color-primary)] text-[var(--color-white)] transition-all hover:scale-105 hover:shadow-lg">
-                                Start Cloud Journey
-                            </button>
-                            <button className="px-8 py-4 rounded-lg text-lg font-semibold border-2 border-[var(--color-primary)] text-[var(--color-primary)] transition-all hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-                                Get Free Consultation
-                            </button>
+                            <Button
+                                href={"/contact"}
+                                label={"Start Cloud Journey"}
+                            />
+                            {/* <Button
+                                label={"Schedule a Consultation"}
+                                isPrimary={false}
+                            /> */}
                         </div>
                     </div>
                 </div>

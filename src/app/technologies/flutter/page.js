@@ -9,6 +9,7 @@ import {
 import { SiFlutter } from "react-icons/si";
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
+import Button from "@/components/UI/Button";
 
 export const metadata = {
   title: "Flutter App Development | MMH Technologies",
@@ -255,12 +256,14 @@ export default function FlutterPage() {
               platforms.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
-              <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-lg bg-[var(--color-primary)] text-[var(--color-white)]">
-                Start Your Flutter Project
-              </button>
-              <button className="px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 border-2 border-[var(--color-primary)] text-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-white)]">
-                Schedule a Consultation
-              </button>
+              <Button
+                href={"/contact"}
+                label={"Start Your Flutter Project"}
+              />
+              {/* <Button
+                label={"Schedule a Consultation"}
+                isPrimary={false}
+              /> */}
             </div>
           </div>
         </div>
