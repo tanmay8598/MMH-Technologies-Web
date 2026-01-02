@@ -1,5 +1,45 @@
 import { FaGavel, FaFileContract, FaUserShield, FaExclamationTriangle, FaHandshake, FaBalanceScale } from 'react-icons/fa';
 
+export const metadata = {
+  title: "Terms & Conditions | Legal Agreement – MMH Technologies",
+  description:
+    "Read the Terms & Conditions of MMH Technologies to understand your rights, responsibilities, service usage rules, payment terms, and legal obligations when using our services.",
+  keywords: [
+    "terms and conditions",
+    "terms of service",
+    "legal agreement",
+    "user obligations",
+    "service terms",
+    "payment terms",
+    "intellectual property",
+    "MMH Technologies terms"
+  ],
+  openGraph: {
+    title: "Terms & Conditions | Legal Agreement – MMH Technologies",
+    description:
+      "Read the Terms & Conditions of MMH Technologies to understand your rights, responsibilities, service usage rules, payment terms, and legal obligations when using our services.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary",
+  //   title: "Terms & Conditions | MMH Technologies",
+  //   description:
+  //     "Legal terms governing the use of MMH Technologies services.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function TermsConditionsPage() {
   const lastUpdated = "January 1, 2026";
 
@@ -24,7 +64,7 @@ export default function TermsConditionsPage() {
       {/* Main Content */}
       <section className="py-20 bg-[var(--color-white)]">
         <div className="container-custom max-w-5xl">
-          
+
           {/* Introduction */}
           <div className="mb-16">
             <div className="flex items-center gap-3 mb-4">
@@ -289,8 +329,8 @@ export default function TermsConditionsPage() {
           <p className="text-xl md:text-2xl mb-8 text-[var(--text-muted)]">
             Our team is available 24/7 to help clarify any terms or discuss your project needs.
           </p>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact"
             className="inline-block bg-[var(--color-primary)] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[var(--color-secondary)] transition-colors duration-300"
           >
             Contact Us

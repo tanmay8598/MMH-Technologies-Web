@@ -3,6 +3,60 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+    title: "Data Security Standards | MMH Technologies",
+    description:
+        "Implement global data security standards with MMH Technologies. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
+    keywords: [
+        "Data Security Standards",
+        "MMH Technologies",
+        "ISO 27001",
+        "Encryption Standards",
+        "Data Backup and Recovery",
+        "Policy Governance",
+        "Continuous Monitoring",
+        "Cybersecurity Compliance",
+        "GDPR",
+        "Information Security",
+    ],
+    openGraph: {
+        title: "Data Security Standards | MMH Technologies",
+        description:
+            "Implement global data security standards with MMH Technologies. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
+        url: "https://www.mmhtechnologies.com/security/data-security-standards",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-data-security-standards.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Data Security Standards | MMH Technologies",
+    //     description:
+    //         "Implement global data security standards with MMH Technologies. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
+    //     images: ["/images/og-data-security-standards.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
+
 export default function DataSecurityStandardsPage() {
     const features = [
         {

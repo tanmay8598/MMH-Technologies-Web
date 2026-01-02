@@ -5,6 +5,59 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaBrain, FaServer, FaDatabase, FaRocket, FaShieldAlt, FaUsers, FaLayerGroup } from "react-icons/fa";
 import { SiTensorflow, SiScikitlearn } from "react-icons/si";
 
+export const metadata = {
+  title: "Machine Learning Solutions | MMH Technologies",
+  description:
+    "Leverage machine learning to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
+  keywords: [
+    "Machine Learning",
+    "ML Models",
+    "Predictive Analytics",
+    "TensorFlow",
+    "Scikit-Learn",
+    "Data Pipelines",
+    "AI Integration",
+    " ",
+    "Predictive Models",
+    "Data-Driven Decisions"
+  ],
+  openGraph: {
+    title: "Machine Learning Solutions | MMH Technologies",
+    description:
+      "Leverage machine learning to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
+    url: "https://www.mmhtechnologies.com/services/ai-development/machine-learning-solutions",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-machine-learning.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Machine Learning Solutions | MMH Technologies",
+  //   description:
+  //     "Leverage machine learning to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
+  //   images: ["/images/og-machine-learning.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function MachineLearningPage() {
   const technologies = [
     { icon: SiTensorflow, name: "TensorFlow", description: "Develop scalable ML models for predictions, classification, and analysis." },

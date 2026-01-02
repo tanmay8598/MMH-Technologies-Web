@@ -4,6 +4,58 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 import { FaMobile, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud, FaBolt, FaCode, FaLayerGroup, FaPalette, FaCheckCircle } from "react-icons/fa";
 
+export const metadata = {
+    title: "PWA Development Services | MMH Technologies",
+    description:
+        "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
+    keywords: [
+        "Progressive Web App",
+        "PWA Development",
+        "Offline Web Apps",
+        "Push Notifications",
+        "Cross-Platform Web Apps",
+        "Service Workers",
+        "Web Performance",
+        "Mobile Web Apps",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "PWA Development Services | MMH Technologies",
+        description:
+            "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
+        url: "https://www.mmhtechnologies.com/services/web-development/progressive-web-apps",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-pwa-development.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "PWA Development Services | MMH Technologies",
+    //     description:
+    //         "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
+    //     images: ["/images/og-pwa-development.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function PwaDevelopmentPage() {
     const technologies = [
         {

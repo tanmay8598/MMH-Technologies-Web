@@ -5,19 +5,67 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import {
     FaCloud,
     FaAws,
-    FaDocker,
     FaServer,
     FaRocket,
     FaCogs,
     FaShieldAlt,
     FaSyncAlt,
-    FaChartLine,
-    FaClock,
-    FaUsers,
-    FaLock,
     FaMicrosoft
 } from "react-icons/fa";
-import { SiGooglecloud, SiMicrosoftazure, SiKubernetes } from "react-icons/si";
+import { SiGooglecloud, SiKubernetes } from "react-icons/si";
+
+export const metadata = {
+    title: "Cloud & DevOps Services | MMH Technologies",
+    description:
+        "Build scalable, reliable, and secure digital products with modern cloud infrastructure and DevOps practices. Leverage AWS, Azure, Google Cloud, and Kubernetes for faster deployments and optimized operations.",
+    keywords: [
+        "Cloud Services",
+        "DevOps",
+        "AWS",
+        "Azure",
+        "Google Cloud",
+        "Kubernetes",
+        "CI/CD",
+        "Infrastructure as Code",
+        "Cloud Automation",
+        "Scalable Infrastructure"
+    ],
+    openGraph: {
+        title: "Cloud & DevOps Services | MMH Technologies",
+        description:
+            "Build scalable, reliable, and secure digital products with modern cloud infrastructure and DevOps practices. Leverage AWS, Azure, Google Cloud, and Kubernetes for faster deployments and optimized operations.",
+        url: "https://www.mmhtechnologies.com/services/cloud-devops",
+        siteName: "MMH Technologies",
+        type: "website",
+        // images: [
+        //   {
+        //     url: "/images/og-cloud-devops.webp",
+        //     width: 1200,
+        //     height: 630,
+        //   },
+        // ],
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Cloud & DevOps Services | MMH Technologies",
+    //     description:
+    //         "Build scalable, reliable, and secure digital products with modern cloud infrastructure and DevOps practices. Leverage AWS, Azure, Google Cloud, and Kubernetes for faster deployments and optimized operations.",
+    //     images: ["/images/og-cloud-devops.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
 
 export default function CloudDevOpsPage() {
 

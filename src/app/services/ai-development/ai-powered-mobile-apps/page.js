@@ -4,6 +4,59 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 import { FaRobot, FaMobileAlt, FaBrain, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers } from "react-icons/fa";
 
+export const metadata = {
+  title: "AI-Powered Mobile Apps | Smart, Predictive & Personalized Apps | MMH Technologies",
+  description:
+    "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit. Deliver personalized experiences, predictive features, and smarter user interactions with MMH Technologies.",
+  keywords: [
+    "AI Mobile Apps",
+    "Artificial Intelligence",
+    "Mobile App Development",
+    "TensorFlow",
+    "PyTorch",
+    "Core ML",
+    "ML Kit",
+    "Predictive Mobile Apps",
+    "Personalized Apps",
+    "Smart Apps"
+  ],
+  openGraph: {
+    title: "AI-Powered Mobile Apps | Smart, Predictive & Personalized Apps | MMH Technologies",
+    description:
+      "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit. Deliver personalized experiences, predictive features, and smarter user interactions with MMH Technologies.",
+    url: "https://www.mmhtechnologies.com/services/ai-development/ai-powered-mobile-apps",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-ai-mobile-apps.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "AI-Powered Mobile Apps | MMH Technologies",
+  //   description:
+  //     "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit. Deliver personalized experiences, predictive features, and smarter user interactions with MMH Technologies.",
+  //   images: ["/images/og-ai-mobile-apps.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function AIMobileAppsPage() {
   const technologies = [
     { icon: FaRobot, name: "TensorFlow & PyTorch", description: "Integrate AI models into mobile apps for predictive and intelligent features." },

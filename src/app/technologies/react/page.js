@@ -4,6 +4,59 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+  title: "React Development Services | MMH Technologies",
+  description:
+    "Build fast, scalable, and interactive web applications with React. MMH Technologies leverages component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
+  keywords: [
+    "React",
+    "React Development",
+    "React JS",
+    "React Features",
+    "Frontend Development",
+    "Web Applications",
+    "Component-Based Architecture",
+    "Virtual DOM",
+    "JavaScript Library",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "React Development Services | MMH Technologies",
+    description:
+      "Build fast, scalable, and interactive web applications with React. MMH Technologies leverages component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
+    url: "https://www.mmhtechnologies.com/technologies/react",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-react-development.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "React Development Services | MMH Technologies",
+//     description:
+//       "Build fast, scalable, and interactive web applications with React. MMH Technologies leverages component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
+//     images: ["/images/og-react-development.webp"],
+//     creator: "@MMHTech",
+//   },
+};
+
+
 export default function ReactPage() {
     const benefits = [
         {

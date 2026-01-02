@@ -5,6 +5,46 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaReact, FaMobileAlt, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers, FaCode } from "react-icons/fa";
 import { SiFlutter } from "react-icons/si";
 
+export const metadata = {
+  title: "Cross-Platform App Development Services | React Native & Flutter",
+  description:
+    "Build high-quality cross-platform mobile apps using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
+  keywords: [
+    "cross-platform app development",
+    "React Native app development",
+    "Flutter app development",
+    "iOS and Android app development",
+    "mobile app development services",
+    "single codebase apps",
+    "custom cross-platform apps",
+    "cost-effective mobile development"
+  ],
+  openGraph: {
+    title: "Cross-Platform App Development Services | React Native & Flutter",
+    description:
+      "Build high-quality cross-platform mobile apps using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Cross-Platform App Development Services",
+  //   description:
+  //     "Reach more users faster with React Native and Flutter apps built from a single codebase.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function CrossPlatformDevelopmentPage() {
   const technologies = [
     { icon: FaReact, name: "React Native", description: "Build high-quality cross-platform apps with a shared codebase for iOS and Android." },

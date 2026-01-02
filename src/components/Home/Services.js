@@ -1,12 +1,12 @@
 import { FiEdit, FiLayout, FiSmartphone, FiUser } from "react-icons/fi";
 import { IoMdCloudOutline } from "react-icons/io";
 import { RxGlobe } from "react-icons/rx";
-import { VscTools } from "react-icons/vsc";
 import { GiBrain } from "react-icons/gi";
 import { MdOutlineChecklistRtl } from "react-icons/md";
 
 import SectionHeading from "@/components/UI/SectionHeading";
 import Card from "@/components/Cards/Card";
+import ScrollReveal from "../Animation/ScrollReveal";
 
 export default function Services({
     heading = "WE SHAPE THE PERFECT SOLUTIONS",
@@ -23,11 +23,30 @@ export default function Services({
     ]
 
     return (
-        <section id="services" className="container-custom w-full text-center">
+        <section id="services" className="container-custom w-full py-10 text-center">
             <SectionHeading heading={heading} subHeading={subHeading} />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15">
-                {services.map(service => <Card key={service.name} href={service.href} icon={service.icon} heading={service.name} description={service.description} />)}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15 overflow-hidden">
+                {services.map((service, index) => (
+                    <ScrollReveal
+                        key={service.name}
+                        direction={Math.floor(index / 3) % 2 === 0 ? "left" : "right"} // row-based direction
+                    >
+                        <Card
+                            href={service.href}
+                            icon={service.icon}
+                            heading={service.name}
+                            description={service.description}
+                            className={"min-h-130 md:min-h-170 xl:min-h-140"}
+                            isShadow={false}
+                        />
+                    </ScrollReveal>
+                ))}
             </div>
+
+
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-15">
+                {services.map(service => <Card key={service.name} href={service.href} icon={service.icon} heading={service.name} description={service.description} />)}
+            </div> */}
         </section>
     )
 }

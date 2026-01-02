@@ -4,6 +4,50 @@ import { FaLaptopCode, FaServer, FaLayerGroup, FaBolt } from "react-icons/fa";
 import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 
+export const metadata = {
+    title: "Web Development Services | MMH Technologies",
+    description:
+        "Custom web development services by MMH Technologies. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps for your business growth.",
+    keywords: [
+        "Web Development",
+        "Frontend Development",
+        "Backend Development",
+        "Full Stack Development",
+        "Progressive Web Apps",
+        "Responsive Web Design",
+        "Scalable Websites",
+        "Secure Websites",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "Web Development Services | MMH Technologies",
+        description:
+            "Custom web development services by MMH Technologies. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps for your business growth.",
+        url: "https://www.mmhtechnologies.com/services/web-development",
+        siteName: "MMH Technologies",
+        type: "website",
+        // images: [
+        //     {
+        //         url: "/images/og-web-development.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function WebDevelopmentPage() {
     const subServices = [
         {

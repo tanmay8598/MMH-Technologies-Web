@@ -10,6 +10,52 @@ import {
 } from "react-icons/si";
 import { IoCloudyOutline } from "react-icons/io5";
 
+export const metadata = {
+    title: "Technology Stack | MMH Technologies",
+    description:
+        "Explore the cutting-edge technologies used by MMH Technologies to build fast, secure, and scalable web and mobile applications. From Next.js, React, Node.js, Flutter, cloud platforms, to AI & ML tools, we leverage the best frameworks for optimal performance.",
+    keywords: [
+        "Next.js",
+        "React.js",
+        "Node.js",
+        "Flutter",
+        "Cloud Computing",
+        "AWS",
+        "Azure",
+        "GCP",
+        "AI Tools",
+        "ML Tools",
+        "Technology Stack",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "Technology Stack | MMH Technologies",
+        description:
+            "Explore the cutting-edge technologies used by MMH Technologies to build fast, secure, and scalable web and mobile applications. From Next.js, React, Node.js, Flutter, cloud platforms, to AI & ML tools, we leverage the best frameworks for optimal performance.",
+        url: "https://www.mmhtechnologies.com/technologies",
+        siteName: "MMH Technologies",
+        type: "website",
+        // images: [
+        //   {
+        //     url: "/images/og-technology-stack.webp",
+        //     width: 1200,
+        //     height: 630,
+        //   },
+        // ],
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
 
 export default function TechnologyPage() {
 

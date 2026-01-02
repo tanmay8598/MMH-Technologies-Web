@@ -15,6 +15,59 @@ import {
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
 
+export const metadata = {
+  title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+  description:
+    "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+  keywords: [
+    "Cloud Platforms",
+    "AWS",
+    "Amazon Web Services",
+    "Microsoft Azure",
+    "Google Cloud Platform",
+    "Cloud Migration",
+    "Cloud Solutions",
+    "Cloud Security",
+    "Scalable Infrastructure",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+    description:
+      "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+    url: "https://www.mmhtechnologies.com/technologies/cloud-platforms",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-cloud-platforms.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+//   twitter: {
+//     card: "summary_large_image",
+//     title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+//     description:
+//       "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+//     images: ["/images/og-cloud-platforms.webp"],
+//     creator: "@MMHTech",
+//   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function CloudPlatformsPage() {
     const platforms = [
         {

@@ -9,6 +9,44 @@ import {
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
+export const metadata = {
+  title: "Data Security Blog | MMH Technologies",
+  description:
+    "Learn the core principles, best practices, and strategies behind modern data security, protecting information and building trust.",
+  keywords: [
+    "Data Security",
+    "Cybersecurity",
+    "Encryption",
+    "Compliance",
+    "Threat Detection",
+    "Identity Management"
+  ],
+  openGraph: {
+    title: "Data Security Blog | MMH Technologies",
+    description:
+      "Learn the core principles, best practices, and strategies behind modern data security, protecting information and building trust.",
+    url: "https://www.mmhtechnologies.com/blog/data-security",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-data-security.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "article",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Data Security Blog | MMH Technologies",
+  //   description:
+  //     "Learn the core principles, best practices, and strategies behind modern data security, protecting information and building trust.",
+  //   images: ["/images/og-data-security.webp"],
+  //   creator: "@MMHTech",
+  // },
+};
+
+
 export default function DataSecurityBlogPage() {
   const pillars = [
     {

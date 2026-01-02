@@ -12,6 +12,58 @@ import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
+export const metadata = {
+  title: "Next.js Development Services | MMH Technologies",
+  description:
+    "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js. MMH Technologies leverages server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
+  keywords: [
+    "Next.js",
+    "Next.js Development",
+    "React Framework",
+    "Server-Side Rendering",
+    "Static Site Generation",
+    "SEO-Optimized Web Apps",
+    "Full-Stack React",
+    "High Performance Web Apps",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "Next.js Development Services | MMH Technologies",
+    description:
+      "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js. MMH Technologies leverages server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
+    url: "https://www.mmhtechnologies.com/technologies/nextjs",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-nextjs-development.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Next.js Development Services | MMH Technologies",
+  //   description:
+  //     "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js. MMH Technologies leverages server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
+  //   images: ["/images/og-nextjs-development.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function NextJsPage() {
   const benefits = [
     {
@@ -82,20 +134,20 @@ export default function NextJsPage() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-[var(--color-primary)] opacity-10 rounded-full blur-3xl" />
 
         <div className="container-custom relative text-center z-10">
-          
-            <div className="flex justify-center mb-6">
-              <SiNextdotjs className="text-5xl text-[var(--color-primary)]" />
-            </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
-              Why Next.js is the{" "}
-              <span className="text-[var(--color-primary)]">Future</span> of
-              React Applications
-            </h1>
-            <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-8 leading-relaxed">
-              Build lightning-fast, SEO-optimized, and scalable web applications
-              with Next.js
-            </p>
-            {/* <div className="flex flex-wrap gap-4 justify-center">
+
+          <div className="flex justify-center mb-6">
+            <SiNextdotjs className="text-5xl text-[var(--color-primary)]" />
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-[var(--color-quaternary)] leading-tight">
+            Why Next.js is the{" "}
+            <span className="text-[var(--color-primary)]">Future</span> of
+            React Applications
+          </h1>
+          <p className="text-xl md:text-2xl text-[var(--text-muted)] mb-8 leading-relaxed">
+            Build lightning-fast, SEO-optimized, and scalable web applications
+            with Next.js
+          </p>
+          {/* <div className="flex flex-wrap gap-4 justify-center">
               <Button
                 label={"Get Started"}
 
@@ -105,7 +157,7 @@ export default function NextJsPage() {
                 isPrimary={false}
               />
             </div> */}
-          
+
         </div>
       </section>
 

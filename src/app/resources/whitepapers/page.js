@@ -3,6 +3,46 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+  title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",
+  description:
+    "Download in-depth whitepapers by MMH Technologies covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development.",
+  keywords: [
+    "technology whitepapers",
+    "cybersecurity whitepapers",
+    "app security reports",
+    "GDPR compliance guide",
+    "ISO 27001 whitepaper",
+    "cloud security threats",
+    "secure mobile app design",
+    "MMH Technologies whitepapers"
+  ],
+  openGraph: {
+    title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",
+    description:
+      "Download in-depth whitepapers by MMH Technologies covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development..",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary",
+  //   title: "Technology & Security Whitepapers – MMH Technologies",
+  //   description:
+  //     "Explore expert whitepapers on app security, compliance, cloud threats, and modern software practices.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function WhitepapersPage() {
   const whitepapers = [
     { title: "State of App Security 2026", description: "Trends, threats, and solutions for modern app development.", icon: FaChartLine },

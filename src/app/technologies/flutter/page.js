@@ -10,6 +10,59 @@ import { SiFlutter } from "react-icons/si";
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
 
+export const metadata = {
+  title: "Flutter App Development | MMH Technologies",
+  description:
+    "Build high-performance, cross-platform applications with Flutter. MMH Technologies delivers fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
+  keywords: [
+    "Flutter",
+    "Flutter App Development",
+    "Cross-Platform Apps",
+    "Mobile App Development",
+    "iOS Apps",
+    "Android Apps",
+    "Web Apps",
+    "Desktop Apps",
+    "Hot Reload",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "Flutter App Development | MMH Technologies",
+    description:
+      "Build high-performance, cross-platform applications with Flutter. MMH Technologies delivers fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
+    url: "https://www.mmhtechnologies.com/technologies/flutter",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-flutter-development.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Flutter App Development | MMH Technologies",
+  //   description:
+  //     "Build high-performance, cross-platform applications with Flutter. MMH Technologies delivers fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
+  //   images: ["/images/og-flutter-development.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function FlutterPage() {
   const benefits = [
     {

@@ -18,6 +18,59 @@ import {
 import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
 
+export const metadata = {
+  title: "AI & ML Tools | MMH Technologies",
+  description:
+    "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python. MMH Technologies helps businesses leverage AI for predictive analytics, automation, and smarter decision-making.",
+  keywords: [
+    "AI Tools",
+    "Machine Learning",
+    "TensorFlow",
+    "PyTorch",
+    "OpenAI APIs",
+    "Python",
+    "Predictive Analytics",
+    "Automation",
+    "AI Solutions",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "AI & ML Tools | MMH Technologies",
+    description:
+      "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python. MMH Technologies helps businesses leverage AI for predictive analytics, automation, and smarter decision-making.",
+    url: "https://www.mmhtechnologies.com/technologies/ai-ml-tools",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-ai-ml-tools.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "AI & ML Tools | MMH Technologies",
+  //   description:
+  //     "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python. MMH Technologies helps businesses leverage AI for predictive analytics, automation, and smarter decision-making.",
+  //   images: ["/images/og-ai-ml-tools.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function AiMlToolsPage() {
   const tools = [
     {

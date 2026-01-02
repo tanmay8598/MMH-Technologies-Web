@@ -5,6 +5,60 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaBug, FaDesktop, FaRocket, FaShieldAlt, FaUsers, FaLayerGroup, FaCogs } from "react-icons/fa";
 import { SiSelenium, SiJest, SiCypress } from "react-icons/si";
 
+export const metadata = {
+  title: "QA Testing Services | MMH Technologies",
+  description:
+    "Ensure software quality, reliability, and performance with MMH Technologies QA Testing services. Automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
+  keywords: [
+    "QA Testing",
+    "Software Testing",
+    "Automation Testing",
+    "Manual Testing",
+    "Selenium",
+    "Jest",
+    "Cypress",
+    "Performance Testing",
+    "Regression Testing",
+    "User Acceptance Testing",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "QA Testing Services | MMH Technologies",
+    description:
+      "Ensure software quality, reliability, and performance with MMH Technologies QA Testing services. Automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
+    url: "https://www.mmhtechnologies.com/services/qa-testing",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-qa-testing.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "QA Testing Services | MMH Technologies",
+  //   description:
+  //     "Ensure software quality, reliability, and performance with MMH Technologies QA Testing services. Automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
+  //   images: ["/images/og-qa-testing.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function QATestingPage() {
   // Tools / Technologies
   const tools = [

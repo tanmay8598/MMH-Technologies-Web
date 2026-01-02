@@ -4,6 +4,47 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 import { FaBug, FaTools, FaServer, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud } from "react-icons/fa";
 
+export const metadata = {
+  title: "App Maintenance & Support Services | Secure, Reliable & Scalable Apps",
+  description:
+    "Professional app maintenance and support services including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
+  keywords: [
+    "app maintenance services",
+    "application support services",
+    "mobile app maintenance",
+    "software maintenance services",
+    "bug fixing services",
+    "app performance monitoring",
+    "security updates and patches",
+    "CI/CD app maintenance",
+    "cloud monitoring services"
+  ],
+  openGraph: {
+    title: "App Maintenance & Support Services | Secure, Reliable & Scalable Apps",
+    description:
+      "Professional app maintenance and support services including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "App Maintenance & Support",
+  //   description:
+  //     "Ongoing app support, security updates, bug fixes, and performance optimization for long-term success.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function AppMaintenancePage() {
   const technologies = [
     { icon: FaBug, name: "Bug Tracking", description: "Identify, track, and resolve app issues quickly to ensure smooth user experience." },

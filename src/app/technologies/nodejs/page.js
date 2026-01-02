@@ -12,6 +12,58 @@ import Card from "@/components/Cards/Card";
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
+export const metadata = {
+  title: "Node.js Development Services | MMH Technologies",
+  description:
+    "Build fast, scalable, and real-time backend systems with Node.js. MMH Technologies leverages non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
+  keywords: [
+    "Node.js",
+    "Node.js Development",
+    "Backend Development",
+    "Real-Time Applications",
+    "Scalable Backend",
+    "JavaScript Runtime",
+    "APIs",
+    "Microservices",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "Node.js Development Services | MMH Technologies",
+    description:
+      "Build fast, scalable, and real-time backend systems with Node.js. MMH Technologies leverages non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
+    url: "https://www.mmhtechnologies.com/technologies/nodejs",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-nodejs-development.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Node.js Development Services | MMH Technologies",
+  //   description:
+  //     "Build fast, scalable, and real-time backend systems with Node.js. MMH Technologies leverages non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
+  //   images: ["/images/og-nodejs-development.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function NodeJsPage() {
 
   const benefits = [

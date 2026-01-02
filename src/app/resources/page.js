@@ -4,6 +4,45 @@ import Card from "@/components/Cards/Card";
 import PageHero from "@/components/UI/PageHero";
 import { FaBook, FaFileAlt, FaQuestionCircle } from "react-icons/fa";
 
+export const metadata = {
+    title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
+    description:
+        "Explore MMH Technologies resources including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
+    keywords: [
+        "technology resources",
+        "software development guides",
+        "IT whitepapers",
+        "tech FAQs",
+        "developer resources",
+        "MMH Technologies resources",
+        "technology insights"
+    ],
+    openGraph: {
+        title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
+        description:
+            "Explore MMH Technologies resources including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary",
+    //     title: "Resources | MMH Technologies",
+    //     description:
+    //         "Guides, whitepapers, and FAQs by MMH Technologies to help you stay ahead in tech.",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function ResourcesPage() {
     const categories = [
         {

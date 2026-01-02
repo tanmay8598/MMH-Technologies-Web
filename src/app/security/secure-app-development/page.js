@@ -3,6 +3,58 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+    title: "Secure App Development | MMH Technologies",
+    description:
+        "Build robust and trustworthy applications with MMH Technologies. Secure coding, authentication, mobile hardening, vulnerability testing, and continuous security monitoring integrated into every stage of development.",
+    keywords: [
+        "Secure App Development",
+        "MMH Technologies",
+        "Mobile App Security",
+        "Authentication and Authorization",
+        "Vulnerability Testing",
+        "Secure Coding Practices",
+        "Cybersecurity",
+        "GDPR Compliance",
+        "ISO 27001",
+    ],
+    openGraph: {
+        title: "Secure App Development | MMH Technologies",
+        description:
+            "Build robust and trustworthy applications with MMH Technologies. Secure coding, authentication, mobile hardening, vulnerability testing, and continuous security monitoring integrated into every stage of development.",
+        url: "https://www.mmhtechnologies.com/security/secure-app-development",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-secure-app-dev.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Secure App Development | MMH Technologies",
+    //     description:
+    //         "Build robust and trustworthy applications with MMH Technologies. Secure coding, authentication, mobile hardening, vulnerability testing, and continuous security monitoring integrated into every stage of development.",
+    //     images: ["/images/og-secure-app-dev.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function SecureAppDevelopmentPage() {
     const features = [
         {

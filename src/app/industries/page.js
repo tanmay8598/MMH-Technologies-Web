@@ -1,10 +1,61 @@
 import Card from "@/components/Cards/Card";
 import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
-import { FaUniversity, FaStore , FaTruck } from "react-icons/fa";
+import { FaUniversity, FaStore, FaTruck } from "react-icons/fa";
 import { FaHeartPulse } from "react-icons/fa6";
 import { MdRocketLaunch } from "react-icons/md";
 import { IoSchoolSharp } from "react-icons/io5";
+
+export const metadata = {
+    title: "Industries We Serve | MMH Technologies",
+    description:
+        "Discover how MMH Technologies delivers tailored digital solutions across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups. Expertise and innovation for your sector.",
+    keywords: [
+        "MMH Technologies Industries",
+        "Fintech Solutions",
+        "Healthcare Software",
+        "E-Commerce Development",
+        "Education Technology",
+        "Logistics Software",
+        "Startup MVP Development",
+        "Digital Solutions",
+        "Domain Expertise"
+    ],
+    openGraph: {
+        title: "Industries We Serve | MMH Technologies",
+        description:
+            "Discover how MMH Technologies delivers tailored digital solutions across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups. Expertise and innovation for your sector.",
+        url: "https://www.mmhtechnologies.com/industries",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-industries.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Industries We Serve | MMH Technologies",
+    //     description:
+    //         "Discover how MMH Technologies delivers tailored digital solutions across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups. Expertise and innovation for your sector.",
+    //     images: ["/images/og-industries.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
 
 
 export default function IndustriesPage() {

@@ -6,6 +6,62 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaReact, FaVuejs, FaAngular, FaMobile, FaRocket, FaPalette, FaCode, FaLayerGroup, FaCheckCircle, FaClock, FaUsers, FaShieldAlt } from 'react-icons/fa';
 import { SiNextdotjs } from "react-icons/si";
 
+export const metadata = {
+    title: "Frontend Development Services | MMH Technologies",
+    description:
+        "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
+    keywords: [
+        "Frontend Development",
+        "React.js Development",
+        "React native Development",
+        "Next.js Development",
+        "Vue.js Development",
+        "Angular Development",
+        "UI/UX Design",
+        "Performance Optimization",
+        "Accessible Frontend",
+        "MMH Technologies",
+        "Modern Web Applications",
+        "Responsive Design",
+        "Web Development Services"
+    ],
+    openGraph: {
+        title: "Frontend Development Services | MMH Technologies",
+        description:
+            "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
+        url: "https://www.mmhtechnologies.com/frontend-development",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-frontend.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Frontend Development Services | MMH Technologies",
+    //     description:
+    //         "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
+    //     images: ["/images/og-frontend.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function FrontendDevelopmentPage() {
     const technologies = [
         {

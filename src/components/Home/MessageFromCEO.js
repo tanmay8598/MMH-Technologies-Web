@@ -47,7 +47,7 @@ export default function MessageFromCEO() {
                             </p>
 
                             {/* CEO Name */}
-                            <p className="mt-6 md:mt-8 text-xl sm:text-2xl md:text-[28px] font-bold text-(--color-black) opacity-80">
+                            <p className="mt-6 md:mt-8 text-xl sm:text-2xl md:text-[28px] text-center font-bold text-(--color-black) opacity-80">
                                 Shuja Rizvi <span className="font-semibold">- CEO</span>
                             </p>
                         </div>

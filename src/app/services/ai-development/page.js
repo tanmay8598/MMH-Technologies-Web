@@ -5,6 +5,58 @@ import { FaBrain, FaRobot, FaChartLine, FaMobile } from "react-icons/fa";
 import SectionHeading from "@/components/UI/SectionHeading";
 import PageHero from "@/components/UI/PageHero";
 
+export const metadata = {
+    title: "AI Development Services | AI-Powered Apps, ML Solutions | MMH Technologies",
+    description:
+        "Harness the power of Artificial Intelligence with MMH Technologies. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
+    keywords: [
+        "AI Development",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "AI Mobile Apps",
+        "Chatbots",
+        "Virtual Assistants",
+        "Predictive Analytics",
+        "Intelligent Automation",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "AI Development Services | AI-Powered Apps, ML Solutions | MMH Technologies",
+        description:
+            "Harness the power of Artificial Intelligence with MMH Technologies. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
+        url: "https://www.mmhtechnologies.com/services/ai-development",
+        siteName: "MMH Technologies",
+        type: "website",
+        // images: [
+        //   {
+        //     url: "/images/og-ai-development.webp",
+        //     width: 1200,
+        //     height: 630,
+        //   },
+        // ],
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "AI Development Services | MMH Technologies",
+    //     description:
+    //         "Harness the power of Artificial Intelligence with MMH Technologies. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
+    //     images: ["/images/og-ai-development.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function AIDevelopmentPage() {
     const subServices = [
         {

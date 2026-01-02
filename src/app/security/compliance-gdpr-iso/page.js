@@ -3,6 +3,60 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+    title: "GDPR & ISO Compliance | MMH Technologies",
+    description:
+        "Ensure GDPR and ISO compliance with MMH Technologies. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders worldwide.",
+    keywords: [
+        "GDPR Compliance",
+        "ISO Compliance",
+        "MMH Technologies",
+        "Data Privacy",
+        "Regulatory Compliance",
+        "Information Security",
+        "ISO 27001",
+        "Data Protection Policies",
+        "Audits and Reporting",
+        "Employee Training",
+        "Compliance Standards",
+    ],
+    openGraph: {
+        title: "GDPR & ISO Compliance | MMH Technologies",
+        description:
+            "Ensure GDPR and ISO compliance with MMH Technologies. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders worldwide.",
+        url: "https://www.mmhtechnologies.com/security/compliance-gdpr-iso",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-compliance.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "GDPR & ISO Compliance | MMH Technologies",
+    //     description:
+    //         "Ensure GDPR and ISO compliance with MMH Technologies. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders worldwide.",
+    //     images: ["/images/og-compliance.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function CompliancePage() {
     const features = [
         {

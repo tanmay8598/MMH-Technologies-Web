@@ -9,6 +9,48 @@ import {
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
+export const metadata = {
+  title: "Modern Web Development | Architecture, Performance & SEO",
+  description:
+    "Explore modern web development principles including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
+
+  keywords: [
+    "modern web development",
+    "web application architecture",
+    "frontend and backend development",
+    "web performance optimization",
+    "technical SEO",
+    "secure web applications",
+  ],
+
+  openGraph: {
+    title: "Modern Web Development | Architecture, Performance & SEO",
+    description:
+      "Explore modern web development principles including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
+    url: "https://mmhtechnologies.com/blog/web-development",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-web-development.webp", // add this image
+    //     width: 1200,
+    //     height: 630,
+    //     alt: "Modern Web Development Architecture",
+    //   },
+    // ],
+    type: "article",
+  },
+
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Modern Web Development",
+  //   description:
+  //     "Architecture, performance, SEO, and security principles behind modern web applications.",
+  //   images: ["/images/og-web-development.webp"],
+  // },
+
+};
+
+
 export default function WebDevelopmentBlogPage() {
   const pillars = [
     {

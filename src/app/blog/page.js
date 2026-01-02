@@ -4,6 +4,58 @@ import Card from "@/components/Cards/Card";
 import PageHero from "@/components/UI/PageHero";
 import { FaMobileAlt, FaLaptopCode, FaBrain, FaLock } from "react-icons/fa";
 
+// app/blog/page.js
+export const metadata = {
+    title: "MMH Technologies Blog | Behind the Code",
+    description:
+        "Explore expert insights from MMH Technologies on web development, mobile apps, AI technology, data security and modern software engineering practices.",
+
+    keywords: [
+        "technology blog",
+        "web development blog",
+        "mobile app development blog",
+        "AI technology blog",
+        "software engineering insights",
+        "MMH Technologies blog",
+    ],
+
+    openGraph: {
+        title: "MMH Technologies Blog | Behind the Code",
+        description:
+            "Explore expert insights from MMH Technologies on web development, mobile apps, AI technology, data security and modern software engineering practices.",
+        url: "https://mmhtechnologies.com/blog",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-blog.webp", // add this image
+        //         width: 1200,
+        //         height: 630,
+        //         alt: "MMH Technologies Tech Blog",
+        //     },
+        // ],
+        type: "website",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "MMH Technologies Blog",
+    //     description:
+    //         "Insights, trends and best practices in web, mobile and AI software development.",
+    //     images: ["/images/og-blog.webp"],
+    // },
+};
+
+
 export default function BlogPage() {
     const categories = [
         {

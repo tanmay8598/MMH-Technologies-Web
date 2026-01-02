@@ -5,6 +5,60 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaNodeJs, FaPython, FaDatabase, FaServer, FaShieldAlt, FaCogs, FaRocket, FaUsers, FaCheckCircle } from "react-icons/fa";
 import { SiDjango, SiSpring } from "react-icons/si";
 
+export const metadata = {
+  title: "Backend Development Services | MMH Technologies",
+  description:
+    "Build scalable, secure, and high-performance backend systems with MMH Technologies. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
+  keywords: [
+    "Backend Development",
+    "Node.js Development",
+    "Django Development",
+    "Spring Boot Development",
+    "API Development",
+    "Database Management",
+    "Cloud Infrastructure",
+    "Secure Backend",
+    "MMH Technologies",
+    "Scalable Applications",
+    "Enterprise Backend Solutions",
+  ],
+  openGraph: {
+    title: "Backend Development Services | MMH Technologies",
+    description:
+      "Build scalable, secure, and high-performance backend systems with MMH Technologies. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
+    url: "https://www.mmhtechnologies.com/backend-development",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-backend.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Backend Development Services | MMH Technologies",
+  //   description:
+  //     "Build scalable, secure, and high-performance backend systems with MMH Technologies. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
+  //   images: ["/images/og-backend.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function BackendDevelopmentPage() {
   const technologies = [
     {

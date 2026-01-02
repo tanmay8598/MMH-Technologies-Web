@@ -1,3 +1,6 @@
+"use client";
+import { motion } from "framer-motion";
+
 import SectionHeading from "@/components/UI/SectionHeading"
 import Image from "next/image"
 
@@ -33,10 +36,15 @@ export default function Products() {
 
   const ProductCard = ({ index, name, src, alt, isLast, isOdd }) => {
     return (
-      <div
-        className={`p-4 sm:p-5 flex flex-col items-center text-center
-          ${isLast && isOdd ? "md:col-span-2 md:max-w-xl md:mx-auto" : ""}
-        `}
+      <motion.div
+        initial={{ scale: 0.6, opacity: 0 } }
+        whileInView={{ scale: 1, opacity: 1 } }
+        viewport={{ once: true, amount: 0.4 }}
+        transition={{
+          duration: 0.5,
+          ease: "easeOut",
+        }}
+        className={`p-4 sm:p-5 flex flex-col items-center text-center ${isLast && isOdd ? "md:col-span-2 md:max-w-xl md:mx-auto" : ""} `}
       >
         <Image
           src={src}
@@ -49,7 +57,7 @@ export default function Products() {
         <h4 className="mt-4 text-xl sm:text-2xl md:text-3xl text-(--color-primary) font-bold">
           {index}. {name}
         </h4>
-      </div>
+      </motion.div>
     )
   }
 

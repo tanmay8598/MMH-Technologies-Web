@@ -5,6 +5,60 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaRobot, FaComments, FaUsers, FaRocket, FaShieldAlt, FaLayerGroup, FaCogs } from "react-icons/fa";
 import { SiDialogflow, SiRasa } from "react-icons/si";
 
+
+export const metadata = {
+  title: "AI Chatbots & Virtual Assistants | MMH Technologies",
+  description:
+    "Build AI-powered chatbots and virtual assistants using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences with MMH Technologies.",
+  keywords: [
+    "AI Chatbots",
+    "Virtual Assistants",
+    "Conversational AI",
+    "Dialogflow",
+    "Rasa",
+    "NLP",
+    "Customer Support Automation",
+    "AI Automation",
+    "Intelligent Chatbots",
+    "24/7 Customer Engagement"
+  ],
+  openGraph: {
+    title: "AI Chatbots & Virtual Assistants | MMH Technologies",
+    description:
+      "Build AI-powered chatbots and virtual assistants using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences with MMH Technologies.",
+    url: "https://www.mmhtechnologies.com/services/ai-development/chatbots-virtual-assistants",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-ai-chatbots.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "AI Chatbots & Virtual Assistants | MMH Technologies",
+  //   description:
+  //     "Build AI-powered chatbots and virtual assistants using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences with MMH Technologies.",
+  //   images: ["/images/og-ai-chatbots.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function ChatbotsPage() {
   const technologies = [
     { icon: SiDialogflow, name: "Dialogflow", description: "Design conversational interfaces for websites, apps, and messaging platforms." },

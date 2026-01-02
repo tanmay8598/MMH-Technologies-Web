@@ -9,6 +9,44 @@ import {
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
+export const metadata = {
+  title: "AI Technology Blog | MMH Technologies",
+  description:
+    "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for real-world impact.",
+  keywords: [
+    "Artificial Intelligence",
+    "AI Technology",
+    "Machine Learning",
+    "Responsible AI",
+    "Model Engineering",
+    "Ethics in AI"
+  ],
+  openGraph: {
+    title: "AI Technology Blog | MMH Technologies",
+    description:
+      "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for real-world impact.",
+    url: "https://www.mmhtechnologies.com/blog/ai-technology",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-ai-technology.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "article",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "AI Technology Blog | MMH Technologies",
+  //   description:
+  //     "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for real-world impact.",
+  //   images: ["/images/og-ai-technology.webp"],
+  //   creator: "@MMHTech",
+  // },
+};
+
+
 export default function AITechnologyBlogPage() {
   const pillars = [
     {

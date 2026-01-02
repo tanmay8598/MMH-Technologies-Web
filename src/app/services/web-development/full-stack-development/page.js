@@ -5,6 +5,62 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaReact, FaNodeJs, FaPython, FaDatabase, FaServer, FaRocket, FaPalette, FaCode, FaLayerGroup, FaShieldAlt, FaUsers, FaCheckCircle } from "react-icons/fa";
 import { SiNextdotjs, SiDjango, SiSpring, SiVueDotJs } from "react-icons/si";
 
+
+export const metadata = {
+    title: "Full Stack Development Services | MMH Technologies",
+    description:
+        "Deliver modern, scalable, and secure full-stack applications with MMH Technologies. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
+    keywords: [
+        "Full Stack Development",
+        "React.js Development",
+        "Next.js Development",
+        "Node.js Development",
+        "Django Development",
+        "Frontend and Backend",
+        "UI/UX Design",
+        "Performance Optimization",
+        "Scalable Applications",
+        "Secure Web Apps",
+        "MMH Technologies",
+        "Web Development Services"
+    ],
+    openGraph: {
+        title: "Full Stack Development Services | MMH Technologies",
+        description:
+            "Deliver modern, scalable, and secure full-stack applications with MMH Technologies. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
+        url: "https://www.mmhtechnologies.com/full-stack-development",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-fullstack.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Full Stack Development Services | MMH Technologies",
+    //     description:
+    //         "Deliver modern, scalable, and secure full-stack applications with MMH Technologies. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
+    //     images: ["/images/og-fullstack.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function FullStackDevelopmentPage() {
     const technologies = [
         {

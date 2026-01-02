@@ -1,5 +1,44 @@
 import { FaCookie, FaShieldAlt, FaCog, FaChartLine, FaUserCog, FaInfoCircle } from 'react-icons/fa';
 
+export const metadata = {
+  title: "Cookie Policy | How We Use Cookies – MMH Technologies",
+  description:
+    "Learn how MMH Technologies uses cookies, analytics, and similar technologies to improve website performance, security, and user experience.",
+  keywords: [
+    "cookie policy",
+    "cookies usage",
+    "website cookies",
+    "privacy compliance",
+    "analytics cookies",
+    "third party cookies",
+    "MMH Technologies cookie policy"
+  ],
+  openGraph: {
+    title: "Cookie Policy | How We Use Cookies – MMH Technologies",
+    description:
+      "Learn how MMH Technologies uses cookies, analytics, and similar technologies to improve website performance, security, and user experience.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary",
+  //   title: "Cookie Policy | MMH Technologies",
+  //   description:
+  //     "Understand how cookies are used on MMH Technologies to enhance functionality and user experience.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function CookiePolicyPage() {
   const lastUpdated = "January 1, 2026";
 
@@ -24,7 +63,7 @@ export default function CookiePolicyPage() {
       {/* Main Content */}
       <section className="py-20 bg-[var(--color-white)]">
         <div className="container-custom max-w-5xl">
-          
+
           {/* What Are Cookies */}
           <div className="mb-16">
             <div className="flex items-center gap-3 mb-4">
@@ -78,7 +117,7 @@ export default function CookiePolicyPage() {
               <h2 className="text-3xl font-bold text-[var(--color-quaternary)]">3. Types of Cookies We Use</h2>
             </div>
             <div className="pl-12 space-y-6">
-              
+
               {/* Strictly Necessary */}
               <div className="border-l-4 border-[var(--color-primary)] pl-6">
                 <h3 className="text-2xl font-semibold text-[var(--color-quaternary)] mb-3">
@@ -148,7 +187,7 @@ export default function CookiePolicyPage() {
               <p className="text-lg text-[var(--text-muted)] leading-relaxed">
                 In addition to our own cookies, we may use third-party cookies from trusted partners to help us analyze website usage and improve our services. These partners include:
               </p>
-              
+
               <div className="space-y-4 mt-4">
                 <div className="bg-[var(--color-bg)] p-5 rounded-lg">
                   <h4 className="font-semibold text-[var(--color-quaternary)] mb-2">Google Analytics</h4>
@@ -334,14 +373,14 @@ export default function CookiePolicyPage() {
           <p className="text-xl md:text-2xl mb-8 text-[var(--text-muted)] max-w-3xl mx-auto">
             We're committed to transparency and protecting your privacy. Have questions or concerns about cookies?
           </p>
-          <a 
-            href="/contact" 
+          <a
+            href="/contact"
             className="inline-block bg-[var(--color-primary)] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[var(--color-secondary)] transition-colors duration-300 mr-4"
           >
             Contact Us
           </a>
-          <a 
-            href="/privacy-policy" 
+          <a
+            href="/privacy-policy"
             className="inline-block bg-[var(--color-white)] text-[var(--color-primary)] px-8 py-4 rounded-lg font-semibold text-lg border-2 border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-white transition-colors duration-300"
           >
             Privacy Policy

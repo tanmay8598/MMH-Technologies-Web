@@ -4,6 +4,57 @@ import WhyChooseUs from "@/components/About/WhyChooseUs";
 import CTACard from "@/components/Cards/CTACard";
 import PageHero from "@/components/UI/PageHero";
 
+export const metadata = {
+    title: "About MMH Technologies | Web & Software Development Company",
+    description:
+        "Learn about MMH Technologies — a Canada-based IT solutions company delivering enterprise-level web, mobile app, AI, cloud and software development services worldwide.",
+
+    keywords: [
+        "about MMH Technologies",
+        "IT solutions company Canada",
+        "software development company",
+        "web development agency",
+        "mobile app development company",
+        "digital transformation company",
+    ],
+
+    openGraph: {
+        title: "About MMH Technologies | Web & Software Development Company",
+        description:
+            "Learn about MMH Technologies — a Canada-based IT solutions company delivering enterprise-level web, mobile app, AI, cloud and software development services worldwide.",
+        url: "https://mmhtechnologies.com/about",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-about.webp", // add this image
+        //         width: 1200,
+        //         height: 630,
+        //         alt: "About MMH Technologies",
+        //     },
+        // ],
+        type: "website",
+    },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+    //   twitter: {
+    //     card: "summary_large_image",
+    //     title: "About MMH Technologies",
+    //     description:
+    //       "Canada-based IT solutions company specializing in web, mobile, AI and cloud services.",
+    //     images: ["/images/og-about.webp"],
+    //   },
+};
+
+
 export default function AboutPage() {
 
     const processes = [
@@ -17,7 +68,7 @@ export default function AboutPage() {
 
     return (
         <div className="flex flex-col gap-6">
-            <PageHero 
+            <PageHero
                 heading={"About Us"}
                 subHeading={"At MMH, we offer enterprise-level solutions by embracing the latest industry technologies."}
                 description={"We are specialized to fulfil your different requirements of software development and IT services"}

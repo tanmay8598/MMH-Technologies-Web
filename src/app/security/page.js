@@ -4,6 +4,56 @@ import Card from "@/components/Cards/Card";
 import PageHero from "@/components/UI/PageHero";
 import { FaShieldAlt, FaFileContract, FaLock } from "react-icons/fa";
 
+export const metadata = {
+    title: "Security Services | MMH Technologies",
+    description:
+        "MMH Technologies ensures robust security across your digital platforms, offering Data Security Standards, Compliance (GDPR, ISO), and Secure App Development.",
+    keywords: [
+        "MMH Technologies Security",
+        "Data Security Standards",
+        "GDPR Compliance",
+        "ISO Compliance",
+        "Secure App Development",
+        "Cybersecurity Solutions",
+        "Digital Security",
+    ],
+    openGraph: {
+        title: "Security Services | MMH Technologies",
+        description:
+            "MMH Technologies ensures robust security across your digital platforms, offering Data Security Standards, Compliance (GDPR, ISO), and Secure App Development.",
+        url: "https://www.mmhtechnologies.com/security",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-security.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Security Services | MMH Technologies",
+    //     description:
+    //         "MMH Technologies ensures robust security across your digital platforms, offering Data Security Standards, Compliance (GDPR, ISO), and Secure App Development.",
+    //     images: ["/images/og-security.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function SecurityPage() {
     const subServices = [
         {

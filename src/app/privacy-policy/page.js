@@ -3,6 +3,47 @@ import Card from "@/components/Cards/Card";
 import { FaFileContract, FaCookieBite } from "react-icons/fa";
 import PageHero from "@/components/UI/PageHero";
 
+export const metadata = {
+    title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
+    description:
+        "Read our Privacy Policy to understand how we collect, use, store, and protect your personal data. We ensure transparency, security, and compliance with data protection laws.",
+    keywords: [
+        "privacy policy",
+        "data protection",
+        "user privacy",
+        "data security",
+        "cookie policy",
+        "terms and conditions",
+        "GDPR compliance",
+        "information security"
+    ],
+    
+    openGraph: {
+        title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
+        description:
+            "Read our Privacy Policy to understand how we collect, use, store, and protect your personal data. We ensure transparency, security, and compliance with data protection laws.",
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary",
+    //     title: "Privacy Policy | Your Company Name",
+    //     description:
+    //         "How we protect your data and respect your privacy.",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function PrivacyPolicyPage() {
     const policies = [
         {

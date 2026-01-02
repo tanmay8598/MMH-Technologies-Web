@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function Card({ icon: Icon, heading, description, href, isSmallHeading }) {
+export default function Card({ icon: Icon, heading, description, href, isSmallHeading, className, isShadow=true }) {
     return (
-        <div className={`bg-(--color-white) relative shadow-md px-14 pt-8 ${isSmallHeading ? "pb-10" : "pb-20"} rounded-xl flex items-center justify-start flex-col gap-5 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl`}>
+        <div className={`bg-(--color-white) relative px-14 pt-8 ${isSmallHeading ? "pb-10" : "pb-20"} rounded-xl flex items-center justify-start flex-col gap-5 transition-all duration-300 hover:-translate-y-1 ${isShadow ? "shadow-md hover:shadow-xl" : ""}  ${className}`}>
             {Icon && (
                 <div className="rounded-full bg-(--color-primary) p-6">
                     <Icon className={`text-(--color-white) ${isSmallHeading ? "text-2xl" : "text-4xl"}`} />

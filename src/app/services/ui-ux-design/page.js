@@ -5,6 +5,60 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaFigma, FaPalette, FaUsers, FaLightbulb, FaRocket, FaLayerGroup, FaShieldAlt } from "react-icons/fa";
 import { SiAdobe, SiSketch } from "react-icons/si";
 
+export const metadata = {
+  title: "UI/UX Design Services | MMH Technologies",
+  description:
+    "Craft intuitive, user-centered UI/UX designs with MMH Technologies. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
+  keywords: [
+    "UI Design",
+    "UX Design",
+    "User Interface",
+    "User Experience",
+    "Wireframes",
+    "Prototypes",
+    "Figma",
+    "Sketch",
+    "Adobe XD",
+    "Interaction Design",
+    "MMH Technologies"
+  ],
+  openGraph: {
+    title: "UI/UX Design Services | MMH Technologies",
+    description:
+      "Craft intuitive, user-centered UI/UX designs with MMH Technologies. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
+    url: "https://www.mmhtechnologies.com/services/ui-ux-design",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-ui-ux-design.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "UI/UX Design Services | MMH Technologies",
+  //   description:
+  //     "Craft intuitive, user-centered UI/UX designs with MMH Technologies. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
+  //   images: ["/images/og-ui-ux-design.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function UIDesignPage() {
   // Tools/Technologies
   const tools = [

@@ -4,6 +4,46 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 import { FaApple, FaSwift, FaCode, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers } from "react-icons/fa";
 
+export const metadata = {
+  title: "iOS App Development Services | Native Swift & SwiftUI Apps",
+  description:
+    "Professional iOS app development services using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
+  keywords: [
+    "iOS app development",
+    "Swift app development",
+    "SwiftUI development",
+    "native iOS apps",
+    "Apple app development",
+    "iPhone app development company",
+    "secure iOS applications",
+    "custom iOS development services"
+  ],
+  openGraph: {
+    title: "iOS App Development Services | Native Swift & SwiftUI Apps",
+    description:
+      "Professional iOS app development services using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Native iOS App Development Services",
+  //   description:
+  //     "Build scalable, secure, and high-performing iOS apps using Swift and Apple’s latest technologies.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function IOSDevelopmentPage() {
   const technologies = [
     { icon: FaApple, name: "Xcode & Swift", description: "Build native iOS apps with Swift and Xcode for optimal performance and user experience." },

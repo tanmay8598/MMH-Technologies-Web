@@ -4,6 +4,58 @@ import PageHero from "@/components/UI/PageHero";
 import { FaApple, FaAndroid, FaMobileAlt, FaTools } from "react-icons/fa";
 import SectionHeading from "@/components/UI/SectionHeading";
 
+export const metadata = {
+    title: "Mobile App Development Services | MMH Technologies",
+    description:
+        "Build scalable and high-performance mobile applications for iOS, Android, and cross-platform solutions with MMH Technologies. From native development to maintenance and support, we deliver apps users love.",
+    keywords: [
+        "Mobile App Development",
+        "iOS App Development",
+        "Android App Development",
+        "Cross-Platform Apps",
+        "Flutter",
+        "React Native",
+        "Mobile App Maintenance",
+        "App Support",
+        "MMH Technologies"
+    ],
+    openGraph: {
+        title: "Mobile App Development Services | MMH Technologies",
+        description:
+            "Build scalable and high-performance mobile applications for iOS, Android, and cross-platform solutions with MMH Technologies. From native development to maintenance and support, we deliver apps users love.",
+        url: "https://www.mmhtechnologies.com/services/mobile-app-development",
+        siteName: "MMH Technologies",
+        // images: [
+        //     {
+        //         url: "/images/og-mobile-app-development.webp",
+        //         width: 1200,
+        //         height: 630,
+        //     },
+        // ],
+        type: "website",
+    },
+    // twitter: {
+    //     card: "summary_large_image",
+    //     title: "Mobile App Development Services | MMH Technologies",
+    //     description:
+    //         "Build scalable and high-performance mobile applications for iOS, Android, and cross-platform solutions with MMH Technologies. From native development to maintenance and support, we deliver apps users love.",
+    //     images: ["/images/og-mobile-app-development.webp"],
+    //     creator: "@MMHTech",
+    // },
+    robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+            index: true,
+            follow: true,
+            "max-video-preview": -1,
+            "max-image-preview": "large",
+            "max-snippet": -1,
+        },
+    },
+};
+
+
 export default function MobileAppDevelopmentPage() {
     const subServices = [
         {

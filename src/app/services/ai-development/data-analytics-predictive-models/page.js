@@ -5,6 +5,59 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaChartBar, FaChartLine, FaDatabase, FaRocket, FaShieldAlt, FaUsers, FaLayerGroup, FaCogs } from "react-icons/fa";
 import { SiMicrosoftpowerbi, SiTableau } from "react-icons/si";
 
+export const metadata = {
+  title: "Data Analytics & Predictive Models | MMH Technologies",
+  description:
+    "Leverage data analytics and predictive modeling with Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions with MMH Technologies.",
+  keywords: [
+    "Data Analytics",
+    "Predictive Modeling",
+    "Business Intelligence",
+    "Power BI",
+    "Tableau",
+    "Data Visualization",
+    "Data-Driven Decisions",
+    "Analytics Dashboards",
+    "ETL Pipelines",
+    "Advanced Analytics"
+  ],
+  openGraph: {
+    title: "Data Analytics & Predictive Models | MMH Technologies",
+    description:
+      "Leverage data analytics and predictive modeling with Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions with MMH Technologies.",
+    url: "https://www.mmhtechnologies.com/services/ai-development/data-analytics-predictive-models",
+    siteName: "MMH Technologies",
+    type: "website",
+    // images: [
+    //   {
+    //     url: "/images/og-data-analytics.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Data Analytics & Predictive Models | MMH Technologies",
+  //   description:
+  //     "Leverage data analytics and predictive modeling with Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions with MMH Technologies.",
+  //   images: ["/images/og-data-analytics.webp"],
+  //   creator: "@MMHTech",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function DataAnalyticsPage() {
   const technologies = [
     { icon: FaChartBar, name: "Power BI", description: "Visualize and analyze data with interactive dashboards and reports." },

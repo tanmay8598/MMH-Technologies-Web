@@ -9,6 +9,44 @@ import {
 import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
+export const metadata = {
+  title: "Mobile App Development Blog | MMH Technologies",
+  description:
+    "Explore the core principles, architecture, and best practices behind successful mobile applications in today's ecosystem.",
+  keywords: [
+    "Mobile App Development",
+    "Mobile Engineering",
+    "Mobile UI Design",
+    "App Performance",
+    "App Security",
+    "Cross-Platform Apps"
+  ],
+  openGraph: {
+    title: "Mobile App Development Blog | MMH Technologies",
+    description:
+      "Explore the core principles, architecture, and best practices behind successful mobile applications in today's ecosystem.",
+    url: "https://www.mmhtechnologies.com/blog/mobile-app-development",
+    siteName: "MMH Technologies",
+    // images: [
+    //   {
+    //     url: "/images/og-mobile-apps.webp",
+    //     width: 1200,
+    //     height: 630,
+    //   },
+    // ],
+    type: "article",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Mobile App Development Blog | MMH Technologies",
+  //   description:
+  //     "Explore the core principles, architecture, and best practices behind successful mobile applications in today's ecosystem.",
+  //   images: ["/images/og-mobile-apps.webp"],
+  //   creator: "@MMHTech",
+  // },
+};
+
+
 export default function MobileAppDevelopmentBlogPage() {
   const pillars = [
     {

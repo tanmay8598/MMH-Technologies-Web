@@ -3,6 +3,45 @@ import Card from '@/components/Cards/Card';
 import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
+export const metadata = {
+  title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
+  description:
+    "Explore practical, step-by-step security guides covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
+  keywords: [
+    "security guides",
+    "GDPR implementation guide",
+    "secure coding practices",
+    "data security checklist",
+    "security audit guide",
+    "end-to-end encryption",
+    "application security best practices"
+  ],
+  openGraph: {
+    title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
+    description:
+      "Explore practical, step-by-step security guides covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary",
+  //   title: "Security & Compliance Guides",
+  //   description:
+  //     "Actionable guides on GDPR, encryption, secure coding, and security audits.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function GuidesPage() {
   const guides = [
     { title: "How to Implement GDPR in Your App", description: "Step-by-step implementation guide for GDPR compliance.", icon: FaGavel },

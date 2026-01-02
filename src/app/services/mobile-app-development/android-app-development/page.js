@@ -5,6 +5,47 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaAndroid, FaJava, FaDatabase, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers, FaCode } from "react-icons/fa";
 import { SiKotlin } from "react-icons/si";
 
+export const metadata = {
+  title: "Android App Development Services | Secure & Scalable Android Apps",
+  description:
+    "Professional Android app development services using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
+  keywords: [
+    "android app development services",
+    "android app developers",
+    "kotlin android development",
+    "java android app development",
+    "custom android applications",
+    "android mobile app development",
+    "firebase android apps",
+    "secure android app development",
+    "scalable android solutions"
+  ],
+  openGraph: {
+    title: "Android App Development Services | Secure & Scalable Android Apps",
+    description:
+      "Professional Android app development services using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
+    type: "website",
+  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Android App Development Services",
+  //   description:
+  //     "Custom Android apps built with Kotlin, Java, and Firebase for performance, security, and scalability.",
+  // },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+
 export default function AndroidDevelopmentPage() {
   const technologies = [
     { icon: FaAndroid, name: "Android Studio", description: "Official IDE for building high-performance Android apps with robust tools and debugging support." },
