@@ -28,7 +28,8 @@ export const metadata = {
         "CI/CD",
         "Infrastructure as Code",
         "Cloud Automation",
-        "Scalable Infrastructure"
+        "Scalable Infrastructure",
+        "Qatar",
     ],
     openGraph: {
         title: "Cloud & DevOps Services | MMH Technologies",

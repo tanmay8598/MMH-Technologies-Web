@@ -25,7 +25,8 @@ export const metadata = {
     "Web Apps",
     "Desktop Apps",
     "Hot Reload",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "Flutter App Development | MMH Technologies",

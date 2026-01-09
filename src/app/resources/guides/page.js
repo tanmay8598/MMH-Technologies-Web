@@ -14,7 +14,8 @@ export const metadata = {
     "data security checklist",
     "security audit guide",
     "end-to-end encryption",
-    "application security best practices"
+    "application security best practices",
+    "Qatar",
   ],
   openGraph: {
     title: "Practical Security Guides | GDPR, Encryption & Secure Coding",

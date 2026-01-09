@@ -14,6 +14,7 @@ export const metadata = {
         "UI/UX Design Projects",
         "Enterprise Solutions",
         "Digital Products",
+        "Qatar",
     ],
     openGraph: {
         title: "Our Projects | MMH Technologies Portfolio",

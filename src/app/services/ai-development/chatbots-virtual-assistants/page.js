@@ -20,7 +20,8 @@ export const metadata = {
     "Customer Support Automation",
     "AI Automation",
     "Intelligent Chatbots",
-    "24/7 Customer Engagement"
+    "24/7 Customer Engagement",
+    "Qatar",
   ],
   openGraph: {
     title: "AI Chatbots & Virtual Assistants | MMH Technologies",

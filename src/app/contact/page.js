@@ -15,6 +15,7 @@ export const metadata = {
     "web development company contact",
     "mobile app development services",
     "IT solutions company Canada",
+    "Qatar",
   ],
 
   openGraph: {

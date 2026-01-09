@@ -30,7 +30,8 @@ export const metadata = {
         "Cloud Solutions",
         "Cloud Security",
         "Scalable Infrastructure",
-        "MMH Technologies"
+        "MMH Technologies",
+        "Qatar",
     ],
     openGraph: {
         title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",

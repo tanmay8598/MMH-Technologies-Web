@@ -21,7 +21,7 @@ export default function PageHero({
             <div className="absolute inset-0 bg-(--color-tertiary) opacity-80"></div>
 
             {/* Content */}
-            <div className="relative text-center z-10 flex flex-col gap-3 items-center justify-center h-full text-(--color-white)">
+            <div className="relative text-center z-10 flex flex-col gap-3 lg:gap-6 items-center justify-center h-full text-(--color-white)">
                 <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold">
                     {heading}
                 </h1>

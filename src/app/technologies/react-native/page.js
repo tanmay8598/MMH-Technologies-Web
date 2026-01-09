@@ -17,7 +17,8 @@ export const metadata = {
     "iOS Development",
     "Android Development",
     "JavaScript Library",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "React Native Development Services | MMH Technologies",

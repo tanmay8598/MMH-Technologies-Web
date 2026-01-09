@@ -20,7 +20,8 @@ export const metadata = {
     "Performance Testing",
     "Regression Testing",
     "User Acceptance Testing",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "QA Testing Services | MMH Technologies",

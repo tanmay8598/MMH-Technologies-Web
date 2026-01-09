@@ -14,6 +14,7 @@ export const metadata = {
         "UI/UX Design Projects",
         "Enterprise Solutions",
         "Digital Products",
+        "Qatar",
     ],
     openGraph: {
         title: "Our Projects | MMH Technologies Portfolio",
@@ -124,7 +125,7 @@ export default function ProjectsPage() {
     return (
         <div className="py-10">
             <SectionHeading heading={"Our Projects"} />
-            <div className="py-10 container-custom">
+            <div className="container-custom">
                 {projects.map(project => <ProjectCard key={project.title} {...project} />)}
             </div>
         </div>

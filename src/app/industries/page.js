@@ -19,7 +19,8 @@ export const metadata = {
         "Logistics Software",
         "Startup MVP Development",
         "Digital Solutions",
-        "Domain Expertise"
+        "Domain Expertise",
+        "Qatar",
     ],
     openGraph: {
         title: "Industries We Serve | MMH Technologies",

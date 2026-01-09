@@ -15,7 +15,8 @@ export const metadata = {
         "cookie policy",
         "terms and conditions",
         "GDPR compliance",
-        "information security"
+        "information security",
+        "Qatar",
     ],
     
     openGraph: {

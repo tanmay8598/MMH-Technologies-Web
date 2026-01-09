@@ -18,6 +18,7 @@ export default function Navbar() {
         "/blog/",
         "/resources",
         "/security",
+        "/services/security-services",
         "/privacy-policy",
     ];
 

@@ -10,6 +10,7 @@ export const metadata = {
         "secure API development",
         "mobile app security questions",
         "compliance FAQs",
+        "Qatar",
     ],
     openGraph: {
         title: "FAQs | Security, Compliance & App Development Questions",

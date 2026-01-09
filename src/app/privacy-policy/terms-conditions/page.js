@@ -12,7 +12,8 @@ export const metadata = {
     "service terms",
     "payment terms",
     "intellectual property",
-    "MMH Technologies terms"
+    "MMH Technologies terms",
+    "Qatar",
   ],
   openGraph: {
     title: "Terms & Conditions | Legal Agreement – MMH Technologies",

@@ -23,7 +23,8 @@ export const metadata = {
         "MMH Technologies",
         "Modern Web Applications",
         "Responsive Design",
-        "Web Development Services"
+        "Web Development Services",
+        "Qatar",
     ],
     openGraph: {
         title: "Frontend Development Services | MMH Technologies",

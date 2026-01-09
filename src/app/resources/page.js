@@ -15,7 +15,8 @@ export const metadata = {
         "tech FAQs",
         "developer resources",
         "MMH Technologies resources",
-        "technology insights"
+        "technology insights",
+        "Qatar",
     ],
     openGraph: {
         title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",

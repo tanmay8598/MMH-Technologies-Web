@@ -15,7 +15,8 @@ export const metadata = {
     "ISO 27001 whitepaper",
     "cloud security threats",
     "secure mobile app design",
-    "MMH Technologies whitepapers"
+    "MMH Technologies whitepapers",
+    "Qatar",
   ],
   openGraph: {
     title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",

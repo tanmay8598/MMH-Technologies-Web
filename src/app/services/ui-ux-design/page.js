@@ -20,7 +20,8 @@ export const metadata = {
     "Sketch",
     "Adobe XD",
     "Interaction Design",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "UI/UX Design Services | MMH Technologies",

@@ -17,7 +17,8 @@ export const metadata = {
         "Service Workers",
         "Web Performance",
         "Mobile Web Apps",
-        "MMH Technologies"
+        "MMH Technologies",
+        "Qatar",
     ],
     openGraph: {
         title: "PWA Development Services | MMH Technologies",

@@ -11,7 +11,8 @@ export const metadata = {
     "privacy compliance",
     "analytics cookies",
     "third party cookies",
-    "MMH Technologies cookie policy"
+    "MMH Technologies cookie policy",
+    "Qatar",
   ],
   openGraph: {
     title: "Cookie Policy | How We Use Cookies – MMH Technologies",

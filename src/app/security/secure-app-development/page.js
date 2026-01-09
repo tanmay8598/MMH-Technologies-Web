@@ -17,6 +17,7 @@ export const metadata = {
         "Cybersecurity",
         "GDPR Compliance",
         "ISO 27001",
+        "Qatar",
     ],
     openGraph: {
         title: "Secure App Development | MMH Technologies",

@@ -10,6 +10,7 @@ export const metadata = {
     "UI/UX Designer",
     "Tech Jobs",
     "Company Culture",
+    "Qatar",
   ],
   openGraph: {
     title: "Careers at MMH Technologies | Join Our Team",

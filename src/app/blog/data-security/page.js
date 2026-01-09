@@ -19,7 +19,8 @@ export const metadata = {
     "Encryption",
     "Compliance",
     "Threat Detection",
-    "Identity Management"
+    "Identity Management",
+    "Qatar",
   ],
   openGraph: {
     title: "Data Security Blog | MMH Technologies",

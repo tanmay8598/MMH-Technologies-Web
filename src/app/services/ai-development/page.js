@@ -18,7 +18,8 @@ export const metadata = {
         "Virtual Assistants",
         "Predictive Analytics",
         "Intelligent Automation",
-        "MMH Technologies"
+        "MMH Technologies",
+        "Qatar",
     ],
     openGraph: {
         title: "AI Development Services | AI-Powered Apps, ML Solutions | MMH Technologies",

@@ -19,7 +19,8 @@ export const metadata = {
     "Mobile UI Design",
     "App Performance",
     "App Security",
-    "Cross-Platform Apps"
+    "Cross-Platform Apps",
+    "Qatar",
   ],
   openGraph: {
     title: "Mobile App Development Blog | MMH Technologies",

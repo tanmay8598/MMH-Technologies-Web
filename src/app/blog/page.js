@@ -17,6 +17,7 @@ export const metadata = {
         "AI technology blog",
         "software engineering insights",
         "MMH Technologies blog",
+        "Qatar",
     ],
 
     openGraph: {

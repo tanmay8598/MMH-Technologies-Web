@@ -18,7 +18,8 @@ export const metadata = {
     "android mobile app development",
     "firebase android apps",
     "secure android app development",
-    "scalable android solutions"
+    "scalable android solutions",
+    "Qatar",
   ],
   openGraph: {
     title: "Android App Development Services | Secure & Scalable Android Apps",

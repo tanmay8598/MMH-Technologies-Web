@@ -18,7 +18,8 @@ export const metadata = {
     "Component-Based Architecture",
     "Virtual DOM",
     "JavaScript Library",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "React Development Services | MMH Technologies",

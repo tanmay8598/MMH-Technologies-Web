@@ -18,6 +18,7 @@ export const metadata = {
         "Cybersecurity Compliance",
         "GDPR",
         "Information Security",
+        "Qatar",
     ],
     openGraph: {
         title: "Data Security Standards | MMH Technologies",

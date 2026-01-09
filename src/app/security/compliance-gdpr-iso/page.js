@@ -19,6 +19,7 @@ export const metadata = {
         "Audits and Reporting",
         "Employee Training",
         "Compliance Standards",
+        "Qatar",
     ],
     openGraph: {
         title: "GDPR & ISO Compliance | MMH Technologies",

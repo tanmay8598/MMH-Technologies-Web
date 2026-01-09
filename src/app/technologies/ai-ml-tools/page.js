@@ -33,7 +33,8 @@ export const metadata = {
     "Predictive Analytics",
     "Automation",
     "AI Solutions",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "AI & ML Tools | MMH Technologies",

@@ -18,7 +18,8 @@ export const metadata = {
     "ML Kit",
     "Predictive Mobile Apps",
     "Personalized Apps",
-    "Smart Apps"
+    "Smart Apps",
+    "Qatar",
   ],
   openGraph: {
     title: "AI-Powered Mobile Apps | Smart, Predictive & Personalized Apps | MMH Technologies",

@@ -2,7 +2,7 @@ import { FiEdit, FiLayout, FiSmartphone, FiUser } from "react-icons/fi";
 import { IoMdCloudOutline } from "react-icons/io";
 import { RxGlobe } from "react-icons/rx";
 import { GiBrain } from "react-icons/gi";
-import { MdOutlineChecklistRtl } from "react-icons/md";
+import { MdOutlineChecklistRtl, MdSecurity } from "react-icons/md";
 
 import SectionHeading from "@/components/UI/SectionHeading";
 import Card from "@/components/Cards/Card";
@@ -20,6 +20,7 @@ export default function Services({
         { name: "AI Development", href: "/services/ai-development", icon: GiBrain, description: "Our AI development services help businesses harness machine learning, data analytics, and intelligent automation to build scalable, future-ready applications." },
         { name: "Cloud & DevOps", href: "/services/cloud-devops", icon: IoMdCloudOutline, description: "Azure Kubernetes Service, Azure app services, Azure APIM, Azure frontdoor, Azure B2C, Azure Insights, Google Cloud Platform, Google App Engine, Google Compute Engine, Google Kubernetes Engine, Google Cloud Run, Google pub- sub, Google Cloud Functions, Google firebase Messaging. Dev/Ops - Infrastructure as-code with Terraform, Azure Dev/Ops, Jenkins, Docker" },
         { name: "QA & Testing", href: "/services/qa-testing", icon: MdOutlineChecklistRtl, description: "We ensure your software meets the highest quality standards through comprehensive testing, performance validation, and defect prevention across all stages of development." },
+        { name: "Security Services", href: "/services/security-services", icon: MdSecurity, description: "We provide end-to-end security solutions including fire detection, CCTV surveillance, access control, intruder alarms, and automation systems, ensuring safety, compliance, and reliable protection across facilities." },
     ]
 
     return (

@@ -21,6 +21,7 @@ export const metadata = {
     "MMH Technologies",
     "Scalable Applications",
     "Enterprise Backend Solutions",
+    "Qatar",
   ],
   openGraph: {
     title: "Backend Development Services | MMH Technologies",

@@ -16,7 +16,8 @@ export const metadata = {
     "Apple app development",
     "iPhone app development company",
     "secure iOS applications",
-    "custom iOS development services"
+    "custom iOS development services",
+    "Qatar",
   ],
   openGraph: {
     title: "iOS App Development Services | Native Swift & SwiftUI Apps",

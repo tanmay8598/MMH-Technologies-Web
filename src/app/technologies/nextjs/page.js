@@ -25,7 +25,8 @@ export const metadata = {
     "SEO-Optimized Web Apps",
     "Full-Stack React",
     "High Performance Web Apps",
-    "MMH Technologies"
+    "MMH Technologies",
+    "Qatar",
   ],
   openGraph: {
     title: "Next.js Development Services | MMH Technologies",

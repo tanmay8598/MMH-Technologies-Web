@@ -19,7 +19,8 @@ export const metadata = {
     "Data-Driven Decisions",
     "Analytics Dashboards",
     "ETL Pipelines",
-    "Advanced Analytics"
+    "Advanced Analytics",
+    "Qatar",
   ],
   openGraph: {
     title: "Data Analytics & Predictive Models | MMH Technologies",

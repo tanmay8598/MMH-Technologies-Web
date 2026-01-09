@@ -19,7 +19,8 @@ export const metadata = {
     "Machine Learning",
     "Responsible AI",
     "Model Engineering",
-    "Ethics in AI"
+    "Ethics in AI",
+    "Qatar",
   ],
   openGraph: {
     title: "AI Technology Blog | MMH Technologies",

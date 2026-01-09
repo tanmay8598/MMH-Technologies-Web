@@ -22,7 +22,8 @@ export const metadata = {
         "Scalable Applications",
         "Secure Web Apps",
         "MMH Technologies",
-        "Web Development Services"
+        "Web Development Services",
+        "Qatar",
     ],
     openGraph: {
         title: "Full Stack Development Services | MMH Technologies",

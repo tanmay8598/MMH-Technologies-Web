@@ -17,7 +17,8 @@ export const metadata = {
     "app performance monitoring",
     "security updates and patches",
     "CI/CD app maintenance",
-    "cloud monitoring services"
+    "cloud monitoring services",
+    "Qatar",
   ],
   openGraph: {
     title: "App Maintenance & Support Services | Secure, Reliable & Scalable Apps",

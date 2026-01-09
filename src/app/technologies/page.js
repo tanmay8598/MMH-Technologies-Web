@@ -26,7 +26,8 @@ export const metadata = {
         "AI Tools",
         "ML Tools",
         "Technology Stack",
-        "MMH Technologies"
+        "MMH Technologies",
+        "Qatar",
     ],
     openGraph: {
         title: "Technology Stack | MMH Technologies",

@@ -17,7 +17,8 @@ export const metadata = {
     "mobile app development services",
     "single codebase apps",
     "custom cross-platform apps",
-    "cost-effective mobile development"
+    "cost-effective mobile development",
+    "Qatar",
   ],
   openGraph: {
     title: "Cross-Platform App Development Services | React Native & Flutter",

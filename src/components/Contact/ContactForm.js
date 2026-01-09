@@ -1,5 +1,7 @@
 "use client";
-import { useState } from "react";
+
+import { useRef, useState } from "react";
+import emailjs from "@emailjs/browser"; 
 import InputField from "@/components/UI/InputField";
 import Button from "@/components/UI/Button";
 
@@ -11,13 +13,16 @@ export default function ContactForm() {
         message: "",
     });
 
+    const form = useRef()
+
     const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false);
     const [success, setSuccess] = useState("");
 
     const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-        setErrors({ ...errors, [e.target.name]: "" });
+        const { name, value } = e.target
+        setFormData({ ...formData, [name]: value });
+        setErrors({ ...errors, [name]: "" });
     };
 
     const validate = () => {
@@ -52,16 +57,19 @@ export default function ContactForm() {
         try {
             setLoading(true);
 
-            const res = await fetch("/api/contact", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify(formData),
-            });
+            // Send form using EmailJS
+            await emailjs.sendForm(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+                form.current,
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+            );
 
             if (!res.ok) throw new Error("Something went wrong");
-
+            console.log("Submitted")
             setSuccess("Your message has been sent successfully ✨");
             setFormData({ name: "", email: "", message: "" });
+            form.current.reset();
         } catch (err) {
             setErrors({ api: "Failed to send message. Please try again." });
         } finally {

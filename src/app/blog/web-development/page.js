@@ -21,6 +21,7 @@ export const metadata = {
     "web performance optimization",
     "technical SEO",
     "secure web applications",
+    "Qatar",
   ],
 
   openGraph: {

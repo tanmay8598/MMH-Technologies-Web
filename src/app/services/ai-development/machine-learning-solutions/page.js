@@ -19,7 +19,8 @@ export const metadata = {
     "AI Integration",
     " ",
     "Predictive Models",
-    "Data-Driven Decisions"
+    "Data-Driven Decisions",
+    "Qatar",
   ],
   openGraph: {
     title: "Machine Learning Solutions | MMH Technologies",

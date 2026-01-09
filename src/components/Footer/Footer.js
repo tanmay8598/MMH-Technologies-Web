@@ -72,8 +72,9 @@ export default function Footer() {
                             <Image
                                 src="/images/logo.webp"
                                 alt="MMH Technologies"
-                                width={90}
-                                height={90}
+                                width={85}
+                                height={85}
+                                className="w-16 h-16 sm:w-20 sm:h-20 md:w-[85px] md:h-[85px]"
                             />
 
                         </Link>

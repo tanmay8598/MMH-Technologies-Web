@@ -18,6 +18,7 @@ export const metadata = {
     "AI development",
     "cloud and devops services",
     "MMH Technologies",
+    "Qatar",
   ],
 
   openGraph: {

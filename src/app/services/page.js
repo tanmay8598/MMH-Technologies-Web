@@ -18,6 +18,7 @@ export const metadata = {
         "Custom Software",
         "Web Development",
         "Mobile App Development",
+        "Qatar",
     ],
     openGraph: {
         title: "Our Services | MMH Technologies",
