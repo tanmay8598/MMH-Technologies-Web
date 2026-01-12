@@ -6,9 +6,9 @@ import { FaBrain, FaServer, FaDatabase, FaRocket, FaShieldAlt, FaUsers, FaLayerG
 import { SiTensorflow, SiScikitlearn } from "react-icons/si";
 
 export const metadata = {
-  title: "Machine Learning Solutions | MMH Technologies",
+  title: "Machine Learning Solutions in Qatar | MMH Technologies",
   description:
-    "Leverage machine learning to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
+    "Leverage machine learning with MMH Technologies for Qatar and global clients to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
   keywords: [
     "Machine Learning",
     "ML Models",
@@ -23,9 +23,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Machine Learning Solutions | MMH Technologies",
+    title: "Machine Learning Solutions in Qatar | MMH Technologies",
     description:
-      "Leverage machine learning to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
+      "Leverage machine learning with MMH Technologies for Qatar and global clients to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
     url: "https://www.mmhtechnologies.com/services/ai-development/machine-learning-solutions",
     siteName: "MMH Technologies",
     type: "website",

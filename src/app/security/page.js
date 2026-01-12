@@ -5,9 +5,9 @@ import PageHero from "@/components/UI/PageHero";
 import { FaShieldAlt, FaFileContract, FaLock } from "react-icons/fa";
 
 export const metadata = {
-    title: "Security Services | MMH Technologies",
+    title: "Security Services in Qatar | MMH Technologies",
     description:
-        "MMH Technologies ensures robust security across your digital platforms, offering Data Security Standards, Compliance (GDPR, ISO), and Secure App Development.",
+        "MMH Technologies provides robust security services for Qatar and global clients, including data security standards, compliance (GDPR, ISO), and secure mobile and web application development.",
     keywords: [
         "MMH Technologies Security",
         "Data Security Standards",
@@ -19,9 +19,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Security Services | MMH Technologies",
+        title: "Security Services in Qatar | MMH Technologies",
         description:
-            "MMH Technologies ensures robust security across your digital platforms, offering Data Security Standards, Compliance (GDPR, ISO), and Secure App Development.",
+            "MMH Technologies provides robust security services for Qatar and global clients, including data security standards, compliance (GDPR, ISO), and secure mobile and web application development.",
         url: "https://www.mmhtechnologies.com/security",
         siteName: "MMH Technologies",
         // images: [

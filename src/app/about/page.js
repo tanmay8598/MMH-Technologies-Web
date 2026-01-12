@@ -5,9 +5,9 @@ import CTACard from "@/components/Cards/CTACard";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
-    title: "About MMH Technologies | Web & Software Development Company",
+    title: "About MMH Technologies | Web & Software Development Company in Qatar",
     description:
-        "Learn about MMH Technologies — a Canada-based IT solutions company delivering enterprise-level web, mobile app, AI, cloud and software development services worldwide.",
+        "Learn about MMH Technologies — a Canada-based IT solutions company serving Qatar and global clients with enterprise-level web, mobile app, AI, cloud, and software development services.",
 
     keywords: [
         "about MMH Technologies",
@@ -22,7 +22,7 @@ export const metadata = {
     openGraph: {
         title: "About MMH Technologies | Web & Software Development Company",
         description:
-            "Learn about MMH Technologies — a Canada-based IT solutions company delivering enterprise-level web, mobile app, AI, cloud and software development services worldwide.",
+            "Learn about MMH Technologies — a Canada-based IT solutions company serving Qatar and global clients with enterprise-level web, mobile app, AI, cloud, and software development services.",
         url: "https://mmhtechnologies.com/about",
         siteName: "MMH Technologies",
         // images: [

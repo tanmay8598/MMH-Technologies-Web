@@ -5,9 +5,9 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 
 export const metadata = {
-    title: "Web Development Services | MMH Technologies",
+    title: "Web Development Services in Qatar | MMH Technologies",
     description:
-        "Custom web development services by MMH Technologies. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps for your business growth.",
+        "Custom web development services with MMH Technologies for Qatar and global clients. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps to drive your business growth.",
     keywords: [
         "Web Development",
         "Frontend Development",
@@ -21,9 +21,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Web Development Services | MMH Technologies",
+        title: "Web Development Services in Qatar | MMH Technologies",
         description:
-            "Custom web development services by MMH Technologies. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps for your business growth.",
+            "Custom web development services with MMH Technologies for Qatar and global clients. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps to drive your business growth.",
         url: "https://www.mmhtechnologies.com/services/web-development",
         siteName: "MMH Technologies",
         type: "website",

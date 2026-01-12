@@ -6,9 +6,9 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
-    title: "AI Development Services | AI-Powered Apps, ML Solutions | MMH Technologies",
+    title: "AI Development Services in Qatar | AI-Powered Apps & ML Solutions – MMH Technologies",
     description:
-        "Harness the power of Artificial Intelligence with MMH Technologies. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
+        "Harness the power of Artificial Intelligence with MMH Technologies for Qatar and global clients. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
     keywords: [
         "AI Development",
         "Artificial Intelligence",
@@ -22,9 +22,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "AI Development Services | AI-Powered Apps, ML Solutions | MMH Technologies",
+        title: "AI Development Services in Qatar | AI-Powered Apps & ML Solutions – MMH Technologies",
         description:
-            "Harness the power of Artificial Intelligence with MMH Technologies. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
+            "Harness the power of Artificial Intelligence with MMH Technologies for Qatar and global clients. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
         url: "https://www.mmhtechnologies.com/services/ai-development",
         siteName: "MMH Technologies",
         type: "website",

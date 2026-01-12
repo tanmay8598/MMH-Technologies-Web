@@ -12,7 +12,7 @@ import Card from "@/components/Cards/Card";
 export const metadata = {
   title: "Data Security Blog | MMH Technologies",
   description:
-    "Learn the core principles, best practices, and strategies behind modern data security, protecting information and building trust.",
+    "Learn the core principles, best practices, and strategies behind modern data security for Qatar-based and global organizations, protecting information and building digital trust.",
   keywords: [
     "Data Security",
     "Cybersecurity",
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "Data Security Blog | MMH Technologies",
     description:
-      "Learn the core principles, best practices, and strategies behind modern data security, protecting information and building trust.",
+      "Learn the core principles, best practices, and strategies behind modern data security for Qatar-based and global organizations, protecting information and building digital trust.",
     url: "https://www.mmhtechnologies.com/blog/data-security",
     siteName: "MMH Technologies",
     // images: [

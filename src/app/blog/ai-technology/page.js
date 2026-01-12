@@ -12,7 +12,7 @@ import Card from "@/components/Cards/Card";
 export const metadata = {
   title: "AI Technology Blog | MMH Technologies",
   description:
-    "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for real-world impact.",
+    "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for Qatar-based and global organizations, driving real-world impact.",
   keywords: [
     "Artificial Intelligence",
     "AI Technology",
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "AI Technology Blog | MMH Technologies",
     description:
-      "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for real-world impact.",
+      "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for Qatar-based and global organizations, driving real-world impact.",
     url: "https://www.mmhtechnologies.com/blog/ai-technology",
     siteName: "MMH Technologies",
     // images: [

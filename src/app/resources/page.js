@@ -7,7 +7,7 @@ import { FaBook, FaFileAlt, FaQuestionCircle } from "react-icons/fa";
 export const metadata = {
     title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
     description:
-        "Explore MMH Technologies resources including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
+        "Explore MMH Technologies resources for Qatar and global audiences, including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
     keywords: [
         "technology resources",
         "software development guides",
@@ -21,7 +21,7 @@ export const metadata = {
     openGraph: {
         title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
         description:
-            "Explore MMH Technologies resources including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
+            "Explore MMH Technologies resources for Qatar and global audiences, including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
         type: "website",
     },
     // twitter: {

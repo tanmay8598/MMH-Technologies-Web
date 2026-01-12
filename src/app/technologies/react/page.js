@@ -5,9 +5,9 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
-  title: "React Development Services | MMH Technologies",
+  title: "React Development Services in Qatar | MMH Technologies",
   description:
-    "Build fast, scalable, and interactive web applications with React. MMH Technologies leverages component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
+    "Build fast, scalable, and interactive web applications with React through MMH Technologies for Qatar and global clients. Leverage component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
   keywords: [
     "React",
     "React Development",
@@ -22,9 +22,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "React Development Services | MMH Technologies",
+    title: "React Development Services in Qatar | MMH Technologies",
     description:
-      "Build fast, scalable, and interactive web applications with React. MMH Technologies leverages component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
+      "Build fast, scalable, and interactive web applications with React through MMH Technologies for Qatar and global clients. Leverage component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
     url: "https://www.mmhtechnologies.com/technologies/react",
     siteName: "MMH Technologies",
     type: "website",

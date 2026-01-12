@@ -1,7 +1,7 @@
 export const metadata = {
     title: "FAQs | Security, Compliance & App Development Questions",
     description:
-        "Find answers to frequently asked questions about application security, GDPR compliance, ISO standards, secure APIs, and mobile app development best practices.",
+        "Find answers to frequently asked questions for Qatar-based and global users about application security, GDPR compliance, ISO standards, secure APIs, and mobile app development best practices.",
     keywords: [
         "security FAQs",
         "GDPR compliance questions",
@@ -15,7 +15,7 @@ export const metadata = {
     openGraph: {
         title: "FAQs | Security, Compliance & App Development Questions",
         description:
-            "Find answers to frequently asked questions about application security, GDPR compliance, ISO standards, secure APIs, and mobile app development best practices.",
+            "Find answers to frequently asked questions for Qatar-based and global users about application security, GDPR compliance, ISO standards, secure APIs, and mobile app development best practices.",
         type: "website",
     },
     // twitter: {

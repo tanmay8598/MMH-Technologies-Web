@@ -13,9 +13,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
-  title: "Next.js Development Services | MMH Technologies",
+  title: "Next.js Development Services in Qatar | MMH Technologies",
   description:
-    "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js. MMH Technologies leverages server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
+    "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js through MMH Technologies for Qatar and global clients. Leverage server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
   keywords: [
     "Next.js",
     "Next.js Development",
@@ -29,9 +29,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Next.js Development Services | MMH Technologies",
+    title: "Next.js Development Services in Qatar | MMH Technologies",
     description:
-      "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js. MMH Technologies leverages server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
+      "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js through MMH Technologies for Qatar and global clients. Leverage server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
     url: "https://www.mmhtechnologies.com/technologies/nextjs",
     siteName: "MMH Technologies",
     type: "website",

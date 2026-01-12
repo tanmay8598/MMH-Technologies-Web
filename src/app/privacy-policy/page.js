@@ -6,7 +6,7 @@ import PageHero from "@/components/UI/PageHero";
 export const metadata = {
     title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
     description:
-        "Read our Privacy Policy to understand how we collect, use, store, and protect your personal data. We ensure transparency, security, and compliance with data protection laws.",
+        "Read our Privacy Policy to understand how MMH Technologies collects, uses, stores, and protects personal data for users in Qatar and globally, ensuring transparency, security, and compliance with data protection laws.",
     keywords: [
         "privacy policy",
         "data protection",
@@ -22,7 +22,7 @@ export const metadata = {
     openGraph: {
         title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
         description:
-            "Read our Privacy Policy to understand how we collect, use, store, and protect your personal data. We ensure transparency, security, and compliance with data protection laws.",
+            "Read our Privacy Policy to understand how MMH Technologies collects, uses, stores, and protects personal data for users in Qatar and globally, ensuring transparency, security, and compliance with data protection laws.",
         type: "website",
     },
     // twitter: {

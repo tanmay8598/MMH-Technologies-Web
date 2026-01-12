@@ -17,9 +17,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
-    title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+    title: "Cloud Platforms: AWS, Azure, GCP in Qatar | MMH Technologies",
     description:
-        "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+        "Leverage the power of cloud computing with AWS, Azure, and Google Cloud through MMH Technologies for Qatar and global clients. We provide scalable, secure, and cost-efficient cloud solutions for modern businesses.",
     keywords: [
         "Cloud Platforms",
         "AWS",
@@ -34,9 +34,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Cloud Platforms: AWS, Azure, GCP | MMH Technologies",
+        title: "Cloud Platforms: AWS, Azure, GCP in Qatar | MMH Technologies",
         description:
-            "Leverage the power of cloud computing with AWS, Azure, and Google Cloud. MMH Technologies provides scalable, secure, and cost-efficient cloud solutions for modern businesses.",
+            "Leverage the power of cloud computing with AWS, Azure, and Google Cloud through MMH Technologies for Qatar and global clients. We provide scalable, secure, and cost-efficient cloud solutions for modern businesses.",
         url: "https://www.mmhtechnologies.com/technologies/cloud-platforms",
         siteName: "MMH Technologies",
         type: "website",

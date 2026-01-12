@@ -10,9 +10,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
 export const metadata = {
-  title: "Modern Web Development | Architecture, Performance & SEO",
+  title: "Modern Web Development in Qatar | Architecture, Performance & SEO",
   description:
-    "Explore modern web development principles including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
+    "Explore modern web development principles for Qatar-based and global businesses, including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
 
   keywords: [
     "modern web development",
@@ -25,9 +25,9 @@ export const metadata = {
   ],
 
   openGraph: {
-    title: "Modern Web Development | Architecture, Performance & SEO",
+    title: "Modern Web Development in Qatar | Architecture, Performance & SEO",
     description:
-      "Explore modern web development principles including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
+      "Explore modern web development principles for Qatar-based and global businesses, including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
     url: "https://mmhtechnologies.com/blog/web-development",
     siteName: "MMH Technologies",
     // images: [

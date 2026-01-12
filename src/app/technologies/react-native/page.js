@@ -5,9 +5,9 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
-  title: "React Native Development Services | MMH Technologies",
+  title: "React Native Development Services in Qatar | MMH Technologies",
   description:
-    "Build high-performance, cross-platform mobile apps with React Native. MMH Technologies leverages reusable components, native modules, and a single codebase for iOS and Android to deliver fast and cost-effective mobile solutions.",
+    "Build high-performance, cross-platform mobile apps with React Native through MMH Technologies for Qatar and global clients. Leverage reusable components, native modules, and a single codebase for iOS and Android to deliver fast and cost-effective mobile solutions.",
   keywords: [
     "React Native",
     "React Native Development",
@@ -21,9 +21,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "React Native Development Services | MMH Technologies",
+    title: "React Native Development Services in Qatar | MMH Technologies",
     description:
-      "Build high-performance, cross-platform mobile apps with React Native. MMH Technologies leverages reusable components, native modules, and a single codebase for iOS and Android to deliver fast and cost-effective mobile solutions.",
+      "Build high-performance, cross-platform mobile apps with React Native through MMH Technologies for Qatar and global clients. Leverage reusable components, native modules, and a single codebase for iOS and Android to deliver fast and cost-effective mobile solutions.",
     url: "https://www.mmhtechnologies.com/technologies/react-native",
     siteName: "MMH Technologies",
     type: "website",

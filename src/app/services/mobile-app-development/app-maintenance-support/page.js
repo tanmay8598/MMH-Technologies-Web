@@ -5,9 +5,9 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaBug, FaTools, FaServer, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud } from "react-icons/fa";
 
 export const metadata = {
-  title: "App Maintenance & Support Services | Secure, Reliable & Scalable Apps",
+  title: "App Maintenance & Support Services in Qatar | Secure, Reliable & Scalable Apps",
   description:
-    "Professional app maintenance and support services including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
+    "Professional app maintenance and support services with MMH Technologies for Qatar and global clients, including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
   keywords: [
     "app maintenance services",
     "application support services",
@@ -21,9 +21,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "App Maintenance & Support Services | Secure, Reliable & Scalable Apps",
+    title: "App Maintenance & Support Services in Qatar | Secure, Reliable & Scalable Apps",
     description:
-      "Professional app maintenance and support services including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
+      "Professional app maintenance and support services with MMH Technologies for Qatar and global clients, including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
     type: "website",
   },
   // twitter: {

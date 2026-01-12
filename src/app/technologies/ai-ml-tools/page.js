@@ -20,9 +20,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
-  title: "AI & ML Tools | MMH Technologies",
+  title: "AI & ML Tools in Qatar | MMH Technologies",
   description:
-    "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python. MMH Technologies helps businesses leverage AI for predictive analytics, automation, and smarter decision-making.",
+    "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python with MMH Technologies for Qatar and global clients. Leverage AI for predictive analytics, automation, and smarter decision-making.",
   keywords: [
     "AI Tools",
     "Machine Learning",
@@ -37,9 +37,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "AI & ML Tools | MMH Technologies",
+    title: "AI & ML Tools in Qatar | MMH Technologies",
     description:
-      "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python. MMH Technologies helps businesses leverage AI for predictive analytics, automation, and smarter decision-making.",
+      "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python with MMH Technologies for Qatar and global clients. Leverage AI for predictive analytics, automation, and smarter decision-making.",
     url: "https://www.mmhtechnologies.com/technologies/ai-ml-tools",
     siteName: "MMH Technologies",
     type: "website",

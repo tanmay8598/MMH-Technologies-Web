@@ -12,7 +12,7 @@ import Card from "@/components/Cards/Card";
 export const metadata = {
   title: "Mobile App Development Blog | MMH Technologies",
   description:
-    "Explore the core principles, architecture, and best practices behind successful mobile applications in today's ecosystem.",
+    "Explore the core principles, architecture, and best practices behind successful mobile applications for Qatar-based and global businesses in today’s ecosystem.",
   keywords: [
     "Mobile App Development",
     "Mobile Engineering",
@@ -25,7 +25,7 @@ export const metadata = {
   openGraph: {
     title: "Mobile App Development Blog | MMH Technologies",
     description:
-      "Explore the core principles, architecture, and best practices behind successful mobile applications in today's ecosystem.",
+      "Explore the core principles, architecture, and best practices behind successful mobile applications for Qatar-based and global businesses in today’s ecosystem.",
     url: "https://www.mmhtechnologies.com/blog/mobile-app-development",
     siteName: "MMH Technologies",
     // images: [

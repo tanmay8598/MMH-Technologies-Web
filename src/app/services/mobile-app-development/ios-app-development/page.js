@@ -5,9 +5,9 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaApple, FaSwift, FaCode, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers } from "react-icons/fa";
 
 export const metadata = {
-  title: "iOS App Development Services | Native Swift & SwiftUI Apps",
+  title: "iOS App Development Services in Qatar | Native Swift & SwiftUI Apps",
   description:
-    "Professional iOS app development services using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
+    "Professional iOS app development services with MMH Technologies for Qatar and global clients using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
   keywords: [
     "iOS app development",
     "Swift app development",
@@ -20,9 +20,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "iOS App Development Services | Native Swift & SwiftUI Apps",
+    title: "iOS App Development Services in Qatar | Native Swift & SwiftUI Apps",
     description:
-      "Professional iOS app development services using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
+      "Professional iOS app development services with MMH Technologies for Qatar and global clients using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
     type: "website",
   },
   // twitter: {

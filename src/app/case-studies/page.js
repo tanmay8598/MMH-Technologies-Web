@@ -5,7 +5,7 @@ import Link from "next/link";
 export const metadata = {
     title: "Our Projects | MMH Technologies Portfolio",
     description:
-        "Explore MMH Technologies' diverse portfolio of web, mobile, and enterprise projects. See how we deliver innovative, scalable, and user-friendly solutions for our clients.",
+        "Explore MMH Technologies’ diverse portfolio of web, mobile, and enterprise projects for Qatar and global clients. See how we deliver innovative, scalable, and user-friendly digital solutions.",
     keywords: [
         "MMH Technologies Projects",
         "Portfolio",
@@ -19,7 +19,7 @@ export const metadata = {
     openGraph: {
         title: "Our Projects | MMH Technologies Portfolio",
         description:
-            "Explore MMH Technologies' diverse portfolio of web, mobile, and enterprise projects. See how we deliver innovative, scalable, and user-friendly solutions for our clients.",
+            "Explore MMH Technologies’ diverse portfolio of web, mobile, and enterprise projects for Qatar and global clients. See how we deliver innovative, scalable, and user-friendly digital solutions.",
         url: "https://www.mmhtechnologies.com/projects",
         siteName: "MMH Technologies",
         // images: [

@@ -8,7 +8,7 @@ import { FaMobileAlt, FaLaptopCode, FaBrain, FaLock } from "react-icons/fa";
 export const metadata = {
     title: "MMH Technologies Blog | Behind the Code",
     description:
-        "Explore expert insights from MMH Technologies on web development, mobile apps, AI technology, data security and modern software engineering practices.",
+        "Explore expert insights from MMH Technologies for Qatar and global audiences on web development, mobile apps, AI technology, data security, and modern software engineering practices.",
 
     keywords: [
         "technology blog",
@@ -23,7 +23,7 @@ export const metadata = {
     openGraph: {
         title: "MMH Technologies Blog | Behind the Code",
         description:
-            "Explore expert insights from MMH Technologies on web development, mobile apps, AI technology, data security and modern software engineering practices.",
+            "Explore expert insights from MMH Technologies for Qatar and global audiences on web development, mobile apps, AI technology, data security, and modern software engineering practices.",
         url: "https://mmhtechnologies.com/blog",
         siteName: "MMH Technologies",
         // images: [

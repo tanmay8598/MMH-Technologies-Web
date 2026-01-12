@@ -6,7 +6,7 @@ import Button from '@/components/UI/Button';
 export const metadata = {
   title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
   description:
-    "Explore practical, step-by-step security guides covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
+    "Explore practical, step-by-step security guides for Qatar and global organizations, covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
   keywords: [
     "security guides",
     "GDPR implementation guide",
@@ -20,7 +20,7 @@ export const metadata = {
   openGraph: {
     title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
     description:
-      "Explore practical, step-by-step security guides covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
+      "Explore practical, step-by-step security guides for Qatar and global organizations, covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
     type: "website",
   },
   // twitter: {

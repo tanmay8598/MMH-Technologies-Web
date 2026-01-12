@@ -6,9 +6,9 @@ import { FaChartBar, FaChartLine, FaDatabase, FaRocket, FaShieldAlt, FaUsers, Fa
 import { SiMicrosoftpowerbi, SiTableau } from "react-icons/si";
 
 export const metadata = {
-  title: "Data Analytics & Predictive Models | MMH Technologies",
+  title: "Data Analytics & Predictive Models in Qatar | MMH Technologies",
   description:
-    "Leverage data analytics and predictive modeling with Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions with MMH Technologies.",
+    "Leverage data analytics and predictive modeling with MMH Technologies for Qatar and global clients using Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions.",
   keywords: [
     "Data Analytics",
     "Predictive Modeling",
@@ -23,9 +23,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Data Analytics & Predictive Models | MMH Technologies",
+    title: "Data Analytics & Predictive Models in Qatar | MMH Technologies",
     description:
-      "Leverage data analytics and predictive modeling with Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions with MMH Technologies.",
+      "Leverage data analytics and predictive modeling with MMH Technologies for Qatar and global clients using Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions.",
     url: "https://www.mmhtechnologies.com/services/ai-development/data-analytics-predictive-models",
     siteName: "MMH Technologies",
     type: "website",

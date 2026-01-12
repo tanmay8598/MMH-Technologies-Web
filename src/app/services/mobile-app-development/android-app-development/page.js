@@ -6,9 +6,9 @@ import { FaAndroid, FaJava, FaDatabase, FaRocket, FaPalette, FaLayerGroup, FaShi
 import { SiKotlin } from "react-icons/si";
 
 export const metadata = {
-  title: "Android App Development Services | Secure & Scalable Android Apps",
+  title: "Android App Development Services in Qatar | Secure & Scalable Android Apps",
   description:
-    "Professional Android app development services using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
+    "Professional Android app development services with MMH Technologies for Qatar and global clients using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
   keywords: [
     "android app development services",
     "android app developers",
@@ -22,9 +22,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Android App Development Services | Secure & Scalable Android Apps",
+    title: "Android App Development Services in Qatar | Secure & Scalable Android Apps",
     description:
-      "Professional Android app development services using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
+      "Professional Android app development services with MMH Technologies for Qatar and global clients using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
     type: "website",
   },
   // twitter: {

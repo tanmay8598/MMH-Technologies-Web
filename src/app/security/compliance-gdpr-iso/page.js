@@ -4,9 +4,9 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
-    title: "GDPR & ISO Compliance | MMH Technologies",
+    title: "GDPR & ISO Compliance in Qatar | MMH Technologies",
     description:
-        "Ensure GDPR and ISO compliance with MMH Technologies. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders worldwide.",
+        "Ensure GDPR and ISO compliance with MMH Technologies for Qatar-based and global organizations. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders.",
     keywords: [
         "GDPR Compliance",
         "ISO Compliance",
@@ -22,9 +22,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "GDPR & ISO Compliance | MMH Technologies",
+        title: "GDPR & ISO Compliance in Qatar | MMH Technologies",
         description:
-            "Ensure GDPR and ISO compliance with MMH Technologies. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders worldwide.",
+            "Ensure GDPR and ISO compliance with MMH Technologies for Qatar-based and global organizations. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders.",
         url: "https://www.mmhtechnologies.com/security/compliance-gdpr-iso",
         siteName: "MMH Technologies",
         // images: [

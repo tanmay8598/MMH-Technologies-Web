@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Careers at MMH Technologies | Join Our Team",
+  title: "Careers at MMH Technologies in Qatar | Join Our Team",
   description:
-    "Explore current job openings, company culture, and growth opportunities at MMH Technologies. Join us to build innovative products and grow your career.",
+    "Explore current job openings, company culture, and growth opportunities at MMH Technologies in Qatar and globally. Join us to build innovative products and grow your career.",
   keywords: [
     "MMH Technologies Careers",
     "Jobs at MMH Technologies",
@@ -13,9 +13,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Careers at MMH Technologies | Join Our Team",
+    title: "Careers at MMH Technologies in Qatar | Join Our Team",
     description:
-      "Explore current job openings, company culture, and growth opportunities at MMH Technologies. Join us to build innovative products and grow your career.",
+      "Explore current job openings, company culture, and growth opportunities at MMH Technologies in Qatar and globally. Join us to build innovative products and grow your career.",
     url: "https://www.mmhtechnologies.com/careers",
     siteName: "MMH Technologies",
     // images: [

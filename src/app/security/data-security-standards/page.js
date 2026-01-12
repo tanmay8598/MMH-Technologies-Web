@@ -4,9 +4,9 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
-    title: "Data Security Standards | MMH Technologies",
+    title: "Data Security Standards in Qatar | MMH Technologies",
     description:
-        "Implement global data security standards with MMH Technologies. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
+        "Implement global data security standards with MMH Technologies for Qatar and international clients. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
     keywords: [
         "Data Security Standards",
         "MMH Technologies",
@@ -21,9 +21,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Data Security Standards | MMH Technologies",
+        title: "Data Security Standards in Qatar | MMH Technologies",
         description:
-            "Implement global data security standards with MMH Technologies. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
+            "Implement global data security standards with MMH Technologies for Qatar and international clients. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
         url: "https://www.mmhtechnologies.com/security/data-security-standards",
         siteName: "MMH Technologies",
         // images: [

@@ -5,9 +5,9 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaMobile, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud, FaBolt, FaCode, FaLayerGroup, FaPalette, FaCheckCircle } from "react-icons/fa";
 
 export const metadata = {
-    title: "PWA Development Services | MMH Technologies",
+    title: "PWA Development Services in Qatar | MMH Technologies",
     description:
-        "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
+        "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies for Qatar and global clients. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
     keywords: [
         "Progressive Web App",
         "PWA Development",
@@ -21,9 +21,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "PWA Development Services | MMH Technologies",
+        title: "PWA Development Services in Qatar | MMH Technologies",
         description:
-            "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
+            "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies for Qatar and global clients. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
         url: "https://www.mmhtechnologies.com/services/web-development/progressive-web-apps",
         siteName: "MMH Technologies",
         // images: [

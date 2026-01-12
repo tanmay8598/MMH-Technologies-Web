@@ -6,9 +6,9 @@ import { FaBug, FaDesktop, FaRocket, FaShieldAlt, FaUsers, FaLayerGroup, FaCogs 
 import { SiSelenium, SiJest, SiCypress } from "react-icons/si";
 
 export const metadata = {
-  title: "QA Testing Services | MMH Technologies",
+  title: "QA Testing Services in Qatar | MMH Technologies",
   description:
-    "Ensure software quality, reliability, and performance with MMH Technologies QA Testing services. Automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
+    "Ensure software quality, reliability, and performance with MMH Technologies for Qatar and global clients. Our QA testing services include automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
   keywords: [
     "QA Testing",
     "Software Testing",
@@ -24,9 +24,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "QA Testing Services | MMH Technologies",
+    title: "QA Testing Services in Qatar | MMH Technologies",
     description:
-      "Ensure software quality, reliability, and performance with MMH Technologies QA Testing services. Automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
+      "Ensure software quality, reliability, and performance with MMH Technologies for Qatar and global clients. Our QA testing services include automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
     url: "https://www.mmhtechnologies.com/services/qa-testing",
     siteName: "MMH Technologies",
     // images: [

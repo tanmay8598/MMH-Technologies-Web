@@ -7,9 +7,9 @@ import { SiNextdotjs, SiDjango, SiSpring, SiVueDotJs } from "react-icons/si";
 
 
 export const metadata = {
-    title: "Full Stack Development Services | MMH Technologies",
+    title: "Full Stack Development Services in Qatar | MMH Technologies",
     description:
-        "Deliver modern, scalable, and secure full-stack applications with MMH Technologies. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
+        "Deliver modern, scalable, and secure full-stack applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
     keywords: [
         "Full Stack Development",
         "React.js Development",
@@ -26,9 +26,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Full Stack Development Services | MMH Technologies",
+        title: "Full Stack Development Services in Qatar | MMH Technologies",
         description:
-            "Deliver modern, scalable, and secure full-stack applications with MMH Technologies. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
+            "Deliver modern, scalable, and secure full-stack applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",
         url: "https://www.mmhtechnologies.com/full-stack-development",
         siteName: "MMH Technologies",
         // images: [

@@ -1,9 +1,9 @@
 import { FaCookie, FaShieldAlt, FaCog, FaChartLine, FaUserCog, FaInfoCircle } from 'react-icons/fa';
 
 export const metadata = {
-  title: "Cookie Policy | How We Use Cookies – MMH Technologies",
+  title: "Cookie Policy | MMH Technologies",
   description:
-    "Learn how MMH Technologies uses cookies, analytics, and similar technologies to improve website performance, security, and user experience.",
+    "Learn how MMH Technologies uses cookies, analytics, and similar technologies for users in Qatar and globally to improve website performance, security, and overall user experience.",
   keywords: [
     "cookie policy",
     "cookies usage",
@@ -15,9 +15,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Cookie Policy | How We Use Cookies – MMH Technologies",
+    title: "Cookie Policy | MMH Technologies",
     description:
-      "Learn how MMH Technologies uses cookies, analytics, and similar technologies to improve website performance, security, and user experience.",
+      "Learn how MMH Technologies uses cookies, analytics, and similar technologies for users in Qatar and globally to improve website performance, security, and overall user experience.",
     type: "website",
   },
   // twitter: {

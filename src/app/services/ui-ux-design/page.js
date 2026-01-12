@@ -6,9 +6,9 @@ import { FaFigma, FaPalette, FaUsers, FaLightbulb, FaRocket, FaLayerGroup, FaShi
 import { SiAdobe, SiSketch } from "react-icons/si";
 
 export const metadata = {
-  title: "UI/UX Design Services | MMH Technologies",
+  title: "UI/UX Design Services in Qatar | MMH Technologies",
   description:
-    "Craft intuitive, user-centered UI/UX designs with MMH Technologies. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
+    "Craft intuitive, user-centered UI/UX designs with MMH Technologies for Qatar and global clients. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
   keywords: [
     "UI Design",
     "UX Design",
@@ -24,9 +24,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "UI/UX Design Services | MMH Technologies",
+    title: "UI/UX Design Services in Qatar | MMH Technologies",
     description:
-      "Craft intuitive, user-centered UI/UX designs with MMH Technologies. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
+      "Craft intuitive, user-centered UI/UX designs with MMH Technologies for Qatar and global clients. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
     url: "https://www.mmhtechnologies.com/services/ui-ux-design",
     siteName: "MMH Technologies",
     // images: [

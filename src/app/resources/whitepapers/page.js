@@ -6,7 +6,7 @@ import Button from '@/components/UI/Button';
 export const metadata = {
   title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",
   description:
-    "Download in-depth whitepapers by MMH Technologies covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development.",
+    "Download in-depth whitepapers by MMH Technologies for Qatar and global audiences, covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development.",
   keywords: [
     "technology whitepapers",
     "cybersecurity whitepapers",
@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",
     description:
-      "Download in-depth whitepapers by MMH Technologies covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development..",
+      "Download in-depth whitepapers by MMH Technologies for Qatar and global audiences, covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development..",
     type: "website",
   },
   // twitter: {

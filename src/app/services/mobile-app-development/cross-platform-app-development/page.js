@@ -6,9 +6,9 @@ import { FaReact, FaMobileAlt, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, F
 import { SiFlutter } from "react-icons/si";
 
 export const metadata = {
-  title: "Cross-Platform App Development Services | React Native & Flutter",
+  title: "Cross-Platform App Development Services in Qatar | React Native & Flutter",
   description:
-    "Build high-quality cross-platform mobile apps using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
+    "Build high-quality cross-platform mobile apps with MMH Technologies for Qatar and global clients using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
   keywords: [
     "cross-platform app development",
     "React Native app development",
@@ -21,9 +21,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Cross-Platform App Development Services | React Native & Flutter",
+    title: "Cross-Platform App Development Services in Qatar | React Native & Flutter",
     description:
-      "Build high-quality cross-platform mobile apps using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
+      "Build high-quality cross-platform mobile apps with MMH Technologies for Qatar and global clients using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",
     type: "website",
   },
   // twitter: {

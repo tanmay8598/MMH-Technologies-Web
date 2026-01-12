@@ -4,9 +4,9 @@ import Services from "@/components/Home/Services";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
-    title: "Our Services | MMH Technologies",
+    title: "Our Services in Qatar | MMH Technologies",
     description:
-        "Explore MMH Technologies range of services including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",
+        "Explore MMH Technologies range of services for Qatar and global clients, including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",
     keywords: [
         "MMH Technologies",
         "Software Development Services",
@@ -21,9 +21,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Our Services | MMH Technologies",
+        title: "Our Services in Qatar | MMH Technologies",
         description:
-            "Explore MMH Technologies range of services including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",
+            "Explore MMH Technologies range of services for Qatar and global clients, including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",
         url: "https://www.mmhtechnologies.com/services",
         siteName: "MMH Technologies",
         // images: [

@@ -13,9 +13,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
-  title: "Node.js Development Services | MMH Technologies",
+  title: "Node.js Development Services in Qatar | MMH Technologies",
   description:
-    "Build fast, scalable, and real-time backend systems with Node.js. MMH Technologies leverages non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
+    "Build fast, scalable, and real-time backend systems with Node.js through MMH Technologies for Qatar and global clients. Leverage non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
   keywords: [
     "Node.js",
     "Node.js Development",
@@ -29,9 +29,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Node.js Development Services | MMH Technologies",
+    title: "Node.js Development Services in Qatar | MMH Technologies",
     description:
-      "Build fast, scalable, and real-time backend systems with Node.js. MMH Technologies leverages non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
+      "Build fast, scalable, and real-time backend systems with Node.js through MMH Technologies for Qatar and global clients. Leverage non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
     url: "https://www.mmhtechnologies.com/technologies/nodejs",
     siteName: "MMH Technologies",
     type: "website",

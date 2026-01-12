@@ -4,9 +4,9 @@ import ContactForm from "@/components/Contact/ContactForm";
 
 
 export const metadata = {
-  title: "Contact MMH Technologies | Get Free Consultation",
+  title: "Contact MMH Technologies in Qatar | Get Free Consultation",
   description:
-    "Contact MMH Technologies for web development, mobile app development, AI, cloud and software solutions. Get a free consultation and project estimation today.",
+    "Contact MMH Technologies in Qatar for web development, mobile app development, AI, cloud, and software solutions. Get a free consultation and project estimation today.",
 
   keywords: [
     "contact MMH Technologies",
@@ -19,9 +19,9 @@ export const metadata = {
   ],
 
   openGraph: {
-    title: "Contact MMH Technologies | Get Free Consultation",
+    title: "Contact MMH Technologies in Qatar | Get Free Consultation",
     description:
-      "Get in touch with MMH Technologies for premium web, mobile and software development services. Offices across Canada, MENA, India and Africa.",
+      "Contact MMH Technologies in Qatar for web development, mobile app development, AI, cloud, and software solutions. Get a free consultation and project estimation today.",
     url: "https://mmhtechnologies.com/contact",
     siteName: "MMH Technologies",
     // images: [

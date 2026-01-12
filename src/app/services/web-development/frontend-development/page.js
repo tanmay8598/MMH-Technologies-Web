@@ -7,9 +7,9 @@ import { FaReact, FaVuejs, FaAngular, FaMobile, FaRocket, FaPalette, FaCode, FaL
 import { SiNextdotjs } from "react-icons/si";
 
 export const metadata = {
-    title: "Frontend Development Services | MMH Technologies",
+    title: "Frontend Development Services in Qatar | MMH Technologies",
     description:
-        "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
+        "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
     keywords: [
         "Frontend Development",
         "React.js Development",
@@ -27,9 +27,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Frontend Development Services | MMH Technologies",
+        title: "Frontend Development Services in Qatar | MMH Technologies",
         description:
-            "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
+            "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
         url: "https://www.mmhtechnologies.com/frontend-development",
         siteName: "MMH Technologies",
         // images: [

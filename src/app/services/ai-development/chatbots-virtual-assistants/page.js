@@ -7,9 +7,9 @@ import { SiDialogflow, SiRasa } from "react-icons/si";
 
 
 export const metadata = {
-  title: "AI Chatbots & Virtual Assistants | MMH Technologies",
+  title: "AI Chatbots & Virtual Assistants in Qatar | MMH Technologies",
   description:
-    "Build AI-powered chatbots and virtual assistants using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences with MMH Technologies.",
+    "Build AI-powered chatbots and virtual assistants with MMH Technologies for Qatar and global clients using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences.",
   keywords: [
     "AI Chatbots",
     "Virtual Assistants",
@@ -24,9 +24,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "AI Chatbots & Virtual Assistants | MMH Technologies",
+    title: "AI Chatbots & Virtual Assistants in Qatar | MMH Technologies",
     description:
-      "Build AI-powered chatbots and virtual assistants using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences with MMH Technologies.",
+      "Build AI-powered chatbots and virtual assistants with MMH Technologies for Qatar and global clients using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences.",
     url: "https://www.mmhtechnologies.com/services/ai-development/chatbots-virtual-assistants",
     siteName: "MMH Technologies",
     type: "website",

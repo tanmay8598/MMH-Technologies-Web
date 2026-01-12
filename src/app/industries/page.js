@@ -7,9 +7,9 @@ import { MdRocketLaunch } from "react-icons/md";
 import { IoSchoolSharp } from "react-icons/io5";
 
 export const metadata = {
-    title: "Industries We Serve | MMH Technologies",
+    title: "Industries We Serve in Qatar | MMH Technologies",
     description:
-        "Discover how MMH Technologies delivers tailored digital solutions across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups. Expertise and innovation for your sector.",
+        "Discover how MMH Technologies delivers tailored digital solutions for Qatar and global businesses across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups, combining industry expertise with innovation.",
     keywords: [
         "MMH Technologies Industries",
         "Fintech Solutions",
@@ -23,9 +23,9 @@ export const metadata = {
         "Qatar",
     ],
     openGraph: {
-        title: "Industries We Serve | MMH Technologies",
+        title: "Industries We Serve in Qatar | MMH Technologies",
         description:
-            "Discover how MMH Technologies delivers tailored digital solutions across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups. Expertise and innovation for your sector.",
+            "Discover how MMH Technologies delivers tailored digital solutions for Qatar and global businesses across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups, combining industry expertise with innovation.",
         url: "https://www.mmhtechnologies.com/industries",
         siteName: "MMH Technologies",
         // images: [

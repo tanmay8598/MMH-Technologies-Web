@@ -1,19 +1,16 @@
 "use client";
 
-import { useRef, useState } from "react";
-import emailjs from "@emailjs/browser"; 
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import InputField from "@/components/UI/InputField";
 import Button from "@/components/UI/Button";
 
 export default function ContactForm() {
-
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         message: "",
     });
-
-    const form = useRef()
 
     const [errors, setErrors] = useState({});
     const [loading, setLoading] = useState(false);
@@ -34,9 +31,7 @@ export default function ContactForm() {
 
         if (!email.trim()) {
             errors.email = "Email is required";
-        } else if (
-            !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
-        ) {
+        } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
             errors.email = "Enter a valid email address";
         }
 
@@ -51,26 +46,41 @@ export default function ContactForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setSuccess("");
-
         if (!validate()) return;
+
+        const templateParams = {
+            name: `${formData.name}`.trim(),
+            email: formData.email,
+            message: formData.message,
+            to_name: "MMH Technologies",
+            // date: new Date().toLocaleDateString("en-IN", {
+            //     weekday: "long",
+            //     year: "numeric",
+            //     month: "long",
+            //     day: "numeric",
+            //     hour: "2-digit",
+            //     minute: "2-digit",
+            // }),
+        };
 
         try {
             setLoading(true);
-
-            // Send form using EmailJS
-            await emailjs.sendForm(
+            await emailjs.send(
                 process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
                 process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-                form.current,
+                templateParams,
                 process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
             );
 
-            if (!res.ok) throw new Error("Something went wrong");
-            console.log("Submitted")
-            setSuccess("Your message has been sent successfully ✨");
-            setFormData({ name: "", email: "", message: "" });
-            form.current.reset();
-        } catch (err) {
+            // console.log("Email sent successfully!", response);
+            setSuccess("Your message has been sent successfully! We'll get back to you soon.");
+            setFormData({
+                name: "",
+                email: "",
+                message: "",
+            });
+        } catch (error) {
+            console.error("Error sending email:", error);
             setErrors({ api: "Failed to send message. Please try again." });
         } finally {
             setLoading(false);

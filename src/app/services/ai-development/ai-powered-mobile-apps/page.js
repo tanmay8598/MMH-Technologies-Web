@@ -5,9 +5,9 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaRobot, FaMobileAlt, FaBrain, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers } from "react-icons/fa";
 
 export const metadata = {
-  title: "AI-Powered Mobile Apps | Smart, Predictive & Personalized Apps | MMH Technologies",
+  title: "AI-Powered Mobile Apps in Qatar | Smart, Predictive & Personalized Apps – MMH Technologies",
   description:
-    "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit. Deliver personalized experiences, predictive features, and smarter user interactions with MMH Technologies.",
+    "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit with MMH Technologies for Qatar and global clients. Deliver personalized experiences, predictive features, and smarter user interactions.",
   keywords: [
     "AI Mobile Apps",
     "Artificial Intelligence",
@@ -22,9 +22,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "AI-Powered Mobile Apps | Smart, Predictive & Personalized Apps | MMH Technologies",
+    title: "AI-Powered Mobile Apps in Qatar | Smart, Predictive & Personalized Apps – MMH Technologies",
     description:
-      "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit. Deliver personalized experiences, predictive features, and smarter user interactions with MMH Technologies.",
+      "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit with MMH Technologies for Qatar and global clients. Deliver personalized experiences, predictive features, and smarter user interactions.",
     url: "https://www.mmhtechnologies.com/services/ai-development/ai-powered-mobile-apps",
     siteName: "MMH Technologies",
     type: "website",

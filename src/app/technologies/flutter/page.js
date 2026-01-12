@@ -12,9 +12,9 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
-  title: "Flutter App Development | MMH Technologies",
+  title: "Flutter App Development in Qatar | MMH Technologies",
   description:
-    "Build high-performance, cross-platform applications with Flutter. MMH Technologies delivers fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
+    "Build high-performance, cross-platform applications with Flutter through MMH Technologies for Qatar and global clients. Deliver fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
   keywords: [
     "Flutter",
     "Flutter App Development",
@@ -29,9 +29,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Flutter App Development | MMH Technologies",
+    title: "Flutter App Development in Qatar | MMH Technologies",
     description:
-      "Build high-performance, cross-platform applications with Flutter. MMH Technologies delivers fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
+      "Build high-performance, cross-platform applications with Flutter through MMH Technologies for Qatar and global clients. Deliver fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
     url: "https://www.mmhtechnologies.com/technologies/flutter",
     siteName: "MMH Technologies",
     type: "website",

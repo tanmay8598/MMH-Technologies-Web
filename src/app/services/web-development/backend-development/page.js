@@ -6,9 +6,9 @@ import { FaNodeJs, FaPython, FaDatabase, FaServer, FaShieldAlt, FaCogs, FaRocket
 import { SiDjango, SiSpring } from "react-icons/si";
 
 export const metadata = {
-  title: "Backend Development Services | MMH Technologies",
+  title: "Backend Development Services in Qatar | MMH Technologies",
   description:
-    "Build scalable, secure, and high-performance backend systems with MMH Technologies. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
+    "Build scalable, secure, and high-performance backend systems with MMH Technologies for Qatar and global clients. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
   keywords: [
     "Backend Development",
     "Node.js Development",
@@ -24,9 +24,9 @@ export const metadata = {
     "Qatar",
   ],
   openGraph: {
-    title: "Backend Development Services | MMH Technologies",
+    title: "Backend Development Services in Qatar | MMH Technologies",
     description:
-      "Build scalable, secure, and high-performance backend systems with MMH Technologies. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
+      "Build scalable, secure, and high-performance backend systems with MMH Technologies for Qatar and global clients. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
     url: "https://www.mmhtechnologies.com/backend-development",
     siteName: "MMH Technologies",
     // images: [
