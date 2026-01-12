@@ -36,8 +36,8 @@ export default function Services({
                             href={service.href}
                             icon={service.icon}
                             heading={service.name}
-                            description={service.description}
-                            className={"min-h-130 md:min-h-170 xl:min-h-140"}
+                            description={service.description.slice(0, 200) + "..."}
+                            className={"md:min-h-118"}
                             isShadow={false}
                         />
                     </ScrollReveal>
