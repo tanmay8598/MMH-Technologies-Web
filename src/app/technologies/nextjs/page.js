@@ -32,7 +32,7 @@ export const metadata = {
     title: "Next.js Development Services in Qatar | MMH Technologies",
     description:
       "Build blazing-fast, SEO-optimized, and scalable web applications with Next.js through MMH Technologies for Qatar and global clients. Leverage server-side rendering, static generation, and full-stack capabilities to deliver high-performance React applications.",
-    url: "https://www.mmhtechnologies.com/technologies/nextjs",
+    url: "https://www.mmhtechnologies.qa/technologies/nextjs",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

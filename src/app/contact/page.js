@@ -22,7 +22,7 @@ export const metadata = {
     title: "Contact MMH Technologies in Qatar | Get Free Consultation",
     description:
       "Contact MMH Technologies in Qatar for web development, mobile app development, AI, cloud, and software solutions. Get a free consultation and project estimation today.",
-    url: "https://mmhtechnologies.com/contact",
+    url: "https://mmhtechnologies.qa/contact",
     siteName: "MMH Technologies",
     // images: [
     //   {

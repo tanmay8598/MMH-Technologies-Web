@@ -30,7 +30,7 @@ export const metadata = {
         title: "Frontend Development Services in Qatar | MMH Technologies",
         description:
             "Deliver dynamic, scalable, and visually stunning frontend applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Vue.js, Angular, UI/UX, performance optimization, and accessibility.",
-        url: "https://www.mmhtechnologies.com/frontend-development",
+        url: "https://www.mmhtechnologies.qa/services/web-development/frontend-development",
         siteName: "MMH Technologies",
         // images: [
         //     {

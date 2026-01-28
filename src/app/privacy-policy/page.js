@@ -18,11 +18,13 @@ export const metadata = {
         "information security",
         "Qatar",
     ],
-    
+
     openGraph: {
         title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
         description:
             "Read our Privacy Policy to understand how MMH Technologies collects, uses, stores, and protects personal data for users in Qatar and globally, ensuring transparency, security, and compliance with data protection laws.",
+        url: "https://www.mmhtechnologies.qa/privacy-policy",
+        siteName: "MMH Technologies",
         type: "website",
     },
     // twitter: {

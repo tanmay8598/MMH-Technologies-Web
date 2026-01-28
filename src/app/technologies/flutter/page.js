@@ -32,7 +32,7 @@ export const metadata = {
     title: "Flutter App Development in Qatar | MMH Technologies",
     description:
       "Build high-performance, cross-platform applications with Flutter through MMH Technologies for Qatar and global clients. Deliver fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",
-    url: "https://www.mmhtechnologies.com/technologies/flutter",
+    url: "https://www.mmhtechnologies.qa/technologies/flutter",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

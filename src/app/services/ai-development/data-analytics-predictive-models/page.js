@@ -26,7 +26,7 @@ export const metadata = {
     title: "Data Analytics & Predictive Models in Qatar | MMH Technologies",
     description:
       "Leverage data analytics and predictive modeling with MMH Technologies for Qatar and global clients using Power BI, Tableau, and advanced analytics. Unlock insights, optimize processes, and make smarter, data-driven business decisions.",
-    url: "https://www.mmhtechnologies.com/services/ai-development/data-analytics-predictive-models",
+    url: "https://www.mmhtechnologies.qa/services/ai-development/data-analytics-predictive-models",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

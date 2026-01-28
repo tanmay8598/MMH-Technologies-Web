@@ -24,6 +24,8 @@ export const metadata = {
     title: "App Maintenance & Support Services in Qatar | Secure, Reliable & Scalable Apps",
     description:
       "Professional app maintenance and support services with MMH Technologies for Qatar and global clients, including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",
+    url: "https://www.mmhtechnologies.qa/services/mobile-app-development/app-maintenance-support",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

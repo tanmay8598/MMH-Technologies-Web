@@ -33,7 +33,7 @@ export const metadata = {
         title: "Technology Stack | MMH Technologies",
         description:
             "Explore the cutting-edge technologies used by MMH Technologies for Qatar and global clients to build fast, secure, and scalable web and mobile applications. From Next.js, React, Node.js, Flutter, cloud platforms, to AI & ML tools, we leverage the best frameworks for optimal performance.",
-        url: "https://www.mmhtechnologies.com/technologies",
+        url: "https://www.mmhtechnologies.qa/technologies",
         siteName: "MMH Technologies",
         type: "website",
         // images: [

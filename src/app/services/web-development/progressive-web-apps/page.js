@@ -24,7 +24,7 @@ export const metadata = {
         title: "PWA Development Services in Qatar | MMH Technologies",
         description:
             "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies for Qatar and global clients. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",
-        url: "https://www.mmhtechnologies.com/services/web-development/progressive-web-apps",
+        url: "https://www.mmhtechnologies.qa/services/web-development/progressive-web-apps",
         siteName: "MMH Technologies",
         // images: [
         //     {

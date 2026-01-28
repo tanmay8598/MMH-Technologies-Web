@@ -24,7 +24,7 @@ export const metadata = {
         title: "Our Services in Qatar | MMH Technologies",
         description:
             "Explore MMH Technologies range of services for Qatar and global clients, including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",
-        url: "https://www.mmhtechnologies.com/services",
+        url: "https://www.mmhtechnologies.qa/services",
         siteName: "MMH Technologies",
         // images: [
         //     {

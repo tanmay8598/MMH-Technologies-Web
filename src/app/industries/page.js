@@ -26,7 +26,7 @@ export const metadata = {
         title: "Industries We Serve in Qatar | MMH Technologies",
         description:
             "Discover how MMH Technologies delivers tailored digital solutions for Qatar and global businesses across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups, combining industry expertise with innovation.",
-        url: "https://www.mmhtechnologies.com/industries",
+        url: "https://www.mmhtechnologies.qa/industries",
         siteName: "MMH Technologies",
         // images: [
         //     {

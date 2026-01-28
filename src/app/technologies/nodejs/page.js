@@ -32,7 +32,7 @@ export const metadata = {
     title: "Node.js Development Services in Qatar | MMH Technologies",
     description:
       "Build fast, scalable, and real-time backend systems with Node.js through MMH Technologies for Qatar and global clients. Leverage non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",
-    url: "https://www.mmhtechnologies.com/technologies/nodejs",
+    url: "https://www.mmhtechnologies.qa/technologies/nodejs",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

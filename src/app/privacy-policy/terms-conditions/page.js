@@ -19,6 +19,8 @@ export const metadata = {
     title: "Terms & Conditions | MMH Technologies",
     description:
       "Read the Terms & Conditions of MMH Technologies to understand your rights, responsibilities, service usage rules, payment terms, and legal obligations for clients in Qatar and globally.",
+    url: "https://www.mmhtechnologies.qa/terms-conditions",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

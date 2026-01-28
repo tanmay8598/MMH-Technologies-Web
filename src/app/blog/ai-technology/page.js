@@ -26,7 +26,7 @@ export const metadata = {
     title: "AI Technology Blog | MMH Technologies",
     description:
       "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for Qatar-based and global organizations, driving real-world impact.",
-    url: "https://www.mmhtechnologies.com/blog/ai-technology",
+    url: "https://mmhtechnologies.qa/blog/ai-technology",
     siteName: "MMH Technologies",
     // images: [
     //   {

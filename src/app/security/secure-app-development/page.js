@@ -23,7 +23,7 @@ export const metadata = {
         title: "Secure App Development in Qatar | MMH Technologies",
         description:
             "Build robust and trustworthy applications with MMH Technologies for Qatar and global clients. Secure coding, authentication, mobile hardening, vulnerability testing, and continuous security monitoring are integrated into every stage of development.",
-        url: "https://www.mmhtechnologies.com/security/secure-app-development",
+        url: "https://www.mmhtechnologies.qa/security/secure-app-development",
         siteName: "MMH Technologies",
         // images: [
         //     {

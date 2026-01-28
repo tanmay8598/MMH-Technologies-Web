@@ -24,7 +24,7 @@ export const metadata = {
         title: "Web Development Services in Qatar | MMH Technologies",
         description:
             "Custom web development services with MMH Technologies for Qatar and global clients. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps to drive your business growth.",
-        url: "https://www.mmhtechnologies.com/services/web-development",
+        url: "https://www.mmhtechnologies.qa/services/web-development",
         siteName: "MMH Technologies",
         type: "website",
         // images: [

@@ -21,6 +21,8 @@ export const metadata = {
     title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
     description:
       "Explore practical, step-by-step security guides for Qatar and global organizations, covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",
+    url: "https://www.mmhtechnologies.qa/guides",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

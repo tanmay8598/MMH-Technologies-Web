@@ -37,7 +37,7 @@ export const metadata = {
         title: "Cloud Platforms: AWS, Azure, GCP in Qatar | MMH Technologies",
         description:
             "Leverage the power of cloud computing with AWS, Azure, and Google Cloud through MMH Technologies for Qatar and global clients. We provide scalable, secure, and cost-efficient cloud solutions for modern businesses.",
-        url: "https://www.mmhtechnologies.com/technologies/cloud-platforms",
+        url: "https://www.mmhtechnologies.qa/technologies/aws-azure-gcp",
         siteName: "MMH Technologies",
         type: "website",
         // images: [

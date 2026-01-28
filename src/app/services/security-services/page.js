@@ -36,7 +36,7 @@ export const metadata = {
         title: "Security Services in Qatar | MMH Technologies",
         description:
             "MMH Technologies delivers end-to-end security and fire safety solutions for Qatar and global clients, including Fire Detection, CCTV, Access Control, Intruder Alarms, Fire Protection Systems, and Home Automation, with AMC and commissioning support.",
-        url: "https://www.mmhtechnologies.com/security-services",
+        url: "https://www.mmhtechnologies.qa/security-services",
         siteName: "MMH Technologies",
         // images: [
         //     {

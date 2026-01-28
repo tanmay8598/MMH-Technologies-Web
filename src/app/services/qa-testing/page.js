@@ -27,7 +27,7 @@ export const metadata = {
     title: "QA Testing Services in Qatar | MMH Technologies",
     description:
       "Ensure software quality, reliability, and performance with MMH Technologies for Qatar and global clients. Our QA testing services include automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",
-    url: "https://www.mmhtechnologies.com/services/qa-testing",
+    url: "https://www.mmhtechnologies.qa/services/qa-testing",
     siteName: "MMH Technologies",
     // images: [
     //   {

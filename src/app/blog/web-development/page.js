@@ -28,7 +28,7 @@ export const metadata = {
     title: "Modern Web Development in Qatar | Architecture, Performance & SEO",
     description:
       "Explore modern web development principles for Qatar-based and global businesses, including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",
-    url: "https://mmhtechnologies.com/blog/web-development",
+    url: "https://mmhtechnologies.qa/blog/web-development",
     siteName: "MMH Technologies",
     // images: [
     //   {

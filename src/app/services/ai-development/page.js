@@ -25,7 +25,7 @@ export const metadata = {
         title: "AI Development Services in Qatar | AI-Powered Apps & ML Solutions – MMH Technologies",
         description:
             "Harness the power of Artificial Intelligence with MMH Technologies for Qatar and global clients. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",
-        url: "https://www.mmhtechnologies.com/services/ai-development",
+        url: "https://www.mmhtechnologies.qa/services/ai-development",
         siteName: "MMH Technologies",
         type: "website",
         // images: [

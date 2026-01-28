@@ -26,7 +26,7 @@ export const metadata = {
     title: "Machine Learning Solutions in Qatar | MMH Technologies",
     description:
       "Leverage machine learning with MMH Technologies for Qatar and global clients to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",
-    url: "https://www.mmhtechnologies.com/services/ai-development/machine-learning-solutions",
+    url: "https://www.mmhtechnologies.qa/services/ai-development/machine-learning-solutions",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

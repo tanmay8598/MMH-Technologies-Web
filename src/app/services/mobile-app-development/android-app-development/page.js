@@ -25,6 +25,8 @@ export const metadata = {
     title: "Android App Development Services in Qatar | Secure & Scalable Android Apps",
     description:
       "Professional Android app development services with MMH Technologies for Qatar and global clients using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",
+    url: "https://www.mmhtechnologies.qa/services/mobile-app-development/android-app-development",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

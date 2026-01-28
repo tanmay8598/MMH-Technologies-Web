@@ -24,7 +24,7 @@ export const metadata = {
         title: "MMH Technologies Blog | Behind the Code",
         description:
             "Explore expert insights from MMH Technologies for Qatar and global audiences on web development, mobile apps, AI technology, data security, and modern software engineering practices.",
-        url: "https://mmhtechnologies.com/blog",
+        url: "https://mmhtechnologies.qa/blog",
         siteName: "MMH Technologies",
         // images: [
         //     {

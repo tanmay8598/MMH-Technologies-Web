@@ -18,6 +18,8 @@ export const metadata = {
     title: "Cookie Policy | MMH Technologies",
     description:
       "Learn how MMH Technologies uses cookies, analytics, and similar technologies for users in Qatar and globally to improve website performance, security, and overall user experience.",
+    url: "https://www.mmhtechnologies.qa/cookie-policy",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

@@ -24,7 +24,7 @@ export const metadata = {
         title: "Data Security Standards in Qatar | MMH Technologies",
         description:
             "Implement global data security standards with MMH Technologies for Qatar and international clients. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",
-        url: "https://www.mmhtechnologies.com/security/data-security-standards",
+        url: "https://www.mmhtechnologies.qa/security/data-security-standards",
         siteName: "MMH Technologies",
         // images: [
         //     {

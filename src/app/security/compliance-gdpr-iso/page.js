@@ -25,7 +25,7 @@ export const metadata = {
         title: "GDPR & ISO Compliance in Qatar | MMH Technologies",
         description:
             "Ensure GDPR and ISO compliance with MMH Technologies for Qatar-based and global organizations. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders.",
-        url: "https://www.mmhtechnologies.com/security/compliance-gdpr-iso",
+        url: "https://www.mmhtechnologies.qa/security/compliance-gdpr-iso",
         siteName: "MMH Technologies",
         // images: [
         //     {

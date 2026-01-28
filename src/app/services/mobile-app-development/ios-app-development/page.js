@@ -23,6 +23,8 @@ export const metadata = {
     title: "iOS App Development Services in Qatar | Native Swift & SwiftUI Apps",
     description:
       "Professional iOS app development services with MMH Technologies for Qatar and global clients using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",
+    url: "https://www.mmhtechnologies.qa/services/mobile-app-development/ios-app-development",
+    siteName: "MMH Technologies",
     type: "website",
   },
   // twitter: {

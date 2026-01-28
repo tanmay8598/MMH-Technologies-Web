@@ -16,6 +16,8 @@ export const metadata = {
         title: "FAQs | Security, Compliance & App Development Questions",
         description:
             "Find answers to frequently asked questions for Qatar-based and global users about application security, GDPR compliance, ISO standards, secure APIs, and mobile app development best practices.",
+        url: "https://www.mmhtechnologies.qa/faqs",
+        siteName: "MMH Technologies",
         type: "website",
     },
     // twitter: {

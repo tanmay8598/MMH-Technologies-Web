@@ -22,7 +22,7 @@ export const metadata = {
         title: "Security Services in Qatar | MMH Technologies",
         description:
             "MMH Technologies provides robust security services for Qatar and global clients, including data security standards, compliance (GDPR, ISO), and secure mobile and web application development.",
-        url: "https://www.mmhtechnologies.com/security",
+        url: "https://www.mmhtechnologies.qa/security",
         siteName: "MMH Technologies",
         // images: [
         //     {

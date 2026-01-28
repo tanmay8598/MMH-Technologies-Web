@@ -16,7 +16,7 @@ export const metadata = {
     title: "Careers at MMH Technologies in Qatar | Join Our Team",
     description:
       "Explore current job openings, company culture, and growth opportunities at MMH Technologies in Qatar and globally. Join us to build innovative products and grow your career.",
-    url: "https://www.mmhtechnologies.com/careers",
+    url: "https://www.mmhtechnologies.qa/careers",
     siteName: "MMH Technologies",
     // images: [
     //   {

@@ -25,7 +25,7 @@ export const metadata = {
     title: "React Development Services in Qatar | MMH Technologies",
     description:
       "Build fast, scalable, and interactive web applications with React through MMH Technologies for Qatar and global clients. Leverage component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",
-    url: "https://www.mmhtechnologies.com/technologies/react",
+    url: "https://www.mmhtechnologies.qa/technologies/react",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

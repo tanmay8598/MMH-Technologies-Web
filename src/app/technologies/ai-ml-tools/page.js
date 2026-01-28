@@ -40,7 +40,7 @@ export const metadata = {
     title: "AI & ML Tools in Qatar | MMH Technologies",
     description:
       "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python with MMH Technologies for Qatar and global clients. Leverage AI for predictive analytics, automation, and smarter decision-making.",
-    url: "https://www.mmhtechnologies.com/technologies/ai-ml-tools",
+    url: "https://www.mmhtechnologies.qa/technologies/ai-ml-tools",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

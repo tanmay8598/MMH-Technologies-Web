@@ -25,7 +25,7 @@ export const metadata = {
     title: "AI-Powered Mobile Apps in Qatar | Smart, Predictive & Personalized Apps – MMH Technologies",
     description:
       "Build intelligent mobile apps with AI integration using TensorFlow, PyTorch, Core ML, and ML Kit with MMH Technologies for Qatar and global clients. Deliver personalized experiences, predictive features, and smarter user interactions.",
-    url: "https://www.mmhtechnologies.com/services/ai-development/ai-powered-mobile-apps",
+    url: "https://www.mmhtechnologies.qa/services/ai-development/ai-powered-mobile-apps",
     siteName: "MMH Technologies",
     type: "website",
     // images: [

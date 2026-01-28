@@ -22,6 +22,8 @@ export const metadata = {
         title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
         description:
             "Explore MMH Technologies resources for Qatar and global audiences, including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",
+        url: "https://www.mmhtechnologies.qa/resources",
+        siteName: "MMH Technologies",
         type: "website",
     },
     // twitter: {

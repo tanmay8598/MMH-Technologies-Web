@@ -27,7 +27,7 @@ export const metadata = {
     title: "UI/UX Design Services in Qatar | MMH Technologies",
     description:
       "Craft intuitive, user-centered UI/UX designs with MMH Technologies for Qatar and global clients. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",
-    url: "https://www.mmhtechnologies.com/services/ui-ux-design",
+    url: "https://www.mmhtechnologies.qa/services/ui-ux-design",
     siteName: "MMH Technologies",
     // images: [
     //   {

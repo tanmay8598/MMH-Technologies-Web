@@ -27,7 +27,7 @@ export const metadata = {
     title: "Backend Development Services in Qatar | MMH Technologies",
     description:
       "Build scalable, secure, and high-performance backend systems with MMH Technologies for Qatar and global clients. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
-    url: "https://www.mmhtechnologies.com/backend-development",
+    url: "https://www.mmhtechnologies.qa/services/web-development/backend-development",
     siteName: "MMH Technologies",
     // images: [
     //   {

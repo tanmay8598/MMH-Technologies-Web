@@ -20,7 +20,7 @@ export const metadata = {
         title: "Our Projects | MMH Technologies Portfolio",
         description:
             "Explore MMH Technologies’ diverse portfolio of web, mobile, and enterprise projects for Qatar and global clients. See how we deliver innovative, scalable, and user-friendly digital solutions.",
-        url: "https://www.mmhtechnologies.com/projects",
+        url: "https://www.mmhtechnologies.qa/projects",
         siteName: "MMH Technologies",
         // images: [
         //     {
