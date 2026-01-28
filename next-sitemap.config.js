@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://mmhtechnologies.com',
+  siteUrl: 'https://mmhtechnologies.qa',
   generateRobotsTxt: true,
   sitemapSize: 7000,
   changefreq: 'weekly',
