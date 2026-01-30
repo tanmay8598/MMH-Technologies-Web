@@ -88,7 +88,7 @@ const GetInTouch = () => {
           Reach Us
         </h3>
 
-        <div className="mt-4 flex flex-col gap-5">
+        {/* <div className="mt-4 flex flex-col gap-5">
           <h4 className="text-md font-bold text-(--color-primary)">
             Head Office
           </h4>
@@ -106,7 +106,7 @@ const GetInTouch = () => {
           <InfoRow icon={<FaPhoneAlt />}>
             +1 647-515-3379
           </InfoRow>
-        </div>
+        </div> */}
       </div>
 
       {/* MENA */}

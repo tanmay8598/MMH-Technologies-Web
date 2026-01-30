@@ -6,4 +6,4 @@ Allow: /
 Host: https://mmhtechnologies.qa
 
 # Sitemaps
-Sitemap: https://mmhtechnologies.qa/sitemap.xml
+Sitemap: https://www.mmhtechnologies.qa/sitemap-0.xml

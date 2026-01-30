@@ -124,9 +124,9 @@ export default function Footer() {
                         <h4 className="text-sm font-semibold mb-4">Head Office</h4>
                         <p className="text-sm text-(--color-white)/70 leading-relaxed">
                             MMH Technologies<br />
-                            62-62 Miltrose Crescent<br />
-                            Stouffville, Ontario<br />
-                            Canada L4A 0P8
+                            Worldwide Commercial Building,<br />
+                            Zone 42, Building 72, Street 250,<br />
+                            Al Hilal, Doha, Qatar
                         </p>
                     </div>
                 </div>
