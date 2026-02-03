@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://mmhtechnologies.qa/sitemap-0.xml
