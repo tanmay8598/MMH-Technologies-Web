@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://mmhtechnologies.qa
+Host: https://www.mmhtechnologies.qa
 
 # Sitemaps
-Sitemap: https://www.mmhtechnologies.qa/sitemap-0.xml
+Sitemap: https://www.mmhtechnologies.qa/sitemap.xml

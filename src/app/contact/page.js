@@ -22,7 +22,7 @@ export const metadata = {
     title: "Contact MMH Technologies in Qatar | Get Free Consultation",
     description:
       "Contact MMH Technologies in Qatar for web development, mobile app development, AI, cloud, and software solutions. Get a free consultation and project estimation today.",
-    url: "https://mmhtechnologies.qa/contact",
+    url: "https://www.mmhtechnologies.qa/contact",
     siteName: "MMH Technologies",
     // images: [
     //   {
@@ -61,7 +61,7 @@ const Map = () => {
   return (
     <div className="w-full h-90 md:h-full rounded-lb-md rounded-lr-md lg:rounded-tr-md lg:rounded-br-md overflow-hidden">
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d45951.46904296624!2d-79.254441!3d43.960052!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d5292c0c3ddb0d%3A0x337236ab356efb9f!2s62%20Miltrose%20Crescent%20%2362%2C%20Whitchurch-Stouffville%2C%20ON%20L4A%200P8%2C%20Canada!5e0!3m2!1sen!2sus!4v1766997168756!5m2!1sen!2sus"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.403743889625!2d51.54651867521345!3d25.257000277672468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45cf7c5fe100a9%3A0xab3caea3fd1fe4eb!2sMMH%20Technologies!5e0!3m2!1sen!2sin!4v1770622395467!5m2!1sen!2sin"
         className="w-full h-full border-0"
         allowFullScreen
         loading="lazy"
@@ -87,26 +87,6 @@ const GetInTouch = () => {
         <h3 className="text-xl font-bold text-(--color-primary)">
           Reach Us
         </h3>
-
-        {/* <div className="mt-4 flex flex-col gap-5">
-          <h4 className="text-md font-bold text-(--color-primary)">
-            Head Office
-          </h4>
-
-          <InfoRow icon={<FaMapMarkerAlt />}>
-            62-62 Miltrose Crescent, Stouffville,
-            <br />
-            Ontario Canada
-          </InfoRow>
-
-          <InfoRow icon={<FaEnvelope />}>
-            info@mmhtechnologies.com
-          </InfoRow>
-
-          <InfoRow icon={<FaPhoneAlt />}>
-            +1 647-515-3379
-          </InfoRow>
-        </div> */}
       </div>
 
       {/* MENA */}
@@ -170,6 +150,26 @@ const GetInTouch = () => {
             +91-9015051710
           </InfoRow>
         </div>
+      </div>
+
+      <div className="mt-4 flex flex-col gap-5">
+        <h4 className="text-md font-bold text-(--color-primary)">
+          Canada
+        </h4>
+
+        <InfoRow icon={<FaMapMarkerAlt />}>
+          62-62 Miltrose Crescent, Stouffville,
+          <br />
+          Ontario Canada
+        </InfoRow>
+
+        <InfoRow icon={<FaEnvelope />}>
+          info@mmhtechnologies.com
+        </InfoRow>
+
+        <InfoRow icon={<FaPhoneAlt />}>
+          +1 647-515-3379
+        </InfoRow>
       </div>
     </div>
   );

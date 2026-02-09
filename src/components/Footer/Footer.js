@@ -8,14 +8,15 @@ import {
     FaGoogle,
     FaInstagram,
     FaLinkedinIn,
+    FaPhoneAlt,
 } from "react-icons/fa";
 
 export default function Footer() {
     const socialLinks = [
         { icon: FaFacebookF, href: "https://www.facebook.com/profile.php?id=100083367429110#" },
-        { icon: FaTwitter, href: "https://mmhtechnologies.com/" },
+        // { icon: FaTwitter, href: "https://mmhtechnologies.com/" },
         { icon: FaGoogle, href: "https://www.google.com/search?client=ms-android-xiaomi-rev1&sca_esv=589119146&hl=en-GB&cs=0&sxsrf=AM9HkKlANfYvk2y3i6aPVrhDqJfc-0MU5Q:1702061672148&q=MMH+Technologies&ludocid=14463773696791692015&lsig=AB86z5X2UL7_JzI9vCmS_I_aPKrd&kgs=ce0ff8ede1c6aff1&shndl=-1&shem=lcspc,lsp&source=sh/x/loc/act/m1/4" },
-        { icon: FaInstagram, href: "https://mmhtechnologies.com/" },
+        // { icon: FaInstagram, href: "https://mmhtechnologies.com/" },
         { icon: FaLinkedinIn, href: "https://www.linkedin.com/company/mmh-technologies/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B4l%2BSTvaKQgyzMmGGmj8npA%3D%3D" },
     ];
 
@@ -121,12 +122,16 @@ export default function Footer() {
 
                     {/* Address */}
                     <div className="lg:pl-8 lg:border-l lg:border-(--color-white)/10">
-                        <h4 className="text-sm font-semibold mb-4">Head Office</h4>
+                        {/* <h4 className="text-sm font-semibold mb-4">Head Office</h4> */}
                         <p className="text-sm text-(--color-white)/70 leading-relaxed">
                             MMH Technologies<br />
                             Worldwide Commercial Building,<br />
                             Zone 42, Building 72, Street 250,<br />
                             Al Hilal, Doha, Qatar
+                        </p>
+                        <p className="text-(--color-white)/70 flex items-center gap-2 mt-4">
+                            <span><FaPhoneAlt /></span> 
+                            <span>+974-66178767</span>
                         </p>
                     </div>
                 </div>

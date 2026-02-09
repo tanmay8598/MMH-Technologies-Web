@@ -23,7 +23,7 @@ export const metadata = {
         title: "About MMH Technologies | Web & Software Development Company",
         description:
             "Learn about MMH Technologies — a Canada-based IT solutions company serving Qatar and global clients with enterprise-level web, mobile app, AI, cloud, and software development services.",
-        url: "https://mmhtechnologies.qa/about",
+        url: "https://www.mmhtechnologies.qa/about",
         siteName: "MMH Technologies",
         // images: [
         //     {

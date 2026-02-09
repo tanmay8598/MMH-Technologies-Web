@@ -26,7 +26,7 @@ export const metadata = {
     title: "Mobile App Development Blog | MMH Technologies",
     description:
       "Explore the core principles, architecture, and best practices behind successful mobile applications for Qatar-based and global businesses in today’s ecosystem.",
-    url: "https://mmhtechnologies.qa/blog/mobile-app-development",
+    url: "https://www.mmhtechnologies.qa/blog/mobile-app-development",
     siteName: "MMH Technologies",
     // images: [
     //   {
