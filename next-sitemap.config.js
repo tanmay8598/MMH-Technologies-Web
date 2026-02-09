@@ -1,7 +1,7 @@
 module.exports = {
-  siteUrl: 'https://mmhtechnologies.qa',
+  siteUrl: "https://www.mmhtechnologies.qa",
   generateRobotsTxt: true,
   sitemapSize: 7000,
-  changefreq: 'weekly',
+  changefreq: "weekly",
   priority: 0.7,
-} 
+};
