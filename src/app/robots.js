@@ -6,6 +6,6 @@ export default function robots() {
         allow: "/",
       },
     ],
-    sitemap: "https://mmhtechnologies.qa/sitemap-0.xml",
+    sitemap: "https://www.mmhtechnologies.qa/sitemap-0.xml",
   };
 }
