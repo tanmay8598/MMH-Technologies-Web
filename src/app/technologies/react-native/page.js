@@ -5,6 +5,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/technologies/react-native" },
   title: "React Native Development Services in Qatar | MMH Technologies",
   description:
     "Build high-performance, cross-platform mobile apps with React Native through MMH Technologies for Qatar and global clients. Leverage reusable components, native modules, and a single codebase for iOS and Android to deliver fast and cost-effective mobile solutions.",

@@ -15,6 +15,7 @@ import {
 import { SiGooglecloud, SiKubernetes } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/cloud-devops" },
     title: "Cloud & DevOps Services in Qatar | MMH Technologies",
     description:
         "Build scalable, reliable, and secure digital products with MMH Technologies for Qatar and global clients using modern cloud infrastructure and DevOps practices. Leverage AWS, Azure, Google Cloud, and Kubernetes for faster deployments and optimized operations.",

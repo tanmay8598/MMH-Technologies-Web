@@ -4,6 +4,7 @@ import ContactForm from "@/components/Contact/ContactForm";
 
 
 export const metadata = {
+  alternates: { canonical: "/contact" },
   title: "Contact MMH Technologies in Qatar | Get Free Consultation",
   description:
     "Contact MMH Technologies in Qatar for web development, mobile app development, AI, cloud, and software solutions. Get a free consultation and project estimation today.",

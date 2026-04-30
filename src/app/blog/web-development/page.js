@@ -10,6 +10,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
 export const metadata = {
+  alternates: { canonical: "/blog/web-development" },
   title: "Modern Web Development in Qatar | Architecture, Performance & SEO",
   description:
     "Explore modern web development principles for Qatar-based and global businesses, including scalable architecture, performance engineering, SEO foundations, and security-first design for long-lasting applications.",

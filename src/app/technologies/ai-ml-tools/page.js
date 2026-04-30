@@ -20,6 +20,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
+  alternates: { canonical: "/technologies/ai-ml-tools" },
   title: "AI & ML Tools in Qatar | MMH Technologies",
   description:
     "Build intelligent products using AI and ML tools like TensorFlow, PyTorch, OpenAI APIs, and Python with MMH Technologies for Qatar and global clients. Leverage AI for predictive analytics, automation, and smarter decision-making.",

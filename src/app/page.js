@@ -6,6 +6,7 @@ import Products from "@/components/Home/Products";
 import Services from "@/components/Home/Services";
 
 export const metadata = {
+  alternates: { canonical: "/" },
   title: "MMH Techologies | Web development & App development",
   description:
     "MMH Technologies provides expert web development, mobile app development, UI/UX design, AI solutions, cloud & DevOps services for modern businesses.",

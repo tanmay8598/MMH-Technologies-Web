@@ -6,6 +6,7 @@ import { FaReact, FaMobileAlt, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, F
 import { SiFlutter } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/mobile-app-development/cross-platform-app-development" },
   title: "Cross-Platform App Development Services in Qatar | React Native & Flutter",
   description:
     "Build high-quality cross-platform mobile apps with MMH Technologies for Qatar and global clients using React Native and Flutter. Single codebase solutions for iOS and Android with native-like performance, security, and scalability.",

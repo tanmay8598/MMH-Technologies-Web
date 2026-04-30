@@ -6,6 +6,7 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
+  alternates: { canonical: "/services/ai-development" },
     title: "AI Development Services in Qatar | AI-Powered Apps & ML Solutions – MMH Technologies",
     description:
         "Harness the power of Artificial Intelligence with MMH Technologies for Qatar and global clients. We deliver AI-powered mobile apps, machine learning solutions, chatbots, and predictive analytics to drive smarter business decisions and automation.",

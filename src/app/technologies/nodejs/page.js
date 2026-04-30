@@ -13,6 +13,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
+  alternates: { canonical: "/technologies/nodejs" },
   title: "Node.js Development Services in Qatar | MMH Technologies",
   description:
     "Build fast, scalable, and real-time backend systems with Node.js through MMH Technologies for Qatar and global clients. Leverage non-blocking I/O, event-driven architecture, and a massive ecosystem to deliver high-performance web applications and APIs.",

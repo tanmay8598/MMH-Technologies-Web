@@ -6,6 +6,7 @@ import { FaBug, FaDesktop, FaRocket, FaShieldAlt, FaUsers, FaLayerGroup, FaCogs 
 import { SiSelenium, SiJest, SiCypress } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/qa-testing" },
   title: "QA Testing Services in Qatar | MMH Technologies",
   description:
     "Ensure software quality, reliability, and performance with MMH Technologies for Qatar and global clients. Our QA testing services include automated, manual, and end-to-end testing to deliver bug-free applications and seamless user experiences.",

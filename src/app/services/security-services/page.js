@@ -16,6 +16,7 @@ import {
 import Image from "next/image";
 
 export const metadata = {
+  alternates: { canonical: "/services/security-services" },
     title: "Security Services in Qatar | MMH Technologies",
     description:
         "MMH Technologies delivers end-to-end security and fire safety solutions for Qatar and global clients, including Fire Detection, CCTV, Access Control, Intruder Alarms, Fire Protection Systems, and Home Automation, with AMC and commissioning support.",

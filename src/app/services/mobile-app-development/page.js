@@ -5,6 +5,7 @@ import { FaApple, FaAndroid, FaMobileAlt, FaTools } from "react-icons/fa";
 import SectionHeading from "@/components/UI/SectionHeading";
 
 export const metadata = {
+  alternates: { canonical: "/services/mobile-app-development" },
     title: "Mobile App Development Services in Qatar | MMH Technologies",
     description:
         "Build scalable and high-performance mobile applications with MMH Technologies for Qatar and global clients, covering iOS, Android, and cross-platform solutions. From native development to maintenance and support, we deliver apps users love.",

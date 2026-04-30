@@ -1,6 +1,7 @@
 import { FaCookie, FaShieldAlt, FaCog, FaChartLine, FaUserCog, FaInfoCircle } from 'react-icons/fa';
 
 export const metadata = {
+  alternates: { canonical: "/privacy-policy/cookie-policy" },
   title: "Cookie Policy | MMH Technologies",
   description:
     "Learn how MMH Technologies uses cookies, analytics, and similar technologies for users in Qatar and globally to improve website performance, security, and overall user experience.",

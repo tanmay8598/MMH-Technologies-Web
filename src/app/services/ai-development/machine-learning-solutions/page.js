@@ -6,6 +6,7 @@ import { FaBrain, FaServer, FaDatabase, FaRocket, FaShieldAlt, FaUsers, FaLayerG
 import { SiTensorflow, SiScikitlearn } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/ai-development/machine-learning-solutions" },
   title: "Machine Learning Solutions in Qatar | MMH Technologies",
   description:
     "Leverage machine learning with MMH Technologies for Qatar and global clients to turn data into actionable insights. Build predictive models, automate processes, and integrate AI into your business applications.",

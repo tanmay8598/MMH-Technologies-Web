@@ -4,6 +4,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/security/compliance-gdpr-iso" },
     title: "GDPR & ISO Compliance in Qatar | MMH Technologies",
     description:
         "Ensure GDPR and ISO compliance with MMH Technologies for Qatar-based and global organizations. Implement key compliance measures, protect data, reduce risk, and build trust with clients and stakeholders.",

@@ -10,6 +10,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
 export const metadata = {
+  alternates: { canonical: "/blog/mobile-app-development" },
   title: "Mobile App Development Blog | MMH Technologies",
   description:
     "Explore the core principles, architecture, and best practices behind successful mobile applications for Qatar-based and global businesses in today’s ecosystem.",

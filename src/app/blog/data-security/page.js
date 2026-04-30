@@ -10,6 +10,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
 export const metadata = {
+  alternates: { canonical: "/blog/data-security" },
   title: "Data Security Blog | MMH Technologies",
   description:
     "Learn the core principles, best practices, and strategies behind modern data security for Qatar-based and global organizations, protecting information and building digital trust.",

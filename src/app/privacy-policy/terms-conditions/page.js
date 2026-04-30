@@ -1,6 +1,7 @@
 import { FaGavel, FaFileContract, FaUserShield, FaExclamationTriangle, FaHandshake, FaBalanceScale } from 'react-icons/fa';
 
 export const metadata = {
+  alternates: { canonical: "/privacy-policy/terms-conditions" },
   title: "Terms & Conditions | MMH Technologies",
   description:
     "Read the Terms & Conditions of MMH Technologies to understand your rights, responsibilities, service usage rules, payment terms, and legal obligations for clients in Qatar and globally.",

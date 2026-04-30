@@ -5,6 +5,7 @@ import PageHero from "@/components/UI/PageHero";
 import { FaBook, FaFileAlt, FaQuestionCircle } from "react-icons/fa";
 
 export const metadata = {
+  alternates: { canonical: "/resources" },
     title: "Resources | Guides, Whitepapers & FAQs – MMH Technologies",
     description:
         "Explore MMH Technologies resources for Qatar and global audiences, including expert guides, in-depth whitepapers, and FAQs to stay informed and make smarter technology decisions.",

@@ -5,6 +5,7 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaBug, FaTools, FaServer, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud } from "react-icons/fa";
 
 export const metadata = {
+  alternates: { canonical: "/services/mobile-app-development/app-maintenance-support" },
   title: "App Maintenance & Support Services in Qatar | Secure, Reliable & Scalable Apps",
   description:
     "Professional app maintenance and support services with MMH Technologies for Qatar and global clients, including bug fixes, performance monitoring, security updates, CI/CD, and cloud monitoring to keep your apps running smoothly.",

@@ -7,6 +7,7 @@ import { SiDialogflow, SiRasa } from "react-icons/si";
 
 
 export const metadata = {
+  alternates: { canonical: "/services/ai-development/chatbots-virtual-assistants" },
   title: "AI Chatbots & Virtual Assistants in Qatar | MMH Technologies",
   description:
     "Build AI-powered chatbots and virtual assistants with MMH Technologies for Qatar and global clients using Dialogflow, Rasa, and NLP technologies. Deliver 24/7 engagement, automate support, and enhance customer experiences.",

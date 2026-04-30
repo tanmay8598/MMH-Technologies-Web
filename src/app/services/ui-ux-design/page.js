@@ -6,6 +6,7 @@ import { FaFigma, FaPalette, FaUsers, FaLightbulb, FaRocket, FaLayerGroup, FaShi
 import { SiAdobe, SiSketch } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/ui-ux-design" },
   title: "UI/UX Design Services in Qatar | MMH Technologies",
   description:
     "Craft intuitive, user-centered UI/UX designs with MMH Technologies for Qatar and global clients. Create engaging, accessible, and visually stunning interfaces for web and mobile apps to delight users and drive conversions.",

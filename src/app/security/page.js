@@ -5,6 +5,7 @@ import PageHero from "@/components/UI/PageHero";
 import { FaShieldAlt, FaFileContract, FaLock } from "react-icons/fa";
 
 export const metadata = {
+  alternates: { canonical: "/security" },
     title: "Security Services in Qatar | MMH Technologies",
     description:
         "MMH Technologies provides robust security services for Qatar and global clients, including data security standards, compliance (GDPR, ISO), and secure mobile and web application development.",

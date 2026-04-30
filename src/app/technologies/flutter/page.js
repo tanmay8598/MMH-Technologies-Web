@@ -12,6 +12,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
+  alternates: { canonical: "/technologies/flutter" },
   title: "Flutter App Development in Qatar | MMH Technologies",
   description:
     "Build high-performance, cross-platform applications with Flutter through MMH Technologies for Qatar and global clients. Deliver fast development, native performance, and beautiful UIs for Android, iOS, Web, and Desktop from a single codebase.",

@@ -5,6 +5,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/technologies/react" },
   title: "React Development Services in Qatar | MMH Technologies",
   description:
     "Build fast, scalable, and interactive web applications with React through MMH Technologies for Qatar and global clients. Leverage component-based architecture, Virtual DOM, and one-way data flow for optimal performance and maintainable code.",

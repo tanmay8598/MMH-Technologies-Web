@@ -4,6 +4,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/resources/whitepapers" },
   title: "Whitepapers | Security, Compliance & Technology Insights – MMH Technologies",
   description:
     "Download in-depth whitepapers by MMH Technologies for Qatar and global audiences, covering app security, GDPR compliance, ISO 27001, cloud security, and secure mobile app development.",

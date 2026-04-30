@@ -4,6 +4,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/resources/guides" },
   title: "Practical Security Guides | GDPR, Encryption & Secure Coding",
   description:
     "Explore practical, step-by-step security guides for Qatar and global organizations, covering GDPR implementation, secure coding practices, data security checklists, encryption, and security audits.",

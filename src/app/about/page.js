@@ -5,6 +5,7 @@ import CTACard from "@/components/Cards/CTACard";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
+  alternates: { canonical: "/about" },
     title: "About MMH Technologies | Web & Software Development Company in Qatar",
     description:
         "Learn about MMH Technologies — a Canada-based IT solutions company serving Qatar and global clients with enterprise-level web, mobile app, AI, cloud, and software development services.",

@@ -17,6 +17,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Button from "@/components/UI/Button";
 
 export const metadata = {
+  alternates: { canonical: "/technologies/aws-azure-gcp" },
     title: "Cloud Platforms: AWS, Azure, GCP in Qatar | MMH Technologies",
     description:
         "Leverage the power of cloud computing with AWS, Azure, and Google Cloud through MMH Technologies for Qatar and global clients. We provide scalable, secure, and cost-efficient cloud solutions for modern businesses.",

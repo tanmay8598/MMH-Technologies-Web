@@ -4,6 +4,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/security/secure-app-development" },
     title: "Secure App Development in Qatar | MMH Technologies",
     description:
         "Build robust and trustworthy applications with MMH Technologies for Qatar and global clients. Secure coding, authentication, mobile hardening, vulnerability testing, and continuous security monitoring are integrated into every stage of development.",

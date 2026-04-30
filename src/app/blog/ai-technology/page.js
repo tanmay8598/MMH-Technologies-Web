@@ -10,6 +10,7 @@ import SectionHeading from "@/components/Blog/SectionHeading";
 import Card from "@/components/Cards/Card";
 
 export const metadata = {
+  alternates: { canonical: "/blog/ai-technology" },
   title: "AI Technology Blog | MMH Technologies",
   description:
     "Explore the core principles, engineering practices, and responsible governance behind modern AI systems for Qatar-based and global organizations, driving real-world impact.",

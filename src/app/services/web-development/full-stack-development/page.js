@@ -7,6 +7,7 @@ import { SiNextdotjs, SiDjango, SiSpring, SiVueDotJs } from "react-icons/si";
 
 
 export const metadata = {
+  alternates: { canonical: "/services/web-development/full-stack-development" },
     title: "Full Stack Development Services in Qatar | MMH Technologies",
     description:
         "Deliver modern, scalable, and secure full-stack applications with MMH Technologies for Qatar and global clients. Expertise in React.js, Next.js, Node.js, Django, databases, server/cloud management, UI/UX, and optimized full-stack solutions.",

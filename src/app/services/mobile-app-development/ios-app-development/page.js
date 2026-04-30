@@ -5,6 +5,7 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaApple, FaSwift, FaCode, FaRocket, FaPalette, FaLayerGroup, FaShieldAlt, FaUsers } from "react-icons/fa";
 
 export const metadata = {
+  alternates: { canonical: "/services/mobile-app-development/ios-app-development" },
   title: "iOS App Development Services in Qatar | Native Swift & SwiftUI Apps",
   description:
     "Professional iOS app development services with MMH Technologies for Qatar and global clients using Swift, SwiftUI, and native Apple technologies. Build secure, high-performance, and scalable iOS applications with stunning UI/UX.",

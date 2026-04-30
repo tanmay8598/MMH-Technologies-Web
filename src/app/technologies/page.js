@@ -11,6 +11,7 @@ import {
 import { IoCloudyOutline } from "react-icons/io5";
 
 export const metadata = {
+  alternates: { canonical: "/technologies" },
     title: "Technology Stack | MMH Technologies",
     description:
         "Explore the cutting-edge technologies used by MMH Technologies for Qatar and global clients to build fast, secure, and scalable web and mobile applications. From Next.js, React, Node.js, Flutter, cloud platforms, to AI & ML tools, we leverage the best frameworks for optimal performance.",

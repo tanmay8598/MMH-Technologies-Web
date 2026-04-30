@@ -6,6 +6,7 @@ import { FaMobileAlt, FaLaptopCode, FaBrain, FaLock } from "react-icons/fa";
 
 // app/blog/page.js
 export const metadata = {
+  alternates: { canonical: "/blog" },
     title: "MMH Technologies Blog | Behind the Code",
     description:
         "Explore expert insights from MMH Technologies for Qatar and global audiences on web development, mobile apps, AI technology, data security, and modern software engineering practices.",

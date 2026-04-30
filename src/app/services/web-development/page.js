@@ -5,6 +5,7 @@ import PageHero from "@/components/UI/PageHero";
 import SectionHeading from "@/components/UI/SectionHeading";
 
 export const metadata = {
+  alternates: { canonical: "/services/web-development" },
     title: "Web Development Services in Qatar | MMH Technologies",
     description:
         "Custom web development services with MMH Technologies for Qatar and global clients. Build responsive, secure, and high-performing websites including frontend, backend, full-stack, and progressive web apps to drive your business growth.",

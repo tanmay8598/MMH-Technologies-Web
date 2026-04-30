@@ -4,6 +4,7 @@ import { FaFileContract, FaCookieBite } from "react-icons/fa";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
+  alternates: { canonical: "/privacy-policy" },
     title: "Privacy Policy | Data Protection & User Privacy – MMH Technologies",
     description:
         "Read our Privacy Policy to understand how MMH Technologies collects, uses, stores, and protects personal data for users in Qatar and globally, ensuring transparency, security, and compliance with data protection laws.",

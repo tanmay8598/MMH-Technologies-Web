@@ -7,6 +7,7 @@ import { MdRocketLaunch } from "react-icons/md";
 import { IoSchoolSharp } from "react-icons/io5";
 
 export const metadata = {
+  alternates: { canonical: "/industries" },
     title: "Industries We Serve in Qatar | MMH Technologies",
     description:
         "Discover how MMH Technologies delivers tailored digital solutions for Qatar and global businesses across Fintech, Healthcare, E-Commerce, Education, Logistics, and Startups, combining industry expertise with innovation.",

@@ -4,6 +4,7 @@ import Services from "@/components/Home/Services";
 import PageHero from "@/components/UI/PageHero";
 
 export const metadata = {
+  alternates: { canonical: "/services" },
     title: "Our Services in Qatar | MMH Technologies",
     description:
         "Explore MMH Technologies range of services for Qatar and global clients, including software development, secure app development, compliance solutions, and industry-specific digital products. We deliver interactive, scalable, and affordable solutions tailored to your business needs.",

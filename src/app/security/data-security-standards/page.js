@@ -4,6 +4,7 @@ import SectionHeading from '@/components/Blog/SectionHeading';
 import Button from '@/components/UI/Button';
 
 export const metadata = {
+  alternates: { canonical: "/security/data-security-standards" },
     title: "Data Security Standards in Qatar | MMH Technologies",
     description:
         "Implement global data security standards with MMH Technologies for Qatar and international clients. ISO 27001 compliance, encryption, backup & recovery, governance, and continuous monitoring to protect sensitive information and build trust.",

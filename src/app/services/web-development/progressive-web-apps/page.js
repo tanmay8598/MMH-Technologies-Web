@@ -5,6 +5,7 @@ import SectionHeading from "@/components/UI/SectionHeading";
 import { FaMobile, FaRocket, FaShieldAlt, FaUsers, FaSyncAlt, FaCloud, FaBolt, FaCode, FaLayerGroup, FaPalette, FaCheckCircle } from "react-icons/fa";
 
 export const metadata = {
+  alternates: { canonical: "/services/web-development/progressive-web-apps" },
     title: "PWA Development Services in Qatar | MMH Technologies",
     description:
         "Build fast, reliable, and engaging Progressive Web Apps (PWAs) with MMH Technologies for Qatar and global clients. Native-like experiences, offline functionality, push notifications, and cross-platform compatibility for maximum user engagement.",

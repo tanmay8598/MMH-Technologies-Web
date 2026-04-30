@@ -6,6 +6,7 @@ import { FaAndroid, FaJava, FaDatabase, FaRocket, FaPalette, FaLayerGroup, FaShi
 import { SiKotlin } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/mobile-app-development/android-app-development" },
   title: "Android App Development Services in Qatar | Secure & Scalable Android Apps",
   description:
     "Professional Android app development services with MMH Technologies for Qatar and global clients using Kotlin, Java, Firebase, and modern Android architecture. Build fast, secure, and scalable Android applications.",

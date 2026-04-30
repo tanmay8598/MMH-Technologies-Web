@@ -6,6 +6,7 @@ import { FaNodeJs, FaPython, FaDatabase, FaServer, FaShieldAlt, FaCogs, FaRocket
 import { SiDjango, SiSpring } from "react-icons/si";
 
 export const metadata = {
+  alternates: { canonical: "/services/web-development/backend-development" },
   title: "Backend Development Services in Qatar | MMH Technologies",
   description:
     "Build scalable, secure, and high-performance backend systems with MMH Technologies for Qatar and global clients. We specialize in Node.js, Django, Spring Boot, database management, API development, cloud infrastructure, and secure user management.",
