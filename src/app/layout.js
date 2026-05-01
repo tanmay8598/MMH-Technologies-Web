@@ -4,6 +4,8 @@ import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
 import WhatsAppButton from "@/components/UI/WhatsAppButton";
 
+//test
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
