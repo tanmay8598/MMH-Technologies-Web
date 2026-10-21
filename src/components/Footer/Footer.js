@@ -39,11 +39,14 @@ export default function Footer() {
                 { label: "UI/UX Design", href: "/services/ui-ux-design" },
                 { label: "Cloud & DevOps", href: "/services/cloud-devops" },
                 { label: "QA & Testing", href: "/services/qa-testing" },
+                { label: "Security Services", href: "/services/security-services" },
             ],
         },
         {
             title: "Resources",
             links: [
+                { label: "Resources", href: "/resources" },
+                { label: "Security", href: "/security" },
                 { label: "Blog", href: "/blog" },
                 { label: "Whitepapers", href: "/resources/whitepapers" },
                 { label: "Guides", href: "/resources/guides" },
@@ -53,6 +56,7 @@ export default function Footer() {
         {
             title: "Legal",
             links: [
+                { label: "Privacy Policy", href: "/privacy-policy" },
                 { label: "Terms & Conditions", href: "/privacy-policy/terms-conditions" },
                 { label: "Cookie Policy", href: "/privacy-policy/cookie-policy" },
             ],
