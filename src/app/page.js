@@ -7,7 +7,7 @@ import Services from "@/components/Home/Services";
 
 export const metadata = {
   alternates: { canonical: "/" },
-  title: "MMH Techologies | Web development & App development",
+  title: "MMH Technologies | Web development & App development",
   description:
     "MMH Technologies provides expert web development, mobile app development, UI/UX design, AI solutions, cloud & DevOps services for modern businesses.",
 
@@ -23,7 +23,7 @@ export const metadata = {
   ],
 
   openGraph: {
-    title: "MMH Techologies | Web development & App development",
+    title: "MMH Technologies | Web development & App development",
     description:
       "We build scalable web, mobile and AI-driven solutions for startups and enterprises worldwide.",
     url: "https://mmhtechnologies.com",
